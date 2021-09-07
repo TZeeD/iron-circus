@@ -28,6 +28,17 @@ namespace Rewired.Components
 			private float _repeatRate;
 		}
 
+		private class Element
+		{
+			public class TypeWithSource
+			{
+			}
+
+			public class Type
+			{
+			}
+		}
+
 		[Serializable]
 		internal class ElementInfo
 		{

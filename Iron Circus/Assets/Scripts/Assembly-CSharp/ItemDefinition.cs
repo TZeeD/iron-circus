@@ -1,6 +1,7 @@
 using System;
 using Imi.SharedWithServer.Config;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 [Serializable]
 public class ItemDefinition

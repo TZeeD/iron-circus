@@ -6,5 +6,9 @@ namespace Entitas
 		{
 		}
 
+		protected ReactiveSystem()
+		{
+			throw new System.NotImplementedException();
+		}
 	}
 }

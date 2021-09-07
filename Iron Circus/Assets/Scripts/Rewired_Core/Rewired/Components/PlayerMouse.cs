@@ -8,6 +8,10 @@ namespace Rewired.Components
 	[Serializable]
 	public class PlayerMouse : PlayerController
 	{
+		private class MovementAreaUnit
+		{
+		}
+
 		[Serializable]
 		public class ScreenPositionChangedHandler : UnityEvent<Vector2>
 		{

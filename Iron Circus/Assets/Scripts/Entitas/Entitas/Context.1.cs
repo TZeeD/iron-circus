@@ -6,5 +6,9 @@ namespace Entitas
 		{
 		}
 
+		protected Context()
+		{
+			throw new System.NotImplementedException();
+		}
 	}
 }
