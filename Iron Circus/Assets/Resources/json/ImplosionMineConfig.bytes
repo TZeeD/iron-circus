@@ -1,0 +1,31 @@
+{
+  "$type": "Imi.SharedWithServer.Config.ImplosionMineConfig, Assembly-CSharp",
+  "button": 8,
+  "minThrowDistance": 1.0,
+  "maxThrowDistance": 7.5,
+  "throwDuration": 0.375,
+  "activationDuration": 0.25,
+  "pullSpeed": 6.0,
+  "pullDuration": 4.0,
+  "cooldown": 68.0,
+  "showAoePreviewForOtherPlayers": true,
+  "aoe": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 0,
+    "radius": 7.0,
+    "deadZone": 0.0,
+    "angle": 0.0,
+    "rectWidth": 0.0,
+    "rectLength": 0.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": true
+    }
+  },
+  "implosionVfx": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "ImplosionMineConfig",
+  "hideFlags": 0
+}

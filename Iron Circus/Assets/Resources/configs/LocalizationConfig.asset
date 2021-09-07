@@ -1,0 +1,2550 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b144b1a226f3a8b43bccecccce34c128, type: 3}
+  m_Name: LocalizationConfig
+  m_EditorClassIdentifier:
+  exportFilename: localization
+  fixedKeys:
+  - '@victory'
+  - '@draw'
+  - '@defeat'
+  - '@confirmButton'
+  - '@backButton'
+  - '@toggleButton'
+  - '@applyButton'
+  - '@discardButton'
+  - '@selectButton'
+  - '@Connecting'
+  - '@ConnectingToMatch'
+  - '@bagpipesDescription'
+  - '@bagpipesPrimarySkillName'
+  - '@bagpipesPrimarySkillDescription'
+  - '@bagpipesSecondarySkillName'
+  - '@bagpipesSecondarySkillDescription'
+  - '@maliDescription'
+  - '@maliPrimarySkillName'
+  - '@maliPrimarySkillDescription'
+  - '@maliSecondarySkillName'
+  - '@maliSecondarySkillDescription'
+  - '@servitorDescription'
+  - '@servitorPrimarySkillName'
+  - '@servitorPrimarySkillDescription'
+  - '@servitorSecondarySkillName'
+  - '@servitorSecondarySkillDescription'
+  - '@liDescription'
+  - '@liPrimarySkillName'
+  - '@liPrimarySkillDescription'
+  - '@liSecondarySkillName'
+  - '@liSecondarySkillDescription'
+  - '@hildegardDescription'
+  - '@hildegardPrimarySkillName'
+  - '@hildegardPrimarySkillDescription'
+  - '@hildegardSecondarySkillName'
+  - '@hildegardSecondarySkillDescription'
+  - '@acridDescription'
+  - '@acridPrimarySkillName'
+  - '@acridPrimarySkillDescription'
+  - '@acridSecondarySkillName'
+  - '@acridSecondarySkillDescription'
+  - '@APlayerCouldNotConnect'
+  - '@APlayerCouldNotConnectDescription'
+  - '@MatchAborted'
+  - '@MatchAbortedDescription'
+  - '@APlayerHasLeftTheLobby'
+  - '@APlayerHasLeftTheLobbyDescription'
+  - '@APlayerCouldNotLoad'
+  - '@APlayerCouldNotLoadDescription'
+  - '@ConnectionNotOkError'
+  - '@ConnectionNotOkErrorDescription'
+  - '@TeamOrange'
+  - '@TeamBlue'
+  - '@LoadingTip0'
+  - '@LoadingTip1'
+  - '@LoadingTip2'
+  - '@LoadingTip3'
+  - '@LoadingTip4'
+  - '@LoadingTip5'
+  - '@LoadingTip6'
+  - '@LoadingTip7'
+  - '@LoadingTip8'
+  - '@LoadingTip9'
+  - '@InitialMainMenuPopupMessage'
+  - '@InitialMainMenuPopupTitle'
+  - '@NoPermissionToStartMatchmakingPopupTitle'
+  - '@NoPermissionToStartMatchmakingPopupDescription'
+  - '@InvalidGroupSizeForMatchmakingTypePopupTitle'
+  - '@InvalidGroupSizeForMatchmakingTypePopupDescription'
+  - '@BackToMainMenuButton'
+  - '@PlayerDisconnectedFromTheLobbyPopupDescription'
+  - '@YouLeftTheGroupPopupDescription'
+  - '@YouLeftTheGroupPopupTitle'
+  - '@MatchmakingFailedPopupTitle'
+  - '@MatchmakingFailedPopupDescription'
+  - '@DiscardSettingsPopupTitle'
+  - '@DiscardSettingsPopupDescription'
+  - '@ApplySettingsPopupTitle'
+  - '@ApplySettingsPopupDescription'
+  - '@CancelButton'
+  - '@ExitGamePopupDescription'
+  - '@ExitGamePopupTitle'
+  - '@ExitButton'
+  - '@Yes'
+  - '@No'
+  - '@bagpipesBio'
+  - '@bagpipesTrivia1'
+  - '@bagpipesTrivia2'
+  - '@bagpipesTrivia3'
+  - '@liBio'
+  - '@liTrivia1'
+  - '@liTrivia2'
+  - '@liTrivia3'
+  - '@maliBio'
+  - '@maliTrivia1'
+  - '@maliTrivia2'
+  - '@maliTrivia3'
+  - '@hildegardBio'
+  - '@hildegardTrivia1'
+  - '@hildegardTrivia2'
+  - '@hildegardTrivia3'
+  - '@servitorBio'
+  - '@servitorTrivia1'
+  - '@servitorTrivia2'
+  - '@servitorTrivia3'
+  - '@acridBio'
+  - '@acridTrivia1'
+  - '@acridTrivia2'
+  - '@acridTrivia3'
+  - '@ApplyPresetPopupDescription'
+  - '@ApplyPresetPopupTitle'
+  - '@Quickmessage0'
+  - '@Quickmessage1'
+  - '@Quickmessage2'
+  - '@Quickmessage3'
+  - '@NoTrainingsGroundWhileInGroupPopupDescription'
+  - '@NoTrainingsGroundWhileInGroupPopupTitle'
+  - '@QuickChatMessageOnCooldownWarning'
+  - '@CannotJoinGroupWhileInMatchPopupDescription'
+  - '@CannotJoinGroupWhileInMatchPopupTitle'
+  - '@Arena_Shenzhen_01_PlayGround'
+  - '@Arena_Shenzhen_01_VariationA'
+  - '@Arena_Shenzhen_01_VariationB'
+  - '@Arena_Mars_01_VariationA'
+  - '@Arena_Mars_01_VariationB'
+  - '@lvl'
+  - '@WIN'
+  - '@COMPLETED MATCH'
+  - '@MVP'
+  - '@AwardBadge'
+  - '@CREDS EARNED'
+  - '@top_scorer'
+  - '@defender'
+  - '@team_player'
+  - '@brawler'
+  - '@assassin'
+  - '@tiki-taka'
+  - '@catlike'
+  - '@accomplice'
+  - '@multikill'
+  - '@assist-master'
+  - '@weasel_damagereceivedtest'
+  - '@skipButton'
+  - '@nextButton'
+  - '@top_scorer_scoreUnit'
+  - '@defender_scoreUnit'
+  - '@team_player_scoreUnit'
+  - '@brawler_scoreUnit'
+  - '@assassin_scoreUnit'
+  - '@tiki-taka_scoreUnit'
+  - '@catlike_scoreUnit'
+  - '@accomplice_scoreUnit'
+  - '@multikill_scoreUnit'
+  - '@assist-master_scoreUnit'
+  - '@weasel_damagereceivedtest_scoreUnit'
+  - '@galenaDescription'
+  - '@galenaPrimarySkillName'
+  - '@galenaPrimarySkillDescription'
+  - '@galenaSecondarySkillName'
+  - '@galenaSecondarySkillDescription'
+  - '@galenaBio'
+  - '@galenaTrivia1'
+  - '@galenaTrivia2'
+  - '@galenaTrivia3'
+  - '@NotEnoughCreditsMsg'
+  - '@NotEnoughCreditsTitle'
+  - '@trick-shot'
+  - '@first-goal'
+  - '@touch-down'
+  - '@hot-shot'
+  - '@first-blood'
+  - '@interceptor'
+  - '@collector'
+  - '@ballhog'
+  - '@sniper'
+  - '@powerplayer'
+  - '@trick-shot_scoreUnit'
+  - '@first-goal_scoreUnit'
+  - '@touch-down_scoreUnit'
+  - '@hot-shot_scoreUnit'
+  - '@first-blood_scoreUnit'
+  - '@interceptor_scoreUnit'
+  - '@collector_scoreUnit'
+  - '@ballhog_scoreUnit'
+  - '@sniper_scoreUnit'
+  - '@powerplayer_scoreUnit'
+  - '@Player1IsPicking'
+  - '@Player2IsPicking'
+  - '@Player3IsPicking'
+  - '@Pass'
+  - '@DoublePass'
+  - '@DamageDealt'
+  - '@PassIntercept'
+  - '@TackleSuccess'
+  - '@DodgeSuccess'
+  - '@Kills'
+  - '@DoublePass'
+  - '@DoubleKill'
+  - '@TripleKill'
+  - '@KillAssist'
+  - '@ShopBonusCredits'
+  - '@STEEL EARNED'
+  - '@ITEM RECEIVED'
+  - '@ViewItemInShop'
+  - '@EquipItem'
+  - '@LoadingTip10'
+  - '@LoadingTip11'
+  - '@LoadingTip12'
+  - '@LoadingTip13'
+  - '@LoadingTip14'
+  - '@LoadingTip15'
+  - '@LoadingTip16'
+  - '@LoadingTip17'
+  - '@LoadingTip18'
+  - '@LoadingTip19'
+  - '@LoadingTip20'
+  - '@LoadingTip21'
+  - '@LoadingTip22'
+  - '@NextChallengeIn'
+  - '@Credits'
+  - '@win5matches'
+  - '@win3matches'
+  - '@play7matches'
+  - '@play5matches'
+  - '@play3matches'
+  - '@IngameDisconnectChatMessage'
+  - '@reachLevel'
+  - '@unlockedAtLevel'
+  - '@bundle'
+  - '@firstWinOfDay'
+  - '@Steel'
+  - '@Creds'
+  - '@LeaveMatchRequestTitle'
+  - '@LeaveMatchRequestDescription'
+  - '@ChampionNotOwnedPopupTitle'
+  - '@ChampionNotOwnedPopupText'
+  - '@ChampionNotOwnedPopupConfirmBtn'
+  - '@UnlockTab'
+  - '@OverviewTab'
+  - '@StatsTab'
+  - '@ChangePortraitTab'
+  - '@MatchHistoryTab'
+  - '@ProgressionTab'
+  - '@PatchNotesPopupTitle'
+  - '@PatchNotesPopupDescription'
+  - '@ShowPatchNotesButton'
+  - '@revertButton'
+  - '@hertz'
+  - '@LowestGraphics'
+  - '@LowGraphics'
+  - '@MediumGraphics'
+  - '@HighGraphics'
+  - '@RevertDisplaySettingsPopupDescription'
+  - '@RevertDisplaySettingsPopupTitle'
+  - '@CeresWorkersUnion'
+  - '@PacificLeague'
+  - '@MartianConcord'
+  - '@RepublicOfAfrica'
+  - '@UnitedStatesOfEurope'
+  - '@SaturnEnterprises'
+  - '@WindowMode_FullScreenWindow'
+  - '@WindowMode_MaximizedWindow'
+  - '@WindowMode_Windowed'
+  - '@WindowMode_ExclusiveFullScreen'
+  - '@Graphics_Tier1'
+  - '@Graphics_Tier2'
+  - '@Graphics_Tier3'
+  - '@spray'
+  - '@goalAnimation'
+  - '@skin'
+  - '@emote'
+  - '@victoryPose'
+  - '@champion'
+  - '@avatarIcon'
+  - '@UnlockPanel'
+  - '@ConnectionscreenSetupSystems'
+  - '@ConnectionscreenSetupCamera'
+  - '@ConnectionscreenLoadingAssets'
+  - '@ConnectionscreenLoadingItemDefinitions'
+  - '@ConnectionscreenLoadingPlayerData'
+  - '@ConnectionscreenLoadingMainMenu'
+  - '@ErrorPurchasingItemPopupDescription'
+  - '@ErrorPurchasingItemPopupTitle'
+  - '@RegionSelectionPopupText'
+  - '@RegionSelectionPopupTitle'
+  - '@MatchmakingRegion_eu-west-1'
+  - '@MatchmakingRegion_us-east-1'
+  - '@MatchmakingRegion_cn-north-1'
+  - '@MatchmakingRegionShort_eu-west-1'
+  - '@MatchmakingRegionShort_us-east-1'
+  - '@MatchmakingRegionShort_cn-north-1'
+  - '@SEARCHING'
+  - '@QUEUED'
+  - '@MATCHMAKING'
+  - '@ItsYourTurnToPick'
+  - '@RumbleOn'
+  - '@RumbleOff'
+  - '@PlayersConnecting'
+  - '@GetReady'
+  - '@NextGameIn'
+  - '@CantPurchaseShort'
+  - '@CantPurchaseLong'
+  - '@TutorialSprintingHeader'
+  - '@TutorialSprintingExplanation'
+  - '@TutorialCantSprintWhileHoldingBall'
+  - '@TutorialAwesomeHeader'
+  - '@TutorialPickUpTheBallInstruction'
+  - '@TutorialThrowingHeader'
+  - '@TutorialThrowingExplanation_ThrowToOpponentInstruction'
+  - '@TutorialTacklingHeader'
+  - '@TutorialTacklingInstruction'
+  - '@TutorialDodgingHeader'
+  - '@TutorialDodgingInstruction'
+  - '@TutorialPickUpTheBallToContinueInstruction'
+  - '@TutorialWellDoneHeader'
+  - '@TutorialEndDescription_SkillExplanation'
+  - '@MatchmakingRegion_ap-northeast-1'
+  - '@MatchmakingRegionShort_ap-northeast-1'
+  - '@MatchEndSteelReward'
+  - '@Quickmessage4'
+  - '@Quickmessage5'
+  - '@Quickmessage6'
+  - '@Quickmessage7'
+  - '@MatchmakingRegion_sa-east-1'
+  - '@MatchmakingRegion_ap-southeast-2'
+  - '@MatchmakingRegionShort_sa-east-1'
+  - '@MatchmakingRegionShort_ap-southeast-2'
+  - '@TryingToCancelMatchmaking'
+  - '@shoot20goals'
+  - '@shoot40goals'
+  - '@score10touchdowns'
+  - '@shoot10geometryGoals'
+  - '@pass20times'
+  - '@pass40times'
+  - '@CannotJoinGroupWhileMatchmakingPopupDescription'
+  - '@CannotJoinGroupWhileMatchmakingPopupTitle'
+  - '@BannedTitle'
+  - '@BannedDescription'
+  - '@KickedForInactivity'
+  - '@AlwaysJoin'
+  - '@PromptJoin'
+  - '@NeverJoin'
+  - '@OpenMic'
+  - '@PushToTalk'
+  - '@VoiceChatConnectionError'
+  - '@ConnectingToVoiceChat'
+  - '@ConnectToVoiceChatBtn'
+  - '@VoiceChatPlayersConnected'
+  - '@LeaveVCBtn'
+  - '@JoinVCBtn'
+  - '@ConnectingToVoiceChat'
+  - '@MuteSelfButton'
+  - '@UnmuteSelfButton'
+  - '@MuteBtn'
+  - '@UnmuteBtn'
+  - '@Quickmessage8'
+  - '@Quickmessage9'
+  - '@Quickmessage10'
+  - '@Quickmessage11'
+  - '@Quickmessage12'
+  - '@Quickmessage13'
+  - '@Quickmessage14'
+  - '@Quickmessage15'
+  - '@Quickmessage16'
+  - '@Quickmessage17'
+  - '@Quickmessage18'
+  - '@Quickmessage19'
+  - '@Quickmessage20'
+  - '@Quickmessage21'
+  - '@Quickmessage22'
+  - '@Quickmessage23'
+  - '@Quickmessage24'
+  - '@QuickMessageTab'
+  - '@CREDITS EARNED'
+  - '@VSync'
+  - '@FPSCap'
+  - '@FPSCapLimit'
+  - '@GraphicsAdvancedSettings'
+  - '@VFXSettings'
+  - '@ShaderQuality'
+  - '@PostProcessing'
+  - '@Antialiasing'
+  - '@OtherFeatures'
+  - '@Setting_Low'
+  - '@Setting_Mid'
+  - '@Setting_High'
+  - '@Setting_Off'
+  - '@Setting_On'
+  - '@Antialiasing_Off'
+  - '@Antialiasing_2x'
+  - '@Antialiasing_4x'
+  - '@WaitingForAdditionalPlayers'
+  - '@JoinCustomMatchMenuDescription'
+  - '@JoinCustomMatchMenuTitle'
+  - '@LeaveCustomMatchMenuDescription'
+  - '@LeaveCustomMatchMenuTitle'
+  - '@CannotStartCustomMatchDescription'
+  - '@CannotStartCustomMatchTitle'
+  - '@Setting_Lowest'
+  - '@LobbyPanel'
+  - '@MatchOptionsPanel'
+  - '@AudioOptionsPanel'
+  - '@InvalidNotReady'
+  - '@InvalidPlayerCount'
+  - '@InvalidNoTeam'
+  - '@BackfillFailed'
+  - '@NotReady'
+  - '@YouAreReady'
+  - '@InvalidUnevenTeams'
+  - '@CannotJoinGroupWhileInCustomMatchPopupDescription'
+  - '@CannotJoinGroupWhileInCustomMatchPopupTitle'
+  - '@MatchesPlayed'
+  - '@WinRatio'
+  - '@MVPCount'
+  - '@MVP:'
+  - '@BackfillFailedDescription'
+  - '@PenaltyFlagMessage'
+  - '@PenaltyRewardMessage'
+  - '@WebsocketConnectionFailedPopupTitle'
+  - '@WebsocketConnectionPopupMessage'
+  - '@TutorialCommencing'
+  - '@Robot'
+  - '@ForfeitChatMsg'
+  - '@NotForfeitChatMsg'
+  - '@TutorialRewardTextCredits'
+  - '@TutorialRewardTextSteel'
+  - '@NotEnoughSteel'
+  - '@ForfeitChatMsg'
+  - '@NotForfeitChatMsg'
+  - '@ForfeitVote'
+  - '@AlreadyForfeitVote'
+  - '@VoteButton'
+  - '@ForfeitMatchOverChatMsg'
+  - '@ForfeitNotPossibleTitle'
+  - '@ForfeitNotPossibleDescription'
+  - '@ForfeitOnCooldownTitle'
+  - '@ForfeitOnCooldownDescription'
+  - '@FailedToLoadChampUnlocks'
+  - '@ConnectingToMatchmakingService'
+  - '@Ok'
+  - '@TutorialV2WelcomeHeadline'
+  - '@TutorialV2WelcomeMessage'
+  - '@TutorialV2SprintHeadline'
+  - '@TutorialV2SprintMessage'
+  - '@TutorialV2CantSprintWhileHoldingBallMessage'
+  - '@TutorialV2PickupBallHeadline'
+  - '@TutorialV2PickupBallMessage'
+  - '@TutorialV2ShootGoalHeadline'
+  - '@TutorialV2ShootGoalMessage'
+  - '@TutorialV2WrongGoalHeadline'
+  - '@TutorialV2WrongGoalMessage'
+  - '@TutorialV2SpawningTeamMateHeadline'
+  - '@TutorialV2SpawningTeamMateMessage'
+  - '@TutorialV2PassingHeadline'
+  - '@TutorialV2PassingMessage'
+  - '@TutorialV2SpawningOpponentHeadline'
+  - '@TutorialV2SpawningOpponentMessage'
+  - '@TutorialV2TacklingHeadline'
+  - '@TutorialV2TacklingMessage'
+  - '@TutorialV2DodgingHeadline'
+  - '@TutorialV2DodgingMessage'
+  - '@TutorialV2DodgeWithoutBallMessage'
+  - '@TutorialV2SkillsHeadline'
+  - '@TutorialV2SkillsMessage'
+  - '@TutorialV2BarrierHeadline'
+  - '@TutorialV2BarrierMessage'
+  - '@TutorialV2BarrierCompleteHeadline'
+  - '@TutorialV2TurretHeadline'
+  - '@TutorialV2TurretMessage'
+  - '@TutorialV2PickupsHeadline'
+  - '@TutorialV2PickupsMessage'
+  - '@TutorialV2EndHeadline'
+  - '@TutorialV2EndMessage'
+  - '@SpawningBot'
+  - '@BotDifficulty_Easy'
+  - '@BotDifficulty_Intermediate'
+  - '@BotDifficulty_Expert'
+  - '@Fright Pack'
+  - '@Fright Pack Description'
+  - '@KennyZhu'
+  - '@kennyPrimarySkillName'
+  - '@kennyPrimarySkillDescription'
+  - '@kennySecondarySkillName'
+  - '@kennySecondarySkillDescription'
+  - '@kennyBio'
+  - '@kennyTrivia1'
+  - '@kennyTrivia2'
+  - '@kennyTrivia3'
+  - '@UpvoteMessageNice'
+  - '@UpvoteMessageAwesome'
+  - '@UpvoteMessageLegendary'
+  - '@Pixel Avatars Subheader'
+  - '@Pixel Avatars Description'
+  - '@Pixel Avatars'
+  itemKeys:
+  - definitionID: 6
+    itemName: ST000006
+    locaString: '@bagpipes_flex_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@bagpipes_flex_spray'
+  - definitionID: 10
+    itemName: ST000010
+    locaString: '@generic_animated_happy_bird_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_animated_happy_bird_spray'
+  - definitionID: 11
+    itemName: ST000011
+    locaString: '@generic_animated_rage_bird_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_animated_rage_bird_spray'
+  - definitionID: 12
+    itemName: ST000012
+    locaString: '@generic_animated_sad_bird_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_animated_sad_bird_spray'
+  - definitionID: 13
+    itemName: ST000013
+    locaString: '@generic_animated_thumbs_bird_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_animated_thumbs_bird_spray'
+  - definitionID: 14
+    itemName: ST000014
+    locaString: '@generic_cake_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_cake_spray'
+  - definitionID: 15
+    itemName: ST000015
+    locaString: '@generic_happy_emoji_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_happy_emoji_spray'
+  - definitionID: 16
+    itemName: ST000016
+    locaString: '@generic_heart_broken_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_heart_broken_spray'
+  - definitionID: 17
+    itemName: ST000017
+    locaString: '@generic_heart_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_heart_spray'
+  - definitionID: 18
+    itemName: ST000018
+    locaString: '@generic_rage_emoji_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_rage_emoji_spray'
+  - definitionID: 19
+    itemName: ST000019
+    locaString: '@generic_sad_emoji_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_sad_emoji_spray'
+  - definitionID: 20
+    itemName: ST000020
+    locaString: '@generic_sceptical_emoji_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_sceptical_emoji_spray'
+  - definitionID: 21
+    itemName: ST000021
+    locaString: '@generic_tea_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_tea_spray'
+  - definitionID: 22
+    itemName: ST000022
+    locaString: '@generic_thumbs_up_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_thumbs_up_spray'
+  - definitionID: 23
+    itemName: ST000023
+    locaString: '@hildegard_badge_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@hildegard_badge_spray'
+  - definitionID: 24
+    itemName: ST000024
+    locaString: '@hildegard_busted_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@hildegard_busted_spray'
+  - definitionID: 25
+    itemName: ST000025
+    locaString: '@hildegard_pose_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@hildegard_pose_spray'
+  - definitionID: 26
+    itemName: ST000026
+    locaString: '@hildegard_rage_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@hildegard_rage_spray'
+  - definitionID: 27
+    itemName: ST000027
+    locaString: '@li_cat_spray_2'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@li_cat_spray_2'
+  - definitionID: 28
+    itemName: ST000028
+    locaString: '@li_face_spray_2'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@li_face_spray_2'
+  - definitionID: 29
+    itemName: ST000029
+    locaString: '@li_hand_spray_2'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@li_hand_spray_2'
+  - definitionID: 30
+    itemName: ST000030
+    locaString: '@li_suit_spray_2'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@li_suit_spray_2'
+  - definitionID: 31
+    itemName: ST000031
+    locaString: '@mali_face_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@mali_face_spray'
+  - definitionID: 32
+    itemName: ST000032
+    locaString: '@mali_glasses_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 33
+    itemName: ST000033
+    locaString: '@mali_hand_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@mali_hand_spray'
+  - definitionID: 34
+    itemName: ST000034
+    locaString: '@mali_pose_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 35
+    itemName: ST000035
+    locaString: '@servitor_bones_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@servitor_bones_spray'
+  - definitionID: 36
+    itemName: ST000036
+    locaString: '@servitor_face_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@servitor_face_spray'
+  - definitionID: 37
+    itemName: ST000037
+    locaString: '@servitor_hat_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@servitor_hat_spray'
+  - definitionID: 38
+    itemName: ST000038
+    locaString: '@servitor_hi_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@servitor_hi_spray'
+  - definitionID: 39
+    itemName: ST000039
+    locaString: '@servitor_pew_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@servitor_pew_spray'
+  - definitionID: 40
+    itemName: SK000001
+    locaString: '@char_acrid'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid'
+  - definitionID: 41
+    itemName: SK000002
+    locaString: '@cos_acrid_green'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_acrid_green'
+  - definitionID: 42
+    itemName: SK000003
+    locaString: '@cos_acrid_blue'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_acrid_blue'
+  - definitionID: 43
+    itemName: SK000004
+    locaString: '@char_bagpipes'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes'
+  - definitionID: 44
+    itemName: SK000005
+    locaString: '@cos_bagpipes_tattoo'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_bagpipes_tattoo'
+  - definitionID: 45
+    itemName: SK000006
+    locaString: '@cos_bagpipes_reggae'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_bagpipes_reggae'
+  - definitionID: 46
+    itemName: SK000007
+    locaString: '@cos_bagpipes_traditional'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_bagpipes_traditional'
+  - definitionID: 47
+    itemName: SK000008
+    locaString: '@cos_bagpipes_traditional_redwhite'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_bagpipes_traditional_redwhite'
+  - definitionID: 48
+    itemName: SK000009
+    locaString: '@cos_bagpipes_rugby'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_bagpipes_rugby'
+  - definitionID: 49
+    itemName: SK000010
+    locaString: '@cos_bagpipes_rugby_neon'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_bagpipes_rugby_neon'
+  - definitionID: 50
+    itemName: SK000011
+    locaString: '@char_galena'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena'
+  - definitionID: 51
+    itemName: SK000012
+    locaString: '@cos_galena_blue'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_galena_blue'
+  - definitionID: 52
+    itemName: SK000013
+    locaString: '@cos_galena_purple'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_galena_purple'
+  - definitionID: 53
+    itemName: SK000014
+    locaString: '@char_hildegard'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard'
+  - definitionID: 54
+    itemName: SK000015
+    locaString: '@cos_hildegard_military'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_hildegard_military'
+  - definitionID: 55
+    itemName: SK000016
+    locaString: '@cos_hildegard_space'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_hildegard_space'
+  - definitionID: 56
+    itemName: SK000017
+    locaString: '@cos_hildegard_wrestling'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_hildegard_wrestling'
+  - definitionID: 57
+    itemName: SK000018
+    locaString: '@cos_hildegard_riotsuit_white'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_hildegard_riotsuit_white'
+  - definitionID: 58
+    itemName: SK000019
+    locaString: '@cos_hildegard_riotsuit_blue'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_hildegard_riotsuit_blue'
+  - definitionID: 59
+    itemName: SK000020
+    locaString: '@cos_hildegard_wrestling_blue'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_hildegard_wrestling_blue'
+  - definitionID: 60
+    itemName: SK000021
+    locaString: '@char_li'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li'
+  - definitionID: 61
+    itemName: SK000022
+    locaString: '@cos_li_gold'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_li_gold'
+  - definitionID: 62
+    itemName: SK000023
+    locaString: '@cos_li_purple'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_li_purple'
+  - definitionID: 63
+    itemName: SK000024
+    locaString: '@cos_li_devilmask_white'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_li_devilmask_white'
+  - definitionID: 64
+    itemName: SK000025
+    locaString: '@cos_li_devilmask_black'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_li_devilmask_black'
+  - definitionID: 66
+    itemName: SK000027
+    locaString: '@cos_li_aero_purple'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_li_aero_purple'
+  - definitionID: 67
+    itemName: SK000028
+    locaString: '@char_mali'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali'
+  - definitionID: 68
+    itemName: SK000029
+    locaString: '@cos_mali_hexagonpink'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_mali_hexagonpink'
+  - definitionID: 69
+    itemName: SK000030
+    locaString: '@cos_mali_cameroon'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_mali_cameroon'
+  - definitionID: 70
+    itemName: SK000031
+    locaString: '@cos_mali_traditional'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_mali_traditional'
+  - definitionID: 71
+    itemName: SK000032
+    locaString: '@cos_mali_traditional_red'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_mali_traditional_red'
+  - definitionID: 72
+    itemName: SK000033
+    locaString: '@cos_mali_coilhair'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_mali_coilhair'
+  - definitionID: 73
+    itemName: SK000034
+    locaString: '@cos_mali_coilhair_purple'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_mali_coilhair_purple'
+  - definitionID: 74
+    itemName: SK000035
+    locaString: '@char_servitor'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor'
+  - definitionID: 75
+    itemName: SK000036
+    locaString: '@cos_servitor_medic'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_servitor_medic'
+  - definitionID: 76
+    itemName: SK000037
+    locaString: '@cos_servitor_military'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_servitor_military'
+  - definitionID: 77
+    itemName: SK000038
+    locaString: '@cos_servitor_candy'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_servitor_candy'
+  - definitionID: 78
+    itemName: SK000039
+    locaString: '@cos_servitor_fox'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_servitor_fox'
+  - definitionID: 79
+    itemName: SK000040
+    locaString: '@cos_servitor_fox_cat'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_servitor_fox_cat'
+  - definitionID: 80
+    itemName: SK000041
+    locaString: '@cos_li_aero_yellow'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_li_aero_yellow'
+  - definitionID: 81
+    itemName: SK000042
+    locaString: '@cos_li_aero_green'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_li_aero_green'
+  - definitionID: 82
+    itemName: SK000043
+    locaString: '@cos_li_mechamask'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_li_mechamask'
+  - definitionID: 83
+    itemName: SK000044
+    locaString: '@cos_li_mechamask_white'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_li_mechamask_white'
+  - definitionID: 84
+    itemName: SK000045
+    locaString: '@cos_acrid_nomask'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_acrid_nomask'
+  - definitionID: 85
+    itemName: SK000046
+    locaString: '@cos_galena_sandstorm'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_galena_sandstorm'
+  - definitionID: 86
+    itemName: SK000047
+    locaString: '@cos_galena_sandstorm_blue'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_galena_sandstorm_blue'
+  - definitionID: 87
+    itemName: SK000048
+    locaString: '@cos_servitor_skeleton'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_servitor_skeleton'
+  - definitionID: 88
+    itemName: EM000001
+    locaString: '@char_acrid_emote_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_emote_001_anim'
+  - definitionID: 89
+    itemName: EM000002
+    locaString: '@char_bagpipes_emote_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_emote_001_anim'
+  - definitionID: 90
+    itemName: EM000003
+    locaString: '@char_bagpipes_emote_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_emote_002_anim'
+  - definitionID: 91
+    itemName: EM000004
+    locaString: '@char_bagpipes_emote_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_emote_003_anim'
+  - definitionID: 92
+    itemName: EM000005
+    locaString: '@char_bagpipes_emote_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_emote_004_anim'
+  - definitionID: 93
+    itemName: EM000006
+    locaString: '@char_hildegard_emote_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard_emote_001_anim'
+  - definitionID: 94
+    itemName: EM000007
+    locaString: '@char_hildegard_emote_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard_emote_002_anim'
+  - definitionID: 95
+    itemName: EM000008
+    locaString: '@char_hildegard_emote_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard_emote_003_anim'
+  - definitionID: 96
+    itemName: EM000009
+    locaString: '@char_li_emote_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_emote_001_anim'
+  - definitionID: 97
+    itemName: EM000010
+    locaString: '@char_li_emote_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_emote_002_anim'
+  - definitionID: 98
+    itemName: EM000011
+    locaString: '@char_li_emote_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_emote_003_anim'
+  - definitionID: 99
+    itemName: EM000012
+    locaString: '@char_li_emote_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_emote_004_anim'
+  - definitionID: 100
+    itemName: EM000013
+    locaString: '@char_mali_emote_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali_emote_001_anim'
+  - definitionID: 101
+    itemName: EM000014
+    locaString: '@char_mali_emote_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali_emote_002_anim'
+  - definitionID: 102
+    itemName: EM000015
+    locaString: '@char_mali_emote_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali_emote_003_anim'
+  - definitionID: 103
+    itemName: EM000016
+    locaString: '@char_mali_emote_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali_emote_004_anim'
+  - definitionID: 104
+    itemName: EM000017
+    locaString: '@char_servitor_emote_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor_emote_001_anim'
+  - definitionID: 105
+    itemName: EM000018
+    locaString: '@char_servitor_emote_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor_emote_002_anim'
+  - definitionID: 106
+    itemName: EM000019
+    locaString: '@char_servitor_emote_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor_emote_003_anim'
+  - definitionID: 107
+    itemName: EM000020
+    locaString: '@char_servitor_emote_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor_emote_004_anim'
+  - definitionID: 108
+    itemName: EM000021
+    locaString: '@char_galena_emote_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena_emote_001_anim'
+  - definitionID: 1
+    itemName: ST000001
+    locaString: '@acrid_face_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 2
+    itemName: ST000002
+    locaString: '@acrid_nom__spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 3
+    itemName: ST000003
+    locaString: '@acrid_pill_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 4
+    itemName: ST000004
+    locaString: '@acrid_pose_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 5
+    itemName: ST000005
+    locaString: '@acrid_vomit_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@acrid_vomit_spray'
+  - definitionID: 7
+    itemName: ST000007
+    locaString: '@bagpipes_golf_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@bagpipes_golf_spray'
+  - definitionID: 8
+    itemName: ST000008
+    locaString: '@bagpipes_pipes_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@bagpipes_pipes_spray'
+  - definitionID: 9
+    itemName: ST000009
+    locaString: '@bagpipes_rage_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@bagpipes_rage_spray'
+  - definitionID: 111
+    itemName: EM000024
+    locaString: '@char_galena_emote_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena_emote_004_anim'
+  - definitionID: 65
+    itemName: SK000026
+    locaString: '@cos_li_aero_red'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_li_aero_red'
+  - definitionID: 109
+    itemName: EM000022
+    locaString: '@char_galena_emote_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena_emote_002_anim'
+  - definitionID: 110
+    itemName: EM000023
+    locaString: '@char_galena_emote_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena_emote_003_anim'
+  - definitionID: 112
+    itemName: PO000001
+    locaString: '@char_acrid_victory_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_victory_001_anim'
+  - definitionID: 113
+    itemName: PO000002
+    locaString: '@char_acrid_victory_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_victory_002_anim'
+  - definitionID: 114
+    itemName: PO000003
+    locaString: '@char_acrid_victory_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_victory_003_anim'
+  - definitionID: 115
+    itemName: PO000004
+    locaString: '@char_acrid_victory_006_anim'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_victory_006_anim'
+  - definitionID: 116
+    itemName: PO000005
+    locaString: '@char_bagpipes_victory_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_victory_001_anim'
+  - definitionID: 117
+    itemName: PO000006
+    locaString: '@char_bagpipes_victory_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_victory_002_anim'
+  - definitionID: 118
+    itemName: PO000007
+    locaString: '@char_bagpipes_victory_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_victory_003_anim'
+  - definitionID: 119
+    itemName: PO000008
+    locaString: '@char_bagpipes_victory_004_anim'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_victory_004_anim'
+  - definitionID: 120
+    itemName: PO000009
+    locaString: '@char_bagpipes_victory_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_victory_005_anim'
+  - definitionID: 121
+    itemName: PO000010
+    locaString: '@char_hildegard_victory_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard_victory_001_anim'
+  - definitionID: 122
+    itemName: PO000011
+    locaString: '@char_hildegard_victory_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard_victory_002_anim'
+  - definitionID: 123
+    itemName: PO000012
+    locaString: '@char_hildegard_victory_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard_victory_003_anim'
+  - definitionID: 124
+    itemName: PO000013
+    locaString: '@char_hildegard_victory_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard_victory_004_anim'
+  - definitionID: 125
+    itemName: PO000014
+    locaString: '@char_hildegard_victory_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard_victory_005_anim'
+  - definitionID: 126
+    itemName: PO000015
+    locaString: '@char_li_victory_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_victory_001_anim'
+  - definitionID: 127
+    itemName: PO000016
+    locaString: '@char_li_victory_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_victory_002_anim'
+  - definitionID: 128
+    itemName: PO000017
+    locaString: '@char_li_victory_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_victory_003_anim'
+  - definitionID: 129
+    itemName: PO000018
+    locaString: '@char_li_victory_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_victory_004_anim'
+  - definitionID: 130
+    itemName: PO000019
+    locaString: '@char_li_victory_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_victory_005_anim'
+  - definitionID: 131
+    itemName: PO000020
+    locaString: '@char_mali_victory_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali_victory_001_anim'
+  - definitionID: 132
+    itemName: PO000021
+    locaString: '@char_mali_victory_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali_victory_002_anim'
+  - definitionID: 133
+    itemName: PO000022
+    locaString: '@char_mali_victory_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali_victory_003_anim'
+  - definitionID: 134
+    itemName: PO000023
+    locaString: '@char_mali_victory_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali_victory_004_anim'
+  - definitionID: 135
+    itemName: PO000024
+    locaString: '@char_servitor_victory_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor_victory_001_anim'
+  - definitionID: 136
+    itemName: PO000025
+    locaString: '@char_servitor_victory_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor_victory_002_anim'
+  - definitionID: 137
+    itemName: PO000026
+    locaString: '@char_servitor_victory_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor_victory_003_anim'
+  - definitionID: 138
+    itemName: PO000027
+    locaString: '@char_servitor_victory_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor_victory_004_anim'
+  - definitionID: 139
+    itemName: PO000028
+    locaString: '@char_servitor_victory_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor_victory_005_anim'
+  - definitionID: 140
+    itemName: PO000029
+    locaString: '@char_galena_victory_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena_victory_001_anim'
+  - definitionID: 141
+    itemName: PO000030
+    locaString: '@char_galena_victory_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena_victory_002_anim'
+  - definitionID: 142
+    itemName: PO000031
+    locaString: '@char_galena_victory_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena_victory_003_anim'
+  - definitionID: 143
+    itemName: PO000032
+    locaString: '@char_galena_victory_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena_victory_004_anim'
+  - definitionID: 144
+    itemName: CH000001
+    locaString: '@char_servitor'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor'
+  - definitionID: 145
+    itemName: CH000002
+    locaString: '@char_li'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li'
+  - definitionID: 146
+    itemName: CH000003
+    locaString: '@char_hildegard'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard'
+  - definitionID: 147
+    itemName: CH000004
+    locaString: '@char_bagpipes'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes'
+  - definitionID: 148
+    itemName: CH000005
+    locaString: '@char_mali'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali'
+  - definitionID: 149
+    itemName: CH000006
+    locaString: '@char_galena'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena'
+  - definitionID: 150
+    itemName: CH000007
+    locaString: '@char_acrid'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid'
+  - definitionID: 40
+    itemName: ST000040
+    locaString: '@galena_heart_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@galena_heart_spray'
+  - definitionID: 41
+    itemName: ST000041
+    locaString: '@galena_kiss_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@galena_kiss_spray'
+  - definitionID: 42
+    itemName: ST000042
+    locaString: '@generic_bun_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_bun_spray'
+  - definitionID: 43
+    itemName: ST000043
+    locaString: '@generic_chicken_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_chicken_spray'
+  - definitionID: 44
+    itemName: ST000044
+    locaString: '@generic_hotdog_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_hotdog_spray'
+  - definitionID: 45
+    itemName: ST000045
+    locaString: '@generic_spacedog_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_spacedog_spray'
+  - definitionID: 46
+    itemName: ST000046
+    locaString: '@generic_sunglasses_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_sunglasses_spray'
+  - definitionID: 47
+    itemName: ST000047
+    locaString: '@acrid_rampage_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@acrid_rampage_spray'
+  - definitionID: 48
+    itemName: ST000048
+    locaString: '@galena_zap_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@galena_zap_spray'
+  - definitionID: 49
+    itemName: ST000049
+    locaString: '@generic_fistbump_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@generic_fistbump_spray'
+  - definitionID: 98
+    itemName: SK000049
+    locaString: '@cos_acrid_fins'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_acrid_fins'
+  - definitionID: 99
+    itemName: SK000050
+    locaString: '@cos_acrid_fins_pink'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_acrid_fins_pink'
+  - definitionID: 100
+    itemName: SK000051
+    locaString: '@cos_acrid_spikes'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_acrid_spikes'
+  - definitionID: 101
+    itemName: SK000052
+    locaString: '@cos_acrid_spikes_red'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_acrid_spikes_red'
+  - definitionID: 102
+    itemName: SK000053
+    locaString: '@cos_bagpipes_techarm'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_bagpipes_techarm'
+  - definitionID: 103
+    itemName: SK000054
+    locaString: '@cos_bagpipes_techarm_purple'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_bagpipes_techarm_purple'
+  - definitionID: 104
+    itemName: SK000055
+    locaString: '@cos_bagpipes_techarm_white'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_bagpipes_techarm_white'
+  - definitionID: 105
+    itemName: SK000056
+    locaString: '@cos_galena_majestic'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_galena_majestic'
+  - definitionID: 106
+    itemName: SK000057
+    locaString: '@cos_galena_majestic_red'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_galena_majestic_red'
+  - definitionID: 107
+    itemName: SK000058
+    locaString: '@cos_galena_majestic_royal_blue'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_galena_majestic_royal_blue'
+  - definitionID: 132
+    itemName: EM000025
+    locaString: '@char_bagpipes_emote_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_emote_005_anim'
+  - definitionID: 133
+    itemName: EM000026
+    locaString: '@char_hildegard_emote_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard_emote_004_anim'
+  - definitionID: 134
+    itemName: EM000027
+    locaString: '@char_acrid_emote_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_emote_002_anim'
+  - definitionID: 135
+    itemName: EM000028
+    locaString: '@char_acrid_emote_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_emote_003_anim'
+  - definitionID: 168
+    itemName: PO000033
+    locaString: '@char_acrid_victory_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_victory_004_anim'
+  - definitionID: 169
+    itemName: PO000034
+    locaString: '@char_li_victory_006_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_victory_006_anim'
+  - definitionID: 170
+    itemName: PO000035
+    locaString: '@char_li_victory_007_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_victory_007_anim'
+  - definitionID: 171
+    itemName: PO000036
+    locaString: '@char_li_victory_008_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_victory_008_anim'
+  - definitionID: 172
+    itemName: PO000037
+    locaString: '@char_li_victory_009_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_victory_009_anim'
+  - definitionID: 46
+    itemName: ST000050
+    locaString: '@generic_handshake_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 47
+    itemName: ST000051
+    locaString: '@generic_sour_emoji_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 48
+    itemName: ST000052
+    locaString: '@mali_charge_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 49
+    itemName: ST000053
+    locaString: '@mali_close_one_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 136
+    itemName: EM000029
+    locaString: '@char_bagpipes_emote_006_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_emote_006_anim'
+  - definitionID: 137
+    itemName: EM000030
+    locaString: '@char_hildegard_emote_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard_emote_005_anim'
+  - definitionID: 138
+    itemName: EM000031
+    locaString: '@char_acrid_emote_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_emote_004_anim'
+  - definitionID: 139
+    itemName: EM000032
+    locaString: '@char_acrid_emote_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_emote_005_anim'
+  - definitionID: 140
+    itemName: EM000033
+    locaString: '@char_acrid_emote_006_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_emote_006_anim'
+  - definitionID: 141
+    itemName: EM000034
+    locaString: '@char_servitor_emote_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor_emote_005_anim'
+  - definitionID: 142
+    itemName: EM000035
+    locaString: '@char_li_emote_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_emote_005_anim'
+  - definitionID: 143
+    itemName: EM000036
+    locaString: '@char_li_emote_006_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_li_emote_006_anim'
+  - definitionID: 144
+    itemName: EM000037
+    locaString: '@char_mali_emote_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali_emote_005_anim'
+  - definitionID: 145
+    itemName: EM000038
+    locaString: '@char_bagpipes_emote_007_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_bagpipes_emote_007_anim'
+  - definitionID: 146
+    itemName: EM000039
+    locaString: '@char_hildegard_emote_006_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_hildegard_emote_006_anim'
+  - definitionID: 147
+    itemName: EM000040
+    locaString: '@char_servitor_emote_006_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_servitor_emote_006_anim'
+  - definitionID: 148
+    itemName: EM000041
+    locaString: '@char_mali_emote_006_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_mali_emote_006_anim'
+  - definitionID: 810
+    itemName: ST000054
+    locaString: '@acrid_animated_pixel_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@acrid_animated_pixel_spray'
+  - definitionID: 811
+    itemName: ST000055
+    locaString: '@bagpipes_animated_pixel_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@bagpipes_animated_pixel_spray'
+  - definitionID: 812
+    itemName: ST000056
+    locaString: '@hildegard_animated_pixel_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@hildegard_animated_pixel_spray'
+  - definitionID: 813
+    itemName: ST000057
+    locaString: '@li_animated_pixel_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@li_animated_pixel_spray'
+  - definitionID: 814
+    itemName: ST000058
+    locaString: '@mali_animated_pixel_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@mali_animated_pixel_spray'
+  - definitionID: 815
+    itemName: ST000059
+    locaString: '@servitor_animated_pixel_spray'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@servitor_animated_pixel_spray'
+  - definitionID: 874
+    itemName: SK000059
+    locaString: '@cos_mali_street'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_mali_street'
+  - definitionID: 875
+    itemName: SK000060
+    locaString: '@cos_mali_street_twinnie'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_mali_street_twinnie'
+  - definitionID: 876
+    itemName: SK000061
+    locaString: '@cos_servitor_chef'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_servitor_chef'
+  - definitionID: 877
+    itemName: SK000062
+    locaString: '@cos_servitor_chef_black'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_servitor_chef_black'
+  - definitionID: 878
+    itemName: SK000063
+    locaString: '@cos_servitor_steampunk'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_servitor_steampunk'
+  - definitionID: 879
+    itemName: SK000064
+    locaString: '@cos_servitor_steampunk_blue'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_servitor_steampunk_blue'
+  - definitionID: 921
+    itemName: EM000042
+    locaString: '@char_galena_emote_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena_emote_005_anim'
+  - definitionID: 922
+    itemName: EM000043
+    locaString: '@char_galena_emote_006_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_galena_emote_006_anim'
+  - definitionID: 958
+    itemName: PO000038
+    locaString: '@char_acrid_victory_005_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_acrid_victory_005_anim'
+  - definitionID: 120
+    itemName: SK000065
+    locaString: '@char_kenny'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_kenny'
+  - definitionID: 200
+    itemName: PO000039
+    locaString: '@char_kenny_victory_001_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_kenny_victory_001_anim'
+  - definitionID: 201
+    itemName: PO000040
+    locaString: '@char_kenny_victory_002_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_kenny_victory_002_anim'
+  - definitionID: 202
+    itemName: PO000041
+    locaString: '@char_kenny_victory_003_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_kenny_victory_003_anim'
+  - definitionID: 203
+    itemName: PO000042
+    locaString: '@char_kenny_victory_004_anim'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_kenny_victory_004_anim'
+  - definitionID: 211
+    itemName: CH000008
+    locaString: '@char_kenny'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@char_kenny'
+  - definitionID: 543
+    itemName: SK000066
+    locaString: '@cos_acrid_kaiju'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_acrid_kaiju'
+  - definitionID: 544
+    itemName: SK000067
+    locaString: '@cos_acrid_kaiju_orange'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_acrid_kaiju_orange'
+  - definitionID: 545
+    itemName: SK000068
+    locaString: '@cos_acrid_kaiju_yellow'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_acrid_kaiju_yellow'
+  - definitionID: 546
+    itemName: SK000069
+    locaString: '@cos_galena_retro'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_galena_retro'
+  - definitionID: 547
+    itemName: SK000070
+    locaString: '@cos_bagpipes_zombie'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_bagpipes_zombie'
+  - definitionID: 548
+    itemName: SK000071
+    locaString: '@cos_li_delosmuertos'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_li_delosmuertos'
+  - definitionID: 549
+    itemName: SK000072
+    locaString: '@cos_servitor_pumpkin'
+    changed: 1
+    newlyAdded: 0
+    oldLocaString: '@cos_servitor_pumpkin'
+  - definitionID: 56
+    itemName: ST000060
+    locaString: '@generic_bat_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 57
+    itemName: ST000061
+    locaString: '@generic_ghost_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 58
+    itemName: ST000062
+    locaString: '@generic_pumpkin_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 59
+    itemName: ST000063
+    locaString: '@generic_rip_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 619
+    itemName: EM000044
+    locaString: '@char_kenny_emote_001_anim'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 620
+    itemName: EM000045
+    locaString: '@char_kenny_emote_002_anim'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 621
+    itemName: EM000046
+    locaString: '@char_kenny_emote_003_anim'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 622
+    itemName: EM000047
+    locaString: '@char_kenny_emote_004_anim'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1123
+    itemName: AV000001
+    locaString: '@userAvatar_scLogo_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1124
+    itemName: AV000002
+    locaString: '@userAvatar_imiLogo_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1125
+    itemName: AV000003
+    locaString: '@userAvatar_CeresWorkersUnionLogo_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1126
+    itemName: AV000004
+    locaString: '@userAvatar_martianConcordLogo_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1127
+    itemName: AV000005
+    locaString: '@userAvatar_PacificLeagueLogo_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1128
+    itemName: AV000006
+    locaString: '@userAvatar_RepublicOfAfrica_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1129
+    itemName: AV000007
+    locaString: '@userAvatar_UnitedStatesOfEuropeLogo_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1130
+    itemName: AV000008
+    locaString: '@userAvatar_bun_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1131
+    itemName: AV000009
+    locaString: '@userAvatar_CatLi_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1191
+    itemName: ST000064
+    locaString: '@kenny_burned_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1192
+    itemName: ST000065
+    locaString: '@kenny_face_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1193
+    itemName: ST000066
+    locaString: '@kenny_hand_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1194
+    itemName: ST000067
+    locaString: '@kenny_rocket_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1195
+    itemName: ST000068
+    locaString: '@kenny_speed_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1196
+    itemName: ST000069
+    locaString: '@kenny_animated_pixel_spray'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1269
+    itemName: SK000073
+    locaString: '@cos_acrid_mecha'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1270
+    itemName: SK000074
+    locaString: '@cos_bagpipes_grizzled'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1271
+    itemName: SK000075
+    locaString: '@cos_galena_retro'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1272
+    itemName: SK000076
+    locaString: '@cos_galena_retro_seventies'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1273
+    itemName: SK000077
+    locaString: '@cos_kenny_astro'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1274
+    itemName: SK000078
+    locaString: '@cos_kenny_eighties'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1275
+    itemName: SK000079
+    locaString: '@cos_kenny_eighties_green'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1380
+    itemName: AV000010
+    locaString: '@userAvatar_acridchibi_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1381
+    itemName: AV000011
+    locaString: '@userAvatar_alpha_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1382
+    itemName: AV000012
+    locaString: '@userAvatar_beta_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1383
+    itemName: AV000013
+    locaString: '@userAvatar_capchef_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1384
+    itemName: AV000014
+    locaString: '@userAvatar_capchibi_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1385
+    itemName: AV000015
+    locaString: '@userAvatar_capheart_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1386
+    itemName: AV000016
+    locaString: '@userAvatar_chicken_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1387
+    itemName: AV000017
+    locaString: '@userAvatar_eightiesflag_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1388
+    itemName: AV000018
+    locaString: '@userAvatar_ellikachibi_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1389
+    itemName: AV000019
+    locaString: '@userAvatar_ellikalogo_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1390
+    itemName: AV000020
+    locaString: '@userAvatar_fox_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1391
+    itemName: AV000021
+    locaString: '@userAvatar_galenachibi_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1392
+    itemName: AV000022
+    locaString: '@userAvatar_kennylogo_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1393
+    itemName: AV000023
+    locaString: '@userAvatar_lochlanchibi_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1394
+    itemName: AV000024
+    locaString: '@userAvatar_lochlanlogo_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1395
+    itemName: AV000025
+    locaString: '@userAvatar_lochlanpattern_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1396
+    itemName: AV000026
+    locaString: '@userAvatar_numberone_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1397
+    itemName: AV000027
+    locaString: '@userAvatar_paw_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1398
+    itemName: AV000028
+    locaString: '@userAvatar_pixelAcrid_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1399
+    itemName: AV000029
+    locaString: '@userAvatar_pixelBagpipes_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1400
+    itemName: AV000030
+    locaString: '@userAvatar_pixelEllika_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1401
+    itemName: AV000031
+    locaString: '@userAvatar_pixelLi_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1402
+    itemName: AV000032
+    locaString: '@userAvatar_pixelMali_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1403
+    itemName: AV000033
+    locaString: '@userAvatar_PLF_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1404
+    itemName: AV000034
+    locaString: '@userAvatar_rugbylochlandpattern_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1405
+    itemName: AV000035
+    locaString: '@userAvatar_schroederchibi_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1406
+    itemName: AV000036
+    locaString: '@userAvatar_SEflag_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1407
+    itemName: AV000037
+    locaString: '@userAvatar_shanichibi_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1408
+    itemName: AV000038
+    locaString: '@userAvatar_skull_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1409
+    itemName: AV000039
+    locaString: '@userAvatar_spacedog_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1410
+    itemName: AV000040
+    locaString: '@userAvatar_steampunkpattern_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1411
+    itemName: AV000041
+    locaString: '@userAvatar_triangle_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1412
+    itemName: AV000042
+    locaString: '@userAvatar_wrestlingshield_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1413
+    itemName: AV000043
+    locaString: '@userAvatar_wrestlingstar_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1414
+    itemName: AV000044
+    locaString: '@userAvatar_pixelKenny_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1415
+    itemName: AV000045
+    locaString: '@userAvatar_pixelServitor_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1416
+    itemName: AV000046
+    locaString: '@userAvatar_pixelGalena_ui'
+    changed: 0
+    newlyAdded: 0
+    oldLocaString:
+  - definitionID: 1846
+    itemName: SK000080
+    locaString: '@cos_kenny_punk_black'
+    changed: 0
+    newlyAdded: 1
+    oldLocaString:
+  - definitionID: 1847
+    itemName: SK000081
+    locaString: '@cos_kenny_punk_blue'
+    changed: 0
+    newlyAdded: 1
+    oldLocaString:
+  keys:
+  - '@ExitGameButton'
+  - '@SocialButton'
+  - '@ProfileButton'
+  - '@OptionsButton'
+  - '@ShopButton'
+  - '@ChampionGalleryButton'
+  - '@RankedMatchButton'
+  - '@QuickMatchButton'
+  - '@PressButton'
+  - '@GameplaySoundEffects'
+  - '@ShaniButton'
+  - '@MatchStartsIn'
+  - '@CancelButton'
+  - '@GameplayButton'
+  - '@ToLeaveQueue'
+  - '@ReadyButton'
+  - '@Loading'
+  - '@Ellika'
+  - '@RandomChampion'
+  - '@ConnectionStatusMessage'
+  - '@DisplayMode'
+  - '@EstimatedWaitTime'
+  - '@LochlanButton'
+  - '@MasterVolume'
+  - '@ShenzhenArena'
+  - '@MusicVolume'
+  - '@Controls'
+  - '@ExitButton'
+  - '@Resources'
+  - '@Cap-x02Button'
+  - '@AcridButton'
+  - '@Shani'
+  - '@DailyQuestButton'
+  - '@Acrid'
+  - '@Ambient'
+  - '@VideoButton'
+  - '@AudioButton'
+  - '@ControlsButton'
+  - '@Lochlan'
+  - '@SchroederButton'
+  - '@WaitingForPlayers'
+  - '@Resolution'
+  - '@UIVolume'
+  - '@Schroeder'
+  - '@EllikaButton'
+  - '@Cap-x02'
+  - '@GraphicsQuality'
+  - '@QuickMatchLobby'
+  - '@ClassSpecialist'
+  - '@ClassStriker'
+  - '@ClassEnforcer'
+  - '@AllPlayersReady'
+  - '@SFXVolume'
+  - '@PlayGameButton'
+  - '@GalenaButton'
+  - '@ControlButton'
+  - '@PCButton'
+  - '@ControllerButton'
+  - '@CustomizeButton'
+  - '@TrainingGroundButton'
+  - '@RespawnIn'
+  - '@KoBy'
+  - '@GameplayLanguageSetting'
+  - '@ClosedAlphaHeader'
+  - '@ClosedAlphaBody'
+  - '@MaintenenceFooter'
+  - '@MaintenanceBody'
+  - '@MaintenanceHeader'
+  - '@IngameMenuTitle'
+  - '@IngameMenuContinueButton'
+  - '@IngameMenuControlsButton'
+  - '@IngameMenuLeaveMatchButton'
+  - '@IngameMenuBackButton'
+  - '@VictoryPosesButton'
+  - '@SprayTagsButton'
+  - '@SkinsButton'
+  - '@EmotesButton'
+  - '@LoadoutTab'
+  - '@Speed'
+  - '@SkillsTab'
+  - '@Health'
+  - '@BioTab'
+  - '@GoalAnimationsButton'
+  - '@CustomButton'
+  - '@Preset1Button'
+  - '@Preset2Button'
+  - '@UsePresetButton'
+  - '@CustomizeControlsButton'
+  - '@ThrowingPower'
+  - '@ChampionGallery'
+  - '@LevelUpRewards'
+  - '@LevelUp'
+  - '@Achievements'
+  - '@XP'
+  - '@+MVP'
+  - '@Galena'
+  - '@LoadingSpraytagsErrorMsg'
+  - '@LoadingSpraytagsMsg'
+  - '@OnSaleButton'
+  - '@ChampionsButton'
+  - '@BuyCurrencyButton'
+  - '@AvatarIconsButton'
+  - '@LoadingMatchStatsErrorMsg'
+  - '@LoadingMatchStatsText'
+  - '@BuyButton'
+  - '@NotEnoughCredits'
+  - '@ThatIsYou'
+  - '@OwnGoal'
+  - '@Touchdown'
+  - '@GeometryGoal'
+  - '@Goal'
+  - '@GoalAssistBy'
+  - '@ShopMenu_LoadingCurrencyContainersError'
+  - '@BuyPanel_PurchaseSuccessful'
+  - '@Slot'
+  - '@CollectRewardsBtnText'
+  - '@ViewInShopButton'
+  - '@ChallengePanelHeader'
+  - '@LevelUpReward'
+  - '@EquipItem'
+  - '@Equipped!'
+  - '@GetAllChampionsPackBundle'
+  - '@AllChampionsPack'
+  - '@RefreshRate'
+  - '@ShaderQuality'
+  - '@Screen'
+  - '@SPRINT'
+  - '@Sprint'
+  - '@RB'
+  - '@LB'
+  - '@CurrentlyEquippedHeader'
+  - '@playerAvatar'
+  - '@LoadingAvatarsText'
+  - '@ErrorWhileLoadingAvatarsText'
+  - '@AllChampionsPanel_EarlyAccessText'
+  - '@AllChampionsPanel_Description'
+  - '@Locked'
+  - '@GeneralButton'
+  - '@AlreadyOwned'
+  - '@RestartToApplyOption'
+  - '@MatchmakingRegion'
+  - '@AssistedBy'
+  - '@PLACING'
+  - '@FirstTimeQuickPlayPopupDescription'
+  - '@FirstTimeQuickPlayPopupTitle'
+  - '@PlayQuickPlayAnywaysButton'
+  - '@StartPlaygroundSessionButton'
+  - '@ControlsMenuDone'
+  - '@ControlsMenuRestoreDefaults'
+  - '@ControlsMenuRemoveController'
+  - '@ControlsMenuAssignController'
+  - '@ControlsMenuCalibrate'
+  - '@RumbleSettings'
+  - '@ItsYourTurnToPick'
+  - '@SupportButton'
+  - '@CommunityTutorialButton'
+  - '@ComingSoon'
+  - '@TutorialStandInCircleToStartTutorial'
+  - '@TutorialShowGameControls'
+  - '@VoiceChatSettingsBtn'
+  - '@VoiceChatPushToTalkSetting'
+  - '@VoiceChatJoineMethod'
+  - '@VoiceChatVolume'
+  - '@VoiceChatMicrophoneVolume'
+  - '@SelectQuickMessageHeader'
+  - '@SelectQuickMessageSubHeader'
+  - '@WeeklyRotation'
+  - '@back'
+  - '@confirm'
+  - '@Region'
+  - '@Arena'
+  - '@VSync'
+  - '@Antialiasing'
+  - '@PostProcessing'
+  - '@OtherFeatures'
+  - '@FPSCapLimit'
+  - '@VFXSettings'
+  - '@FPSCap'
+  - '@GraphicsAdvancedSettings'
+  - '@WaitingForAdditionalPlayers'
+  - '@CustomMatchButton'
+  - '@StartCustomMatchButton'
+  - '@TeamBlue'
+  - '@MatchOptionsCutomMatch'
+  - '@InvitePlayersToCustomMatch'
+  - '@TeamOrange'
+  - '@Emote:'
+  - '@RecentMatches'
+  - '@Forfeit'
+  - '@FreeTrainingButton'
+  - '@BotMatchButton'
+  - '@Continue'
+  - '@Congratulations!'
+  - '@AddBot'
+  - '@ConnectingToMatchmakingService'
+  - '@Robot'
+  - '@AIDifficulty'
+  - '@Overtime'
+  - '@TryingToCancelMatchmaking'
+  - '@Connecting'
+  - '@MatchmakingSuccessful'
+  - '@OvertimeScreenInfo'
+  - '@ConnectedToTwitchAccount:'
+  - '@ShowTwitchNameSetting'
+  - '@ConnectToTwitchAccountButton'
+  - '@ShowTwitchViewerCountSetting'
+  - '@ConnectToTwitchSetting'
+  - '@NewInShop'
+  - '@Halloween2019DLCPackName'
+  - '@NotEnoughSteel'
+  - '@halloween2019BundleSubheader'
+  - '@PackageDeal'
+  - '@New!'
+  - '@Stamina'
+  unusedEntries:
+  - Key
+  - '@Schröder'
+  - '@SchröderButton'
+  - '@ConnectingToSteam'
+  - '@ServersOffline'
+  - '@assist_master_scoreUnit'
+  - '@cos_hildegard_space_armor'
+  - '@Arena_Shenzhen_01_VariationC'
+  - '@Arena_Mars_01_VariationC'
+  - '@MatchmakingRegion_ap-northeast-2'
+  - '@MatchmakingRegionShort_ap-northeast-2'
+  - '@KickedForInactivityDescription'
+  - '@DrawCount'
+  - Key
+  - '@Schröder'
+  - '@SchröderButton'
+  - '@ConnectingToSteam'
+  - '@ServersOffline'
+  - '@assist_master_scoreUnit'
+  - '@cos_hildegard_space_armor'
+  - '@Arena_Shenzhen_01_VariationC'
+  - '@Arena_Mars_01_VariationC'
+  - '@MatchmakingRegion_ap-northeast-2'
+  - '@MatchmakingRegionShort_ap-northeast-2'
+  - '@KickedForInactivityDescription'
+  - '@DrawCount'
+  languages:
+  - Language: 10
+    steamAPICode: english
+    activeLanguage: 1
+  - Language: 15
+    steamAPICode: german
+    activeLanguage: 1
+  - Language: 14
+    steamAPICode: french
+    activeLanguage: 1
+  - Language: 34
+    steamAPICode: spanish
+    activeLanguage: 1
+  - Language: 21
+    steamAPICode: italian
+    activeLanguage: 1
+  - Language: 27
+    steamAPICode: polish
+    activeLanguage: 1
+  - Language: 28
+    steamAPICode: portuguese
+    activeLanguage: 1
+  - Language: 37
+    steamAPICode: turkish
+    activeLanguage: 1
+  - Language: 30
+    steamAPICode: russian
+    activeLanguage: 1
+  - Language: 40
+    steamAPICode: schinese
+    activeLanguage: 1
+  - Language: 41
+    steamAPICode: tchinese
+    activeLanguage: 1
+  - Language: 22
+    steamAPICode: japanese
+    activeLanguage: 1
+  - Language: 23
+    steamAPICode: koreana
+    activeLanguage: 1

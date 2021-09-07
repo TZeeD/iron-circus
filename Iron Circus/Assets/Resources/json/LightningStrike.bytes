@@ -1,0 +1,58 @@
+{
+  "$type": "Imi.SharedWithServer.Config.LightningStrike, Assembly-CSharp",
+  "buttonType": 8,
+  "skillIconName": "",
+  "cooldown": 70.0,
+  "maxThrowDist": 15.0,
+  "spearCollisionHeight": 1.5,
+  "spearCollisionRadius": 0.5,
+  "spearSpeed": 30.0,
+  "spawnOffset": {
+    "$type": "Jitter.LinearMath.JVector, _Jitter_AssemblyDefinition",
+    "X": 0.0,
+    "Y": 1.0,
+    "Z": 2.0
+  },
+  "canTeleportDelay": 0.5,
+  "duration": 2.5,
+  "teleportSpeed": 60.0,
+  "pushDurationOnHit": 0.0,
+  "pushDistanceOnHit": 0.0,
+  "damage": 1,
+  "aoe": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 0,
+    "radius": 1.5,
+    "deadZone": 0.0,
+    "angle": 0.0,
+    "rectWidth": 0.5,
+    "rectLength": 4.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": true
+    }
+  },
+  "pushDuration": 0.5,
+  "pushDistance": 2.5,
+  "stunDuration": 0.7,
+  "slowAmount": -0.5,
+  "slowDuration": 1.0,
+  "spearProjectilePrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "impactVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "throwPreviewPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "connectionPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "LightningStrike",
+  "hideFlags": 0
+}

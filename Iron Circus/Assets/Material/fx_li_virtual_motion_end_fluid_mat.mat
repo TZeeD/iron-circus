@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fx_li_virtual_motion_end_fluid_mat
+  m_Shader: {fileID: 4800000, guid: 2b55a53162858874788694cca07e3204, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GlitchLEDTex:
+        m_Texture: {fileID: 2800000, guid: bd095ee6db870624dabb5274e11251e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VATNormals:
+        m_Texture: {fileID: 2800000, guid: 21b68b387a1ccd648ad150d1b190c070, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VATPositions:
+        m_Texture: {fileID: 2800000, guid: b76b35dcb20d2464795527039935c7ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _GlitchFresnel: 7
+    - _GlitchIOR: 1
+    - _GlitchLEDTexTiling: 75
+    - _Glossiness: 0.746
+    - _LEDAdd: 0.98
+    - _Metallic: 0
+    - _VATNumFrames: 44
+    - _VATProg: 0.53
+    - _VATRange: 44
+    - _VATTime: 0
+    m_Colors:
+    - _Color: {r: 0.1764706, g: 0.1843137, b: 0.2, a: 1}
+    - _GlitchLEDTint: {r: 0.921582, g: 0, b: 0.05286065, a: 1}
+    - _VATBounds: {r: 1.920779, g: 1.953947, b: 3.317658, a: 1}

@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af8e13bf7cab72e4686693443559471d, type: 3}
+  m_Name: UIProgressionConfig
+  m_EditorClassIdentifier:
+  uiStates:
+  - stateName: Default State (0)
+    uiState:
+      stateID: 0
+      previosStateID: 0
+      challengeMenuState:
+        enabled: 1
+        highlighted: 0
+        newlyUnlocked: 0
+      inviteButtonState:
+        enabled: 1
+        highlighted: 0
+        newlyUnlocked: 0
+      hasReward: 0
+      rewardType: 0
+      rewardAmount: 0
+      rewardText:
+    playButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    quickMatchButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    trainingsGroundButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    botMatchButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    rankedMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    customMatchButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    freeTrainingButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+  - stateName: New Player State (1)
+    uiState:
+      stateID: 1
+      previosStateID: -1
+      challengeMenuState:
+        enabled: 0
+        highlighted: 0
+        newlyUnlocked: 0
+      inviteButtonState:
+        enabled: 0
+        highlighted: 0
+        newlyUnlocked: 0
+      hasReward: 0
+      rewardType: 0
+      rewardAmount: 0
+      rewardText:
+    playButtonState:
+      enabled: 1
+      highlighted: 1
+      newlyUnlocked: 0
+    quickMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    trainingsGroundButtonState:
+      enabled: 1
+      highlighted: 1
+      newlyUnlocked: 1
+    botMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    rankedMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    customMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    freeTrainingButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+  - stateName: Advanced Training Unlocked State (2)
+    uiState:
+      stateID: 2
+      previosStateID: 1
+      challengeMenuState:
+        enabled: 0
+        highlighted: 0
+        newlyUnlocked: 0
+      inviteButtonState:
+        enabled: 0
+        highlighted: 0
+        newlyUnlocked: 0
+      hasReward: 0
+      rewardType: 0
+      rewardAmount: 300
+      rewardText: '@TutorialRewardTextSteel'
+    playButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    quickMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    trainingsGroundButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    botMatchButtonState:
+      enabled: 1
+      highlighted: 1
+      newlyUnlocked: 1
+    rankedMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    customMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    freeTrainingButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+  - stateName: Botmatch Done State (3)
+    uiState:
+      stateID: 3
+      previosStateID: 2
+      challengeMenuState:
+        enabled: 0
+        highlighted: 0
+        newlyUnlocked: 0
+      inviteButtonState:
+        enabled: 1
+        highlighted: 0
+        newlyUnlocked: 1
+      hasReward: 0
+      rewardType: 1
+      rewardAmount: 200
+      rewardText: '@TutorialRewardTextCredits'
+    playButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    quickMatchButtonState:
+      enabled: 1
+      highlighted: 1
+      newlyUnlocked: 1
+    trainingsGroundButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    botMatchButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    rankedMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    customMatchButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 1
+    freeTrainingButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 1
+  - stateName: Challenges Unlocked (4)
+    uiState:
+      stateID: 4
+      previosStateID: 3
+      challengeMenuState:
+        enabled: 1
+        highlighted: 1
+        newlyUnlocked: 1
+      inviteButtonState:
+        enabled: 1
+        highlighted: 0
+        newlyUnlocked: 0
+      hasReward: 1
+      rewardType: 0
+      rewardAmount: 3000
+      rewardText: '@TutorialRewardTextSteel'
+    playButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    quickMatchButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    trainingsGroundButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    botMatchButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    rankedMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    customMatchButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+    freeTrainingButtonState:
+      enabled: 1
+      highlighted: 0
+      newlyUnlocked: 0
+  - stateName: NothingUnlockedState (-1)
+    uiState:
+      stateID: -1
+      previosStateID: -1
+      challengeMenuState:
+        enabled: 0
+        highlighted: 0
+        newlyUnlocked: 0
+      inviteButtonState:
+        enabled: 0
+        highlighted: 0
+        newlyUnlocked: 0
+      hasReward: 0
+      rewardType: 1
+      rewardAmount: 1500
+      rewardText: '@TutorialRewardTextCredits'
+    playButtonState:
+      enabled: 1
+      highlighted: 1
+      newlyUnlocked: 0
+    quickMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    trainingsGroundButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    botMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    rankedMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    customMatchButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0
+    freeTrainingButtonState:
+      enabled: 0
+      highlighted: 0
+      newlyUnlocked: 0

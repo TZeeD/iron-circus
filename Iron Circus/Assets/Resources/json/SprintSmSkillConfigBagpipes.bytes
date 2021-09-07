@@ -1,0 +1,43 @@
+{
+  "$type": "Imi.SharedWithServer.Config.SprintConfig, Assembly-CSharp",
+  "button": 1,
+  "iconName": "icon_boost_inverted_01_tex",
+  "charge": 4.3,
+  "cooldownDuration": 4.5,
+  "speed": 11.5,
+  "turnSpeed": 2000.0,
+  "acceleration": {
+    "$type": "SteelCircus.GameElements.Curve, Assembly-CSharp",
+    "points": {
+      "$type": "System.Collections.Generic.List`1[[SteelCircus.GameElements.CurvePoint]], mscorlib",
+      "$values": [
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint, Assembly-CSharp",
+          "time": 0.0,
+          "value": 0.1,
+          "inSlope": 1.0,
+          "outSlope": 1.0,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint, Assembly-CSharp",
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 1.0,
+          "outSlope": 1.0,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        }
+      ]
+    }
+  },
+  "accelerationDuration": 0.9,
+  "delayBeforeRecharge": 0.25,
+  "sprintVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "SprintSmSkillConfigBagpipes",
+  "hideFlags": 0
+}

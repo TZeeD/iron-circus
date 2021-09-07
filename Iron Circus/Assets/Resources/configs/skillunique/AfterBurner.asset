@@ -1,0 +1,498 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c9c03225d09244cbe7a797064e1398, type: 3}
+  m_Name: AfterBurner
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name: AfterBurner
+    sizeInBytes: 732
+    numDirtyBytes: 15
+    numSyncActions: 4
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: RumbleOnHit.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: Start Start Skill Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: Start Fire Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: Start Voice Skill Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 9
+    - name: DashPreview.offset
+      type: 9
+      size: 12
+      index: 12
+    - name: DashPreview.position
+      type: 9
+      size: 12
+      index: 24
+    - name: DashPreview.lookDir
+      type: 9
+      size: 12
+      index: 36
+    - name: DashPreview.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 48
+    - name: DashPreview.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 49
+    - name: DashPreview.onUnparentPosition
+      type: 9
+      size: 12
+      index: 50
+    - name: DashPreview.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 62
+    - name: FireVFX.position
+      type: 9
+      size: 12
+      index: 74
+    - name: SmokeVFX.position
+      type: 9
+      size: 12
+      index: 86
+    - name: DashMove.startTick
+      type: 3
+      size: 4
+      index: 98
+    - name: DashMove.speedOnActivate
+      type: 5
+      size: 4
+      index: 102
+    - name: DashMove.cachedMoveDir
+      type: 9
+      size: 12
+      index: 106
+    - name: DashMove.cachedDistance
+      type: 5
+      size: 4
+      index: 118
+    - name: While Can Dash.wasTrue
+      type: 1
+      size: 1
+      index: 122
+    - name: Tackle Anim.normalizedProgress
+      type: 5
+      size: 4
+      index: 123
+    - name: Tackle Anim.variation
+      type: 3
+      size: 4
+      index: 127
+    - name: DisableLookAtBall.normalizedProgress
+      type: 5
+      size: 4
+      index: 131
+    - name: DisableLookAtBall.variation
+      type: 3
+      size: 4
+      index: 135
+    - name: DashCollisionCheck.lookDir
+      type: 9
+      size: 12
+      index: 139
+    - name: Should Update Cooldown.wasTrue
+      type: 1
+      size: 1
+      index: 151
+    - name: Update Cooldown.targetValue
+      type: 5
+      size: 4
+      index: 152
+    - name: UpdateDashProgress.targetValue
+      type: 5
+      size: 4
+      index: 156
+    - name: No Collision State.targetEntityId
+      type: 10
+      size: 2
+      index: 160
+    - name: BlockMoveDuringDash.startTick
+      type: 3
+      size: 4
+      index: 162
+    - name: FireDurationState.startTick
+      type: 3
+      size: 4
+      index: 166
+    - name: applyPushStun.targetPlayerId
+      type: 4
+      size: 8
+      index: 170
+    - name: applyPushStun.pushVector
+      type: 9
+      size: 12
+      index: 178
+    - name: applyDashSlow.targetPlayerId
+      type: 4
+      size: 8
+      index: 190
+    - name: applyDashSlow.moveSpeedModifier
+      type: 5
+      size: 4
+      index: 198
+    - name: applyDashSlow.duration
+      type: 5
+      size: 4
+      index: 202
+    - name: setPostDashSpeed.lookDir
+      type: 9
+      size: 12
+      index: 206
+    - name: setPostDashSpeed.turnSpeed
+      type: 5
+      size: 4
+      index: 218
+    - name: RumbleOnHit.playerId
+      type: 4
+      size: 8
+      index: 222
+    - name: RumbleOnHit.strength
+      type: 5
+      size: 4
+      index: 230
+    - name: RumbleOnHit.duration
+      type: 5
+      size: 4
+      index: 234
+    - name: '[SkillVar] [ApplyStatusModifier] BlockMoveDuringDash.StopStatusEffect'
+      type: 1
+      size: 1
+      index: 238
+    - name: '[SkillVar] AimDir'
+      type: 9
+      size: 12
+      index: 239
+    - name: '[SkillVar] dashStartPos'
+      type: 9
+      size: 12
+      index: 251
+    - name: '[SkillVar] FireAoePositions.length'
+      type: 2
+      size: 1
+      index: 263
+    - name: '[SkillVar] FireAoePositions[0]'
+      type: 9
+      size: 12
+      index: 264
+    - name: '[SkillVar] FireAoePositions[1]'
+      type: 9
+      size: 12
+      index: 276
+    - name: '[SkillVar] FireAoePositions[2]'
+      type: 9
+      size: 12
+      index: 288
+    - name: '[SkillVar] FireAoePositions[3]'
+      type: 9
+      size: 12
+      index: 300
+    - name: '[SkillVar] FireAoePositions[4]'
+      type: 9
+      size: 12
+      index: 312
+    - name: '[SkillVar] FireAoePositions[5]'
+      type: 9
+      size: 12
+      index: 324
+    - name: '[SkillVar] FireAoePositions[6]'
+      type: 9
+      size: 12
+      index: 336
+    - name: '[SkillVar] FireAoePositions[7]'
+      type: 9
+      size: 12
+      index: 348
+    - name: '[SkillVar] FireAoePositions[8]'
+      type: 9
+      size: 12
+      index: 360
+    - name: '[SkillVar] FireAoePositions[9]'
+      type: 9
+      size: 12
+      index: 372
+    - name: '[SkillVar] FireAoePositions[10]'
+      type: 9
+      size: 12
+      index: 384
+    - name: '[SkillVar] FireAoePositions[11]'
+      type: 9
+      size: 12
+      index: 396
+    - name: '[SkillVar] FireAoePositions[12]'
+      type: 9
+      size: 12
+      index: 408
+    - name: '[SkillVar] FireAoePositions[13]'
+      type: 9
+      size: 12
+      index: 420
+    - name: '[SkillVar] FireAoePositions[14]'
+      type: 9
+      size: 12
+      index: 432
+    - name: '[SkillVar] FireAoePositions[15]'
+      type: 9
+      size: 12
+      index: 444
+    - name: '[SkillVar] FireAoeLookDirs.length'
+      type: 2
+      size: 1
+      index: 456
+    - name: '[SkillVar] FireAoeLookDirs[0]'
+      type: 9
+      size: 12
+      index: 457
+    - name: '[SkillVar] FireAoeLookDirs[1]'
+      type: 9
+      size: 12
+      index: 469
+    - name: '[SkillVar] FireAoeLookDirs[2]'
+      type: 9
+      size: 12
+      index: 481
+    - name: '[SkillVar] FireAoeLookDirs[3]'
+      type: 9
+      size: 12
+      index: 493
+    - name: '[SkillVar] FireAoeLookDirs[4]'
+      type: 9
+      size: 12
+      index: 505
+    - name: '[SkillVar] FireAoeLookDirs[5]'
+      type: 9
+      size: 12
+      index: 517
+    - name: '[SkillVar] FireAoeLookDirs[6]'
+      type: 9
+      size: 12
+      index: 529
+    - name: '[SkillVar] FireAoeLookDirs[7]'
+      type: 9
+      size: 12
+      index: 541
+    - name: '[SkillVar] FireAoeLookDirs[8]'
+      type: 9
+      size: 12
+      index: 553
+    - name: '[SkillVar] FireAoeLookDirs[9]'
+      type: 9
+      size: 12
+      index: 565
+    - name: '[SkillVar] FireAoeLookDirs[10]'
+      type: 9
+      size: 12
+      index: 577
+    - name: '[SkillVar] FireAoeLookDirs[11]'
+      type: 9
+      size: 12
+      index: 589
+    - name: '[SkillVar] FireAoeLookDirs[12]'
+      type: 9
+      size: 12
+      index: 601
+    - name: '[SkillVar] FireAoeLookDirs[13]'
+      type: 9
+      size: 12
+      index: 613
+    - name: '[SkillVar] FireAoeLookDirs[14]'
+      type: 9
+      size: 12
+      index: 625
+    - name: '[SkillVar] FireAoeLookDirs[15]'
+      type: 9
+      size: 12
+      index: 637
+    - name: '[SkillVar] IsActive'
+      type: 1
+      size: 1
+      index: 649
+    - name: '[SkillVar] CurrentCooldown'
+      type: 5
+      size: 4
+      index: 650
+    - name: '[SkillVar] DashProgress'
+      type: 5
+      size: 4
+      index: 654
+    - name: '[SkillVar] DashHits.length'
+      type: 2
+      size: 1
+      index: 658
+    - name: '[SkillVar] DashHits[0]'
+      type: 10
+      size: 2
+      index: 659
+    - name: '[SkillVar] DashHits[1]'
+      type: 10
+      size: 2
+      index: 661
+    - name: '[SkillVar] DashHits[2]'
+      type: 10
+      size: 2
+      index: 663
+    - name: '[SkillVar] DashHits[3]'
+      type: 10
+      size: 2
+      index: 665
+    - name: '[SkillVar] DashHits[4]'
+      type: 10
+      size: 2
+      index: 667
+    - name: '[SkillVar] DashHits[5]'
+      type: 10
+      size: 2
+      index: 669
+    - name: '[SkillVar] DashHits[6]'
+      type: 10
+      size: 2
+      index: 671
+    - name: '[SkillVar] DashHits[7]'
+      type: 10
+      size: 2
+      index: 673
+    - name: '[SkillVar] DashHits[8]'
+      type: 10
+      size: 2
+      index: 675
+    - name: '[SkillVar] DashHits[9]'
+      type: 10
+      size: 2
+      index: 677
+    - name: '[SkillVar] DashHits[10]'
+      type: 10
+      size: 2
+      index: 679
+    - name: '[SkillVar] DashHits[11]'
+      type: 10
+      size: 2
+      index: 681
+    - name: '[SkillVar] DashHits[12]'
+      type: 10
+      size: 2
+      index: 683
+    - name: '[SkillVar] DashHits[13]'
+      type: 10
+      size: 2
+      index: 685
+    - name: '[SkillVar] DashHits[14]'
+      type: 10
+      size: 2
+      index: 687
+    - name: '[SkillVar] DashHits[15]'
+      type: 10
+      size: 2
+      index: 689
+    - name: '[SkillVar] FireHits.length'
+      type: 2
+      size: 1
+      index: 691
+    - name: '[SkillVar] FireHits[0]'
+      type: 10
+      size: 2
+      index: 692
+    - name: '[SkillVar] FireHits[1]'
+      type: 10
+      size: 2
+      index: 694
+    - name: '[SkillVar] FireHits[2]'
+      type: 10
+      size: 2
+      index: 696
+    - name: '[SkillVar] FireHits[3]'
+      type: 10
+      size: 2
+      index: 698
+    - name: '[SkillVar] FireHits[4]'
+      type: 10
+      size: 2
+      index: 700
+    - name: '[SkillVar] FireHits[5]'
+      type: 10
+      size: 2
+      index: 702
+    - name: '[SkillVar] FireHits[6]'
+      type: 10
+      size: 2
+      index: 704
+    - name: '[SkillVar] FireHits[7]'
+      type: 10
+      size: 2
+      index: 706
+    - name: '[SkillVar] FireHits[8]'
+      type: 10
+      size: 2
+      index: 708
+    - name: '[SkillVar] FireHits[9]'
+      type: 10
+      size: 2
+      index: 710
+    - name: '[SkillVar] FireHits[10]'
+      type: 10
+      size: 2
+      index: 712
+    - name: '[SkillVar] FireHits[11]'
+      type: 10
+      size: 2
+      index: 714
+    - name: '[SkillVar] FireHits[12]'
+      type: 10
+      size: 2
+      index: 716
+    - name: '[SkillVar] FireHits[13]'
+      type: 10
+      size: 2
+      index: 718
+    - name: '[SkillVar] FireHits[14]'
+      type: 10
+      size: 2
+      index: 720
+    - name: '[SkillVar] FireHits[15]'
+      type: 10
+      size: 2
+      index: 722
+  button: 4
+  iconName: icon_stomp_inverted_01_tex
+  cooldown: 56
+  dashPreviewPrefab:
+    value: {fileID: 1168626669325299, guid: 7c403be7963086149b59fc4405b3a849, type: 2}
+  dashDistance: 7.5
+  dashDuration: 0.45
+  postDashSpeed: 10
+  pushBallForce: 0
+  stunDuration: 0.5
+  pushDuration: 0.4
+  pushDistance: 3
+  slowAmount: 0
+  slowDuration: 0
+  numAoes: 10
+  fireWidth: 1.2
+  fireDuration: 4
+  fireDamage: 1
+  reapplyInterval: 3
+  fireTrailPrefab:
+    value: {fileID: 1824528506422243, guid: 15e69f37ceabd9b4ca6e9c9c9b24b7dc, type: 2}
+  smokePrefab:
+    value: {fileID: 1900716885594497, guid: acaa3f64da760bc46bd02a388a8f4613, type: 2}

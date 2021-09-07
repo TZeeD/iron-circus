@@ -1,0 +1,44 @@
+{
+  "$type": "Imi.SharedWithServer.Config.VirtualStrikeConfig, Assembly-CSharp",
+  "button": 8,
+  "iconName": "icon_mine_inverted_01_tex",
+  "cooldown": 64.0,
+  "aoeExit": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 0,
+    "radius": 3.25,
+    "deadZone": 0.0,
+    "angle": 0.0,
+    "rectWidth": 0.0,
+    "rectLength": 0.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": true
+    }
+  },
+  "aoeDisplayDuration": 0.6,
+  "disappearDuration": 0.5,
+  "hitAppearDuration": 0.1,
+  "timeUntilFloorEffect": 0.5,
+  "maxInvisibleDuration": 3.0,
+  "damage": 1,
+  "initialFloorSpeed": 9.5,
+  "moveSpeedModifier": 1.0,
+  "appearSpeedModifier": -0.9,
+  "appearSpeedModifierDuration": 0.5,
+  "stunDuration": 1.5,
+  "pushDuration": 0.2,
+  "pushDistance": 1.25,
+  "minHopDistance": 2.0,
+  "hopDuration": 0.4,
+  "strikeVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "floorVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "VirtualStrikeConfig",
+  "hideFlags": 0
+}

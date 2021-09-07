@@ -1,0 +1,35 @@
+{
+  "$type": "Imi.SharedWithServer.Config.TackleDodgeConfig, Assembly-CSharp",
+  "button": 2,
+  "iconName": "icon_tackling_inverted_01_tex",
+  "cooldown": 0.25,
+  "dodgeDistance": 4.0,
+  "dodgeDuration": 0.4,
+  "postDodgeSpeed": 11.0,
+  "staminaCostDodge": 1.5,
+  "tackleDistance": 4.5,
+  "tackleDuration": 0.4,
+  "postTackleSpeed": 8.0,
+  "staminaCostTackle": 1.5,
+  "pushDistanceWithBall": 1.5,
+  "pushDurationWithBall": 0.35,
+  "stunDurationWithBall": 0.95,
+  "slowDurationWithBall": 0.9,
+  "slowAmountWithBall": -0.5,
+  "pushDistanceNoBall": 1.5,
+  "pushDurationNoBall": 0.35,
+  "stunDurationNoBall": 0.0,
+  "slowDurationNoBall": 0.9,
+  "slowAmountNoBall": -0.5,
+  "showPreviewOnRemoteEntities": true,
+  "tacklePreviewPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "dodgeVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "TackleDodgeConfig",
+  "hideFlags": 0
+}

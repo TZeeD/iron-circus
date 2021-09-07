@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e5c3110acee05c4792bdcbaffb34366, type: 3}
+  m_Name: RampageConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name:
+    sizeInBytes: 277
+    numDirtyBytes: 8
+    numSyncActions: 4
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: Play rampage Start Voice Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: Play rampage End Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: Play rampage Hit Enemy Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: Play rampage Hit Enemy Voice Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 9
+    - name: Input.btnIsDown
+      type: 1
+      size: 1
+      index: 12
+    - name: StartCasting.startTick
+      type: 3
+      size: 4
+      index: 13
+    - name: StopWhileCasting.duration
+      type: 5
+      size: 4
+      index: 17
+    - name: StopWhileCasting.startTick
+      type: 3
+      size: 4
+      index: 21
+    - name: NoBallPickup.duration
+      type: 5
+      size: 4
+      index: 25
+    - name: NoBallPickup.startTick
+      type: 3
+      size: 4
+      index: 29
+    - name: MoveWhileRampaging.moveDir
+      type: 9
+      size: 12
+      index: 33
+    - name: MoveWhileRampaging.currentSpeed
+      type: 5
+      size: 4
+      index: 45
+    - name: MoveWhileRampaging.timeSinceEnter
+      type: 5
+      size: 4
+      index: 49
+    - name: MoveWhileRampaging.speedOnActivate
+      type: 5
+      size: 4
+      index: 53
+    - name: MoveWhileRampaging.cachedCurveDuration
+      type: 5
+      size: 4
+      index: 57
+    - name: MoveWhileRampaging.cachedMoveDir
+      type: 9
+      size: 12
+      index: 61
+    - name: MoveWhileRampaging.cachedStartPosition
+      type: 9
+      size: 12
+      index: 73
+    - name: MoveWhileRampaging.cachedDistance
+      type: 5
+      size: 4
+      index: 85
+    - name: SkillDurationState.startTick
+      type: 3
+      size: 4
+      index: 89
+    - name: CheckHitState.lookDir
+      type: 9
+      size: 12
+      index: 93
+    - name: Show Aoe Vfx.offset
+      type: 9
+      size: 12
+      index: 105
+    - name: Show Aoe Vfx.position
+      type: 9
+      size: 12
+      index: 117
+    - name: Show Aoe Vfx.lookDir
+      type: 9
+      size: 12
+      index: 129
+    - name: Show Aoe Vfx.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 141
+    - name: Show Aoe Vfx.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 142
+    - name: Show Aoe Vfx.onUnparentPosition
+      type: 9
+      size: 12
+      index: 143
+    - name: Show Aoe Vfx.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 155
+    - name: WhileUpdateCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 167
+    - name: UpdateCooldown.targetValue
+      type: 5
+      size: 4
+      index: 168
+    - name: PlayAnimation.normalizedProgress
+      type: 5
+      size: 4
+      index: 172
+    - name: PlayAnimation.variation
+      type: 3
+      size: 4
+      index: 176
+    - name: Trail FX State.position
+      type: 9
+      size: 12
+      index: 180
+    - name: Particle FX State.position
+      type: 9
+      size: 12
+      index: 192
+    - name: CheckInitialHit.lookDir
+      type: 9
+      size: 12
+      index: 204
+    - name: ApplyPush.targetPlayerId
+      type: 4
+      size: 8
+      index: 216
+    - name: ApplyPush.pushDistance
+      type: 5
+      size: 4
+      index: 224
+    - name: SkillVar.[ApplyStatusModifier] StopWhileCasting.StopStatusEffect
+      type: 1
+      size: 1
+      index: 228
+    - name: SkillVar.[ApplyStatusModifier] NoBallPickup.StopStatusEffect
+      type: 1
+      size: 1
+      index: 229
+    - name: SkillVar.length
+      type: 2
+      size: 1
+      index: 230
+    - name: SkillVar.HitEntities[0]
+      type: 10
+      size: 2
+      index: 231
+    - name: SkillVar.HitEntities[1]
+      type: 10
+      size: 2
+      index: 233
+    - name: SkillVar.HitEntities[2]
+      type: 10
+      size: 2
+      index: 235
+    - name: SkillVar.HitEntities[3]
+      type: 10
+      size: 2
+      index: 237
+    - name: SkillVar.HitEntities[4]
+      type: 10
+      size: 2
+      index: 239
+    - name: SkillVar.HitEntities[5]
+      type: 10
+      size: 2
+      index: 241
+    - name: SkillVar.HitEntities[6]
+      type: 10
+      size: 2
+      index: 243
+    - name: SkillVar.HitEntities[7]
+      type: 10
+      size: 2
+      index: 245
+    - name: SkillVar.HitEntities[8]
+      type: 10
+      size: 2
+      index: 247
+    - name: SkillVar.HitEntities[9]
+      type: 10
+      size: 2
+      index: 249
+    - name: SkillVar.HitEntities[10]
+      type: 10
+      size: 2
+      index: 251
+    - name: SkillVar.HitEntities[11]
+      type: 10
+      size: 2
+      index: 253
+    - name: SkillVar.HitEntities[12]
+      type: 10
+      size: 2
+      index: 255
+    - name: SkillVar.HitEntities[13]
+      type: 10
+      size: 2
+      index: 257
+    - name: SkillVar.HitEntities[14]
+      type: 10
+      size: 2
+      index: 259
+    - name: SkillVar.HitEntities[15]
+      type: 10
+      size: 2
+      index: 261
+    - name: SkillVar.IsActive
+      type: 1
+      size: 1
+      index: 263
+    - name: SkillVar.IsOnCooldown
+      type: 1
+      size: 1
+      index: 264
+    - name: SkillVar.CurrentCooldown
+      type: 5
+      size: 4
+      index: 265
+  button: 8
+  skillIcon:
+  cooldown: 72
+  castDuration: 0.35
+  duration: 3.5
+  modelScale: 1.2
+  scaleDuration: 0.6
+  scaleCurve:
+    points:
+    - time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      leftTangentMode: 0
+      rightTangentMode: 0
+    - time: 0.7985684
+      value: 1.199091
+      inSlope: 1.000684
+      outSlope: 1.000684
+      leftTangentMode: 0
+      rightTangentMode: 0
+    - time: 1.000405
+      value: 1.099024
+      inSlope: 0
+      outSlope: 0
+      leftTangentMode: 0
+      rightTangentMode: 0
+  moveSpeed: 11
+  accelerationFactor: 1
+  thrusterFraction: 0.85
+  activateRange: 0
+  range: 1.8
+  pushDistance: 7.5
+  pushDuration: 0.55
+  stunDuration: 0
+  ballPushForce: 20
+  trailPrefab:
+    value: {fileID: 1944182063824997, guid: 14d889e73a0a2424981e14e4471465bd, type: 2}
+  particlesPrefab:
+    value: {fileID: 1352818087658597, guid: 6b5e60a030c68364188635e43cb2ae64, type: 2}
+  aoePrefab:
+    value: {fileID: 1135438720262870, guid: 23ae7d8343cfb0a4ca31a2aedf8ace89, type: 2}

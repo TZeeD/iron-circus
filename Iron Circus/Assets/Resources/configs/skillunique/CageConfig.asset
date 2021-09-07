@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87990ff06badf4b46bb9a4e0906cbe41, type: 3}
+  m_Name: CageConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name:
+    sizeInBytes: 133
+    numDirtyBytes: 4
+    numSyncActions: 3
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: Trigger Cage Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: Trigger Cage Voice.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: End Cage Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: Input.btnIsDown
+      type: 1
+      size: 1
+      index: 9
+    - name: CageDuration.progressInTicks
+      type: 3
+      size: 4
+      index: 10
+    - name: While can Aim.wasTrue
+      type: 1
+      size: 1
+      index: 14
+    - name: ShowAoE.offset
+      type: 9
+      size: 12
+      index: 15
+    - name: ShowAoE.lookDir
+      type: 9
+      size: 12
+      index: 27
+    - name: ShowAoE.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 39
+    - name: ShowAoE.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 40
+    - name: ShowAoE.onUnparentPosition
+      type: 9
+      size: 12
+      index: 41
+    - name: ShowAoE.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 53
+    - name: CageActive.cachedPosition
+      type: 9
+      size: 12
+      index: 65
+    - name: CageActive.receivedServer
+      type: 1
+      size: 1
+      index: 77
+    - name: CageActive.timeActive
+      type: 5
+      size: 4
+      index: 78
+    - name: Anim.normalizedProgress
+      type: 5
+      size: 4
+      index: 82
+    - name: Anim.variation
+      type: 3
+      size: 4
+      index: 86
+    - name: TurnToAim.normalizedProgress
+      type: 5
+      size: 4
+      index: 90
+    - name: TurnToAim.variation
+      type: 3
+      size: 4
+      index: 94
+    - name: WhileUpdateCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 98
+    - name: UpdateCooldown.targetValue
+      type: 5
+      size: 4
+      index: 99
+    - name: UpdateCooldown.currentVal
+      type: 5
+      size: 4
+      index: 103
+    - name: SkillVar.CooldownReady
+      type: 1
+      size: 1
+      index: 107
+    - name: SkillVar.IsCageActive
+      type: 1
+      size: 1
+      index: 108
+    - name: SkillVar.CurrentCooldown
+      type: 5
+      size: 4
+      index: 109
+    - name: SkillVar.AimDir
+      type: 9
+      size: 12
+      index: 113
+  iconName: icon_stomp_inverted_01_tex
+  wallThickness: 0.5
+  maxRadius: 4
+  minRadius: 2.5
+  shrinkDuration: 1
+  cooldown: 56
+  showPreviewOnRemoteEntities: 1
+  duration: 3
+  aimMovementFactor: 1
+  barrierDimensions:
+    X: 5.5
+    Y: 2
+    Z: 5.5
+  barrierOffset: 2.5
+  barrierPrefab:
+    value: {fileID: 1076450998247800, guid: f31ebfecd76b2cb41afcd47ad2ed9f6e, type: 2}
+  aoePrefab:
+    value: {fileID: 1614384734540306, guid: 6db14e89571883443b3b9bb4f34f7ce3, type: 2}

@@ -1,0 +1,39 @@
+{
+  "$type": "Imi.SharedWithServer.Config.PutridDischargeConfig, Assembly-CSharp",
+  "button": 4,
+  "skillIcon": "",
+  "cooldown": 42.0,
+  "castDuration": 0.2,
+  "applyEffectAt": 0.2,
+  "aoe": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 1,
+    "radius": 18.0,
+    "deadZone": 9.0,
+    "angle": 11.0,
+    "rectWidth": 0.0,
+    "rectLength": 0.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": true
+    }
+  },
+  "aoeOffset": -7.0,
+  "duration": 3.5,
+  "moveSpeedDuringHold": 6.0,
+  "initialPushDuration": 0.3,
+  "initialPushDistance": 3.5,
+  "damage": 1,
+  "slowAmount": -0.5,
+  "slowDuration": 1.5,
+  "puddlePrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "pukePrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "PutridDischargeConfig",
+  "hideFlags": 0
+}

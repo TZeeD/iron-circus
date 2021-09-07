@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae85d04fb010d44baa49397a54668a4, type: 3}
+  m_Name: SlamConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name: SlamConfig
+    sizeInBytes: 208
+    numDirtyBytes: 7
+    numSyncActions: 3
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: SpawnImpactVfx.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: StartAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: VoiceAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: HopState.startTick
+      type: 3
+      size: 4
+      index: 9
+    - name: HopState.speedOnActivate
+      type: 5
+      size: 4
+      index: 13
+    - name: HopState.cachedMoveDir
+      type: 9
+      size: 12
+      index: 17
+    - name: HopState.cachedDistance
+      type: 5
+      size: 4
+      index: 29
+    - name: WhileUpdateCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 33
+    - name: UpdateCoodlown.targetValue
+      type: 5
+      size: 4
+      index: 34
+    - name: Freeze after Hop.startTick
+      type: 3
+      size: 4
+      index: 38
+    - name: Show AoE.offset
+      type: 9
+      size: 12
+      index: 42
+    - name: Show AoE.position
+      type: 9
+      size: 12
+      index: 54
+    - name: Show AoE.lookDir
+      type: 9
+      size: 12
+      index: 66
+    - name: Show AoE.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 78
+    - name: Show AoE.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 79
+    - name: Show AoE.onUnparentPosition
+      type: 9
+      size: 12
+      index: 80
+    - name: Show AoE.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 92
+    - name: Slam Anim.normalizedProgress
+      type: 5
+      size: 4
+      index: 104
+    - name: Slam Anim.variation
+      type: 3
+      size: 4
+      index: 108
+    - name: TurnToAim.normalizedProgress
+      type: 5
+      size: 4
+      index: 112
+    - name: TurnToAim.variation
+      type: 3
+      size: 4
+      index: 116
+    - name: DontTurn.normalizedProgress
+      type: 5
+      size: 4
+      index: 120
+    - name: DontTurn.variation
+      type: 3
+      size: 4
+      index: 124
+    - name: While ShowAoE.wasTrue
+      type: 1
+      size: 1
+      index: 128
+    - name: While Button Down.wasTrue
+      type: 1
+      size: 1
+      index: 129
+    - name: FreezeMovement.startTick
+      type: 3
+      size: 4
+      index: 130
+    - name: '[SkillVar] [ApplyStatusModifier] FreezeMovement.StopStatusEffect'
+      type: 1
+      size: 1
+      index: 134
+    - name: '[SkillVar] IsOnCooldown'
+      type: 1
+      size: 1
+      index: 135
+    - name: '[SkillVar] ShowAoE'
+      type: 1
+      size: 1
+      index: 136
+    - name: '[SkillVar] ParentAoE'
+      type: 1
+      size: 1
+      index: 137
+    - name: '[SkillVar] IsActive'
+      type: 1
+      size: 1
+      index: 138
+    - name: '[SkillVar] CurrentCooldown'
+      type: 5
+      size: 4
+      index: 139
+    - name: '[SkillVar] AimDir'
+      type: 9
+      size: 12
+      index: 143
+    - name: '[SkillVar] JumpStartPos'
+      type: 9
+      size: 12
+      index: 155
+    - name: '[SkillVar] Entities hit.length'
+      type: 2
+      size: 1
+      index: 167
+    - name: '[SkillVar] Entities hit[0]'
+      type: 10
+      size: 2
+      index: 168
+    - name: '[SkillVar] Entities hit[1]'
+      type: 10
+      size: 2
+      index: 170
+    - name: '[SkillVar] Entities hit[2]'
+      type: 10
+      size: 2
+      index: 172
+    - name: '[SkillVar] Entities hit[3]'
+      type: 10
+      size: 2
+      index: 174
+    - name: '[SkillVar] Entities hit[4]'
+      type: 10
+      size: 2
+      index: 176
+    - name: '[SkillVar] Entities hit[5]'
+      type: 10
+      size: 2
+      index: 178
+    - name: '[SkillVar] Entities hit[6]'
+      type: 10
+      size: 2
+      index: 180
+    - name: '[SkillVar] Entities hit[7]'
+      type: 10
+      size: 2
+      index: 182
+    - name: '[SkillVar] Entities hit[8]'
+      type: 10
+      size: 2
+      index: 184
+    - name: '[SkillVar] Entities hit[9]'
+      type: 10
+      size: 2
+      index: 186
+    - name: '[SkillVar] Entities hit[10]'
+      type: 10
+      size: 2
+      index: 188
+    - name: '[SkillVar] Entities hit[11]'
+      type: 10
+      size: 2
+      index: 190
+    - name: '[SkillVar] Entities hit[12]'
+      type: 10
+      size: 2
+      index: 192
+    - name: '[SkillVar] Entities hit[13]'
+      type: 10
+      size: 2
+      index: 194
+    - name: '[SkillVar] Entities hit[14]'
+      type: 10
+      size: 2
+      index: 196
+    - name: '[SkillVar] Entities hit[15]'
+      type: 10
+      size: 2
+      index: 198
+  button: 4
+  iconName: icon_stomp_inverted_01_tex
+  aoe:
+    shape: 1
+    radius: 15
+    deadZone: 7
+    angle: 22
+    rectWidth: 0
+    rectLength: 0
+    vfxPrefab:
+      value: {fileID: 1370653242569911, guid: 1d107cd58aba89a43926979a19785f09, type: 2}
+  aoeOffset: -5.75
+  damage: 1
+  cooldown: 44
+  hopDuration: 0.5
+  postHopFreeze: 0.1
+  stunDuration: 1
+  pushDuration: 0.43
+  pushDistance: 5.5
+  speedModDuration: 1.5
+  speedModAmount: -0.5
+  pushSidewaysPercent: 0.4
+  showAoePreviewOnlyForLocalPlayer: 0
+  impactVfxPrefab:
+    value: {fileID: 1042436887367264, guid: da37587659cfdd14aa154267521f2e87, type: 2}

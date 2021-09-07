@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4819ef97312d74da77b7d84596e385, type: 3}
+  m_Name: BarrierConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name: BarrierConfig
+    sizeInBytes: 152
+    numDirtyBytes: 3
+    numSyncActions: 0
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: Barri Duration.startTick
+      type: 3
+      size: 4
+      index: 0
+    - name: UpdateCooldown.targetValue
+      type: 5
+      size: 4
+      index: 4
+    - name: WhileUpdateCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 8
+    - name: Barri State.cachedPos
+      type: 9
+      size: 12
+      index: 9
+    - name: Barri State.cachedLookDir
+      type: 9
+      size: 12
+      index: 21
+    - name: Barri State.barrierEntityId
+      type: 10
+      size: 2
+      index: 33
+    - name: While sh Preview.wasTrue
+      type: 1
+      size: 1
+      index: 35
+    - name: Preview.offset
+      type: 9
+      size: 12
+      index: 36
+    - name: Preview.position
+      type: 9
+      size: 12
+      index: 48
+    - name: Preview.lookDir
+      type: 9
+      size: 12
+      index: 60
+    - name: Preview.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 72
+    - name: Preview.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 73
+    - name: Preview.onUnparentPosition
+      type: 9
+      size: 12
+      index: 74
+    - name: Preview.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 86
+    - name: PlayPlaceAnimation.normalizedProgress
+      type: 5
+      size: 4
+      index: 98
+    - name: PlayPlaceAnimation.variation
+      type: 3
+      size: 4
+      index: 102
+    - name: TurnToAim.normalizedProgress
+      type: 5
+      size: 4
+      index: 106
+    - name: TurnToAim.variation
+      type: 3
+      size: 4
+      index: 110
+    - name: RotationControls.position
+      type: 9
+      size: 12
+      index: 114
+    - name: '[SkillVar] AimDir'
+      type: 9
+      size: 12
+      index: 126
+    - name: '[SkillVar] IsBarrierActive'
+      type: 1
+      size: 1
+      index: 138
+    - name: '[SkillVar] IsOnCooldown'
+      type: 1
+      size: 1
+      index: 139
+    - name: '[SkillVar] CurrentCooldown'
+      type: 5
+      size: 4
+      index: 140
+  button: 4
+  iconName: icon_wall_inverted_01_tex
+  duration: 2.5
+  cooldown: 30
+  barrierDimensions:
+    X: 0.75
+    Y: 2.75
+    Z: 4.5
+  barrierOffset: 1
+  aoePrefab:
+    value: {fileID: 1854790493019918, guid: f64f2e72f56400e4eaf7ba7e54b79b59, type: 2}
+  barrierPrefab: {fileID: 1147340818437061, guid: 08abd260dcaca9f4a9528d439d6a3623, type: 2}
+  rotationControlsPrefab:
+    value: {fileID: 1498975029609430, guid: e2adb2f18ae205d4aa90f513ea4fa584, type: 2}
+  barrierConnectionPrefab:
+    value: {fileID: 1252235944636930, guid: c8205f6d4eb086a478edee856c5fc40c, type: 2}

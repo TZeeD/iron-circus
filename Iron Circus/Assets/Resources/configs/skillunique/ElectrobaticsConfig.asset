@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9885bdd79e4d4148a3d8fd513c5109f, type: 3}
+  m_Name: ElectrobaticsConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name:
+    sizeInBytes: 242
+    numDirtyBytes: 8
+    numSyncActions: 5
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: RumbleOnImpact.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: Trigger meteor dive start Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: Trigger meteor dive voice Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: Trigger meteor dive land Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 9
+    - name: SpawnImpactVfx.SyncActionTick
+      type: 3
+      size: 4
+      index: 12
+    - name: Input.btnIsDown
+      type: 1
+      size: 1
+      index: 15
+    - name: WhileButtonDown.wasTrue
+      type: 1
+      size: 1
+      index: 16
+    - name: Should Update Cooldown.wasTrue
+      type: 1
+      size: 1
+      index: 17
+    - name: Update Cooldown.targetValue
+      type: 5
+      size: 4
+      index: 18
+    - name: Charge Hop.targetValue
+      type: 5
+      size: 4
+      index: 22
+    - name: Hop.currentSpeed
+      type: 5
+      size: 4
+      index: 26
+    - name: Hop.timeSinceEnter
+      type: 5
+      size: 4
+      index: 30
+    - name: Hop.speedOnActivate
+      type: 5
+      size: 4
+      index: 34
+    - name: Hop.cachedCurveDuration
+      type: 5
+      size: 4
+      index: 38
+    - name: Hop.cachedMoveDir
+      type: 9
+      size: 12
+      index: 42
+    - name: Hop.cachedStartPosition
+      type: 9
+      size: 12
+      index: 54
+    - name: Hop.cachedDistance
+      type: 5
+      size: 4
+      index: 66
+    - name: Show AoE.offset
+      type: 9
+      size: 12
+      index: 70
+    - name: Show AoE.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 82
+    - name: Show AoE.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 83
+    - name: Show AoE.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 84
+    - name: Change Collision State.targetEntityId
+      type: 10
+      size: 2
+      index: 96
+    - name: LookForward.normalizedProgress
+      type: 5
+      size: 4
+      index: 98
+    - name: LookForward.variation
+      type: 3
+      size: 4
+      index: 102
+    - name: TurnInAimDir.normalizedProgress
+      type: 5
+      size: 4
+      index: 106
+    - name: TurnInAimDir.variation
+      type: 3
+      size: 4
+      index: 110
+    - name: PlayAnim.normalizedProgress
+      type: 5
+      size: 4
+      index: 114
+    - name: PlayAnim.variation
+      type: 3
+      size: 4
+      index: 118
+    - name: BlockMoveAndHoldBall.startTick
+      type: 3
+      size: 4
+      index: 122
+    - name: ImmuneToTackle.duration
+      type: 5
+      size: 4
+      index: 126
+    - name: ImmuneToTackle.startTick
+      type: 3
+      size: 4
+      index: 130
+    - name: WhileShowAoe.wasTrue
+      type: 1
+      size: 1
+      index: 134
+    - name: Show Lightning Trail.position
+      type: 9
+      size: 12
+      index: 135
+    - name: RumbleOnImpact.playerId
+      type: 4
+      size: 8
+      index: 147
+    - name: RumbleOnImpact.strength
+      type: 5
+      size: 4
+      index: 155
+    - name: RumbleOnImpact.duration
+      type: 5
+      size: 4
+      index: 159
+    - name: SkillVar.[ApplyStatusModifier] BlockMoveAndHoldBall.StopStatusEffect
+      type: 1
+      size: 1
+      index: 163
+    - name: SkillVar.[ApplyStatusModifier] ImmuneToTackle.StopStatusEffect
+      type: 1
+      size: 1
+      index: 164
+    - name: SkillVar.CurrentCooldown
+      type: 5
+      size: 4
+      index: 165
+    - name: SkillVar.HopCharge
+      type: 5
+      size: 4
+      index: 169
+    - name: SkillVar.IsOnCooldown
+      type: 1
+      size: 1
+      index: 173
+    - name: SkillVar.IsActive
+      type: 1
+      size: 1
+      index: 174
+    - name: SkillVar.ShowAoe
+      type: 1
+      size: 1
+      index: 175
+    - name: SkillVar.ParentAoe
+      type: 1
+      size: 1
+      index: 176
+    - name: SkillVar.length
+      type: 2
+      size: 1
+      index: 177
+    - name: SkillVar.Entities hit[0]
+      type: 10
+      size: 2
+      index: 178
+    - name: SkillVar.Entities hit[1]
+      type: 10
+      size: 2
+      index: 180
+    - name: SkillVar.Entities hit[2]
+      type: 10
+      size: 2
+      index: 182
+    - name: SkillVar.Entities hit[3]
+      type: 10
+      size: 2
+      index: 184
+    - name: SkillVar.Entities hit[4]
+      type: 10
+      size: 2
+      index: 186
+    - name: SkillVar.Entities hit[5]
+      type: 10
+      size: 2
+      index: 188
+    - name: SkillVar.Entities hit[6]
+      type: 10
+      size: 2
+      index: 190
+    - name: SkillVar.Entities hit[7]
+      type: 10
+      size: 2
+      index: 192
+    - name: SkillVar.Entities hit[8]
+      type: 10
+      size: 2
+      index: 194
+    - name: SkillVar.Entities hit[9]
+      type: 10
+      size: 2
+      index: 196
+    - name: SkillVar.Entities hit[10]
+      type: 10
+      size: 2
+      index: 198
+    - name: SkillVar.Entities hit[11]
+      type: 10
+      size: 2
+      index: 200
+    - name: SkillVar.Entities hit[12]
+      type: 10
+      size: 2
+      index: 202
+    - name: SkillVar.Entities hit[13]
+      type: 10
+      size: 2
+      index: 204
+    - name: SkillVar.Entities hit[14]
+      type: 10
+      size: 2
+      index: 206
+    - name: SkillVar.Entities hit[15]
+      type: 10
+      size: 2
+      index: 208
+    - name: SkillVar.JumpStartPos
+      type: 9
+      size: 12
+      index: 210
+    - name: SkillVar.JumpDir
+      type: 9
+      size: 12
+      index: 222
+  button: 4
+  cooldown: 50
+  hopDuration: 0.5
+  postHopFreeze: 0.1
+  hopDistanceMin: 3
+  hopDistanceMax: 7
+  hopDistanceChargeDuration: 0.25
+  aoe:
+    shape: 0
+    radius: 2.75
+    deadZone: 0
+    angle: 0
+    rectWidth: 0
+    rectLength: 0
+    vfxPrefab:
+      value: {fileID: 1485822213656697, guid: 2d092c385e267ce4792882d353942be8, type: 2}
+  showAoePreviewForOtherPlayers: 1
+  stunDuration: 0
+  pushDuration: 0.4
+  pushDistance: 4.25
+  slowAmount: -0.5
+  slowDuration: 1.5
+  damage: 0
+  impactVfxPrefab:
+    value: {fileID: 1847247197137021, guid: 4e139722d7ee3e94eae5afebd889cb99, type: 2}
+  lightningTrailVfxPrefab:
+    value: {fileID: 1510016067819068, guid: 7c38d4d02501f2b4684d7fc9cae9b357, type: 2}

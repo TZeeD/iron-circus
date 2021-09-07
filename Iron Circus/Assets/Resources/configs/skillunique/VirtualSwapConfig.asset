@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4348893148ff624286f51cea0a3cbd9, type: 3}
+  m_Name: VirtualSwapConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name: VirtualSwapConfig
+    sizeInBytes: 199
+    numDirtyBytes: 7
+    numSyncActions: 7
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: Floor exit Vfx.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: Trigger Swap Vfx.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: PlaySwapStartAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: PlayVoiceStartAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 9
+    - name: PlayDiveAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 12
+    - name: PlayTeleportAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 15
+    - name: PlaySwapStart2 Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 18
+    - name: Input.btnIsDown
+      type: 1
+      size: 1
+      index: 21
+    - name: Disappear duration.startTick
+      type: 3
+      size: 4
+      index: 22
+    - name: Invisible duration.startTick
+      type: 3
+      size: 4
+      index: 26
+    - name: Appear duration.startTick
+      type: 3
+      size: 4
+      index: 30
+    - name: Swap Back State.timeSinceEnter
+      type: 5
+      size: 4
+      index: 34
+    - name: Swap Back State.timeSinceEnter
+      type: 5
+      size: 4
+      index: 38
+    - name: NoCollisionState.targetEntityId
+      type: 10
+      size: 2
+      index: 42
+    - name: Animation.normalizedProgress
+      type: 5
+      size: 4
+      index: 44
+    - name: Animation.variation
+      type: 3
+      size: 4
+      index: 48
+    - name: Portal AoE.offset
+      type: 9
+      size: 12
+      index: 52
+    - name: Portal AoE.lookDir
+      type: 9
+      size: 12
+      index: 64
+    - name: Portal AoE.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 76
+    - name: Portal AoE.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 77
+    - name: Portal AoE.onUnparentPosition
+      type: 9
+      size: 12
+      index: 78
+    - name: Portal AoE.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 90
+    - name: WhileUpdateCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 102
+    - name: UpdateCooldown.targetValue
+      type: 5
+      size: 4
+      index: 103
+    - name: ApplyStunToTouched.targetPlayerId
+      type: 4
+      size: 8
+      index: 107
+    - name: ApplyStunToTouched.pushDuration
+      type: 5
+      size: 4
+      index: 115
+    - name: ApplyStunToTouched.pushDistance
+      type: 5
+      size: 4
+      index: 119
+    - name: ApplyStunToTouched.pushVector
+      type: 9
+      size: 12
+      index: 123
+    - name: '[SkillVar] [InvisibleState][InvisibleState]Internal'
+      type: 1
+      size: 1
+      index: 135
+    - name: '[SkillVar] IsCooldownOver'
+      type: 1
+      size: 1
+      index: 136
+    - name: '[SkillVar] IsActive'
+      type: 1
+      size: 1
+      index: 137
+    - name: '[SkillVar] StopInvisibleStatus'
+      type: 1
+      size: 1
+      index: 138
+    - name: '[SkillVar] TouchedEnemy'
+      type: 1
+      size: 1
+      index: 139
+    - name: '[SkillVar] CurrentCooldown'
+      type: 5
+      size: 4
+      index: 140
+    - name: '[SkillVar] StartPosition'
+      type: 9
+      size: 12
+      index: 144
+    - name: '[SkillVar] TouchedEntities.length'
+      type: 2
+      size: 1
+      index: 156
+    - name: '[SkillVar] TouchedEntities[0]'
+      type: 10
+      size: 2
+      index: 157
+    - name: '[SkillVar] TouchedEntities[1]'
+      type: 10
+      size: 2
+      index: 159
+    - name: '[SkillVar] TouchedEntities[2]'
+      type: 10
+      size: 2
+      index: 161
+    - name: '[SkillVar] TouchedEntities[3]'
+      type: 10
+      size: 2
+      index: 163
+    - name: '[SkillVar] TouchedEntities[4]'
+      type: 10
+      size: 2
+      index: 165
+    - name: '[SkillVar] TouchedEntities[5]'
+      type: 10
+      size: 2
+      index: 167
+    - name: '[SkillVar] TouchedEntities[6]'
+      type: 10
+      size: 2
+      index: 169
+    - name: '[SkillVar] TouchedEntities[7]'
+      type: 10
+      size: 2
+      index: 171
+    - name: '[SkillVar] TouchedEntities[8]'
+      type: 10
+      size: 2
+      index: 173
+    - name: '[SkillVar] TouchedEntities[9]'
+      type: 10
+      size: 2
+      index: 175
+    - name: '[SkillVar] TouchedEntities[10]'
+      type: 10
+      size: 2
+      index: 177
+    - name: '[SkillVar] TouchedEntities[11]'
+      type: 10
+      size: 2
+      index: 179
+    - name: '[SkillVar] TouchedEntities[12]'
+      type: 10
+      size: 2
+      index: 181
+    - name: '[SkillVar] TouchedEntities[13]'
+      type: 10
+      size: 2
+      index: 183
+    - name: '[SkillVar] TouchedEntities[14]'
+      type: 10
+      size: 2
+      index: 185
+    - name: '[SkillVar] TouchedEntities[15]'
+      type: 10
+      size: 2
+      index: 187
+    - name: '[SkillVar] TouchedEntity'
+      type: 10
+      size: 2
+      index: 189
+  button: 4
+  iconName: icon_mine_inverted_01_tex
+  cooldown: 42
+  aoeEnter:
+    shape: 0
+    radius: 1
+    deadZone: 0.5
+    angle: 0
+    rectWidth: 0
+    rectLength: 0
+    vfxPrefab:
+      value: {fileID: 1884916341093336, guid: 2fcca7c5767f22e45bb8dd6040c45c61, type: 2}
+  disappearDuration: 0.15
+  hitAppearDuration: 0.1
+  beamingDuration: 0.5
+  maxInvisibleDuration: 2
+  moveSpeedModifier: 1.2
+  aoeTouch:
+    shape: 0
+    radius: 1.2
+    deadZone: 0
+    angle: 0
+    rectWidth: 0
+    rectLength: 0
+    vfxPrefab:
+      value: {fileID: 0}
+  swapYOffset: -3
+  enemyStunDuration: 0.7
+  floorLineVfx:
+    value: {fileID: 1325437411343069, guid: e4726b87e0216494c822d562e6160ad9, type: 2}
+  floorExitVfx:
+    value: {fileID: 1741878736735788, guid: 0e955f96d757906478367c61fd3fa4a7, type: 2}
+  floorSwapVfx:
+    value: {fileID: 1463377867695592, guid: 9513c9f94a9cce24eb2856d9cc1d6e17, type: 2}

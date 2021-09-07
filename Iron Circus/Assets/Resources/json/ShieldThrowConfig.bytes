@@ -1,0 +1,54 @@
+{
+  "$type": "Imi.SharedWithServer.Config.ShieldThrowConfig, Assembly-CSharp",
+  "iconName": "icon_stomp_inverted_01_tex",
+  "shape": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 2,
+    "radius": 0.0,
+    "deadZone": 0.0,
+    "angle": 0.0,
+    "rectWidth": 0.85,
+    "rectLength": 7.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": true
+    }
+  },
+  "cooldown": 42.0,
+  "showPreviewOnRemoteEntities": true,
+  "maxAirTimeFallback": 30.0,
+  "durationUntilHideShield": 0.1,
+  "aimMovementFactor": 1.0,
+  "shieldInChampionName": "char_hildegard_shield_model",
+  "shieldSpeed": 30.0,
+  "shieldRotationSpeed": 850.0,
+  "spawnOffset": {
+    "$type": "Jitter.LinearMath.JVector, _Jitter_AssemblyDefinition",
+    "X": 0.0,
+    "Y": 1.2,
+    "Z": 1.0
+  },
+  "shieldCollisionRadius": 0.8,
+  "shieldCollisionHeight": 0.0,
+  "damage": 1,
+  "pushDistance": 2.0,
+  "stunDuration": 1.0,
+  "pushDuration": 0.3,
+  "destroyAfterImpactCount": 3,
+  "minDistanceBetweenImpactCount": 2.0,
+  "maxTravelDistanceUntilImpact": 35.0,
+  "shieldPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "impactVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "dissolveVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "ShieldThrowConfig",
+  "hideFlags": 0
+}

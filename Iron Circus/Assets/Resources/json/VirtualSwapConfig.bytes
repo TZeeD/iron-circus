@@ -1,0 +1,53 @@
+{
+  "$type": "Imi.SharedWithServer.Config.VirtualSwapConfig, Assembly-CSharp",
+  "button": 4,
+  "iconName": "icon_mine_inverted_01_tex",
+  "cooldown": 42.0,
+  "aoeEnter": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 0,
+    "radius": 1.0,
+    "deadZone": 0.5,
+    "angle": 0.0,
+    "rectWidth": 0.0,
+    "rectLength": 0.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": true
+    }
+  },
+  "disappearDuration": 0.15,
+  "hitAppearDuration": 0.1,
+  "beamingDuration": 0.5,
+  "maxInvisibleDuration": 2.0,
+  "moveSpeedModifier": 1.2,
+  "aoeTouch": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 0,
+    "radius": 1.2,
+    "deadZone": 0.0,
+    "angle": 0.0,
+    "rectWidth": 0.0,
+    "rectLength": 0.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": false
+    }
+  },
+  "swapYOffset": -3.0,
+  "enemyStunDuration": 0.7,
+  "floorLineVfx": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "floorExitVfx": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "floorSwapVfx": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "VirtualSwapConfig",
+  "hideFlags": 0
+}

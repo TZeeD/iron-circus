@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4901175b2437af74cb598f0dc82ded1c, type: 3}
+  m_Name: LightningStrikeConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name: LightningStrikeConfig
+    sizeInBytes: 305
+    numDirtyBytes: 9
+    numSyncActions: 7
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: RumbleHit.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: Trigger spear throw Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: Trigger spear throw Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: Trigger spear impact Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 9
+    - name: Trigger spear teleportation Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 12
+    - name: Trigger spear end Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 15
+    - name: SpawnImpactVfx.SyncActionTick
+      type: 3
+      size: 4
+      index: 18
+    - name: WhileUpdateCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 21
+    - name: CooldownState.targetValue
+      type: 5
+      size: 4
+      index: 22
+    - name: delayToCanTrigger.startTick
+      type: 3
+      size: 4
+      index: 26
+    - name: ActiveDurationState.startTick
+      type: 3
+      size: 4
+      index: 30
+    - name: Show Throw Preview.offset
+      type: 9
+      size: 12
+      index: 34
+    - name: Show Throw Preview.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 46
+    - name: Show Throw Preview.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 47
+    - name: Show Throw Preview.onUnparentPosition
+      type: 9
+      size: 12
+      index: 48
+    - name: Show Throw Preview.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 60
+    - name: PreviewTeleportTarget.offset
+      type: 9
+      size: 12
+      index: 72
+    - name: PreviewTeleportTarget.lookDir
+      type: 9
+      size: 12
+      index: 84
+    - name: PreviewTeleportTarget.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 96
+    - name: PreviewTeleportTarget.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 97
+    - name: PreviewTeleportTarget.onUnparentPosition
+      type: 9
+      size: 12
+      index: 98
+    - name: PreviewTeleportTarget.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 110
+    - name: Show Connection.position
+      type: 9
+      size: 12
+      index: 122
+    - name: WhileButtonIsDown.wasTrue
+      type: 1
+      size: 1
+      index: 134
+    - name: ThrowSpearState.serverPosition
+      type: 9
+      size: 12
+      index: 135
+    - name: ThrowSpearState.serverVelocity
+      type: 9
+      size: 12
+      index: 147
+    - name: ThrowSpearState.projectileId
+      type: 10
+      size: 2
+      index: 159
+    - name: NoCollisionState.targetEntityId
+      type: 10
+      size: 2
+      index: 161
+    - name: FreezeInput.duration
+      type: 5
+      size: 4
+      index: 163
+    - name: FreezeInput.startTick
+      type: 3
+      size: 4
+      index: 167
+    - name: PlayAnimation.normalizedProgress
+      type: 5
+      size: 4
+      index: 171
+    - name: PlayAnimation.variation
+      type: 3
+      size: 4
+      index: 175
+    - name: TurnToAim.normalizedProgress
+      type: 5
+      size: 4
+      index: 179
+    - name: TurnToAim.variation
+      type: 3
+      size: 4
+      index: 183
+    - name: CheckHit.lookDir
+      type: 9
+      size: 12
+      index: 187
+    - name: RumbleHit.playerId
+      type: 4
+      size: 8
+      index: 199
+    - name: RumbleHit.strength
+      type: 5
+      size: 4
+      index: 207
+    - name: RumbleHit.duration
+      type: 5
+      size: 4
+      index: 211
+    - name: '[SkillVar] [ApplyStatusModifier] FreezeInput.StopStatusEffect'
+      type: 1
+      size: 1
+      index: 215
+    - name: '[SkillVar] [InvisibleState][ApplyInvisible]Internal'
+      type: 1
+      size: 1
+      index: 216
+    - name: '[SkillVar] IsOnCooldown'
+      type: 1
+      size: 1
+      index: 217
+    - name: '[SkillVar] IsActive'
+      type: 1
+      size: 1
+      index: 218
+    - name: '[SkillVar] ShouldTrigger'
+      type: 1
+      size: 1
+      index: 219
+    - name: '[SkillVar] CanTeleport'
+      type: 1
+      size: 1
+      index: 220
+    - name: '[SkillVar] IsTeleporting'
+      type: 1
+      size: 1
+      index: 221
+    - name: '[SkillVar] Cooldown'
+      type: 5
+      size: 4
+      index: 222
+    - name: '[SkillVar] teleportTarget'
+      type: 9
+      size: 12
+      index: 226
+    - name: '[SkillVar] ThrowDir'
+      type: 9
+      size: 12
+      index: 238
+    - name: '[SkillVar] TeleportDir'
+      type: 9
+      size: 12
+      index: 250
+    - name: '[SkillVar] HitEntity'
+      type: 10
+      size: 2
+      index: 262
+    - name: '[SkillVar] Entities hit.length'
+      type: 2
+      size: 1
+      index: 264
+    - name: '[SkillVar] Entities hit[0]'
+      type: 10
+      size: 2
+      index: 265
+    - name: '[SkillVar] Entities hit[1]'
+      type: 10
+      size: 2
+      index: 267
+    - name: '[SkillVar] Entities hit[2]'
+      type: 10
+      size: 2
+      index: 269
+    - name: '[SkillVar] Entities hit[3]'
+      type: 10
+      size: 2
+      index: 271
+    - name: '[SkillVar] Entities hit[4]'
+      type: 10
+      size: 2
+      index: 273
+    - name: '[SkillVar] Entities hit[5]'
+      type: 10
+      size: 2
+      index: 275
+    - name: '[SkillVar] Entities hit[6]'
+      type: 10
+      size: 2
+      index: 277
+    - name: '[SkillVar] Entities hit[7]'
+      type: 10
+      size: 2
+      index: 279
+    - name: '[SkillVar] Entities hit[8]'
+      type: 10
+      size: 2
+      index: 281
+    - name: '[SkillVar] Entities hit[9]'
+      type: 10
+      size: 2
+      index: 283
+    - name: '[SkillVar] Entities hit[10]'
+      type: 10
+      size: 2
+      index: 285
+    - name: '[SkillVar] Entities hit[11]'
+      type: 10
+      size: 2
+      index: 287
+    - name: '[SkillVar] Entities hit[12]'
+      type: 10
+      size: 2
+      index: 289
+    - name: '[SkillVar] Entities hit[13]'
+      type: 10
+      size: 2
+      index: 291
+    - name: '[SkillVar] Entities hit[14]'
+      type: 10
+      size: 2
+      index: 293
+    - name: '[SkillVar] Entities hit[15]'
+      type: 10
+      size: 2
+      index: 295
+  buttonType: 8
+  skillIconName:
+  cooldown: 70
+  maxThrowDist: 15
+  spearCollisionHeight: 1.5
+  spearCollisionRadius: 0.5
+  spearSpeed: 40
+  spawnOffset:
+    X: 0
+    Y: 1
+    Z: 2
+  canTeleportDelay: 0.55
+  duration: 2.5
+  teleportSpeed: 70
+  pushDurationOnHit: 0
+  pushDistanceOnHit: 0
+  damage: 1
+  aoe:
+    shape: 0
+    radius: 1.5
+    deadZone: 0
+    angle: 0
+    rectWidth: 0.5
+    rectLength: 4
+    vfxPrefab:
+      value: {fileID: 1430641574634554, guid: 6c135c3781edd9e4990a06bdd8eda7f7, type: 2}
+  pushDuration: 0.5
+  pushDistance: 2.5
+  stunDuration: 0.7
+  slowAmount: -0.5
+  slowDuration: 1
+  spearProjectilePrefab:
+    value: {fileID: 1707969682922178, guid: 26688533013b2ed43bfa27a78911a8ec, type: 2}
+  impactVfxPrefab:
+    value: {fileID: 1897552859333606, guid: d948d22f7e873c14bb27ad45dc612686, type: 2}
+  throwPreviewPrefab:
+    value: {fileID: 1659464916371954, guid: 513becc11e0cb304b95bfd34f857accf, type: 2}
+  connectionPrefab:
+    value: {fileID: 1364651785177549, guid: 6287a203d07cfd749803f03c6bda43aa, type: 2}

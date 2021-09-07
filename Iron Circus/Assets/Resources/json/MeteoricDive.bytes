@@ -1,0 +1,40 @@
+{
+  "$type": "Imi.SharedWithServer.Config.MeteoricDive, Assembly-CSharp",
+  "button": 4,
+  "cooldown": 50.0,
+  "hopDuration": 0.5,
+  "postHopFreeze": 0.1,
+  "hopDistanceMin": 3.0,
+  "hopDistanceMax": 7.0,
+  "hopDistanceChargeDuration": 0.25,
+  "aoe": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 0,
+    "radius": 2.75,
+    "deadZone": 0.0,
+    "angle": 0.0,
+    "rectWidth": 0.0,
+    "rectLength": 0.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": true
+    }
+  },
+  "showAoePreviewForOtherPlayers": true,
+  "stunDuration": 0.0,
+  "pushDuration": 0.4,
+  "pushDistance": 4.25,
+  "slowAmount": -0.5,
+  "slowDuration": 1.5,
+  "damage": 0,
+  "impactVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "lightningTrailVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "MeteoricDive",
+  "hideFlags": 0
+}

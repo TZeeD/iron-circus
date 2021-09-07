@@ -1,0 +1,457 @@
+{
+  "$type": "Imi.SharedWithServer.Config.ConfigProvider, Assembly-CSharp",
+  "ballConfig": {
+    "$type": "Imi.SharedWithServer.Config.BallConfig, Assembly-CSharp",
+    "ballColliderRadius": 0.15,
+    "ballPickupRadius": 0.15,
+    "ballLowSpeedPickupRadius": 0.5,
+    "ballLowSpeedFullEffectThreshold": 1.0,
+    "ballLowSpeedStartEffectThreshold": 4.0,
+    "blockPickupTravelDistance": 0.0,
+    "blockPickupSpeedThreshold": 0.0,
+    "takeBallInterpolationDuration": 0.2,
+    "defaultFlightDrag": 0.33,
+    "dragAfterForce": 0.35,
+    "dragAfterForceCurve": {
+      "$type": "SteelCircus.GameElements.Curve, Assembly-CSharp",
+      "points": {
+        "$type": "System.Collections.Generic.List`1[[SteelCircus.GameElements.CurvePoint]], mscorlib",
+        "$values": [
+          {
+            "$type": "SteelCircus.GameElements.CurvePoint, Assembly-CSharp",
+            "time": 0.8545135,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "leftTangentMode": 0,
+            "rightTangentMode": 0
+          },
+          {
+            "$type": "SteelCircus.GameElements.CurvePoint, Assembly-CSharp",
+            "time": 1.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "leftTangentMode": 0,
+            "rightTangentMode": 0
+          }
+        ]
+      }
+    },
+    "dragAfterForceDuration": 1.1,
+    "restThresholdVelocity": 0.1,
+    "name": "BallConfig",
+    "hideFlags": 0
+  },
+  "bumperConfig": {
+    "$type": "Imi.SharedWithServer.Config.BumperConfig, Assembly-CSharp",
+    "force": 7.0,
+    "friction": 0.9,
+    "name": "BumperConfig",
+    "hideFlags": 0
+  },
+  "debugConfig": {
+    "$type": "Imi.SharedWithServer.Config.DebugConfig, Assembly-CSharp",
+    "numLocalPlayers": 6,
+    "skipCutscenes": false,
+    "useClientPrediction": false,
+    "useSnapshotInterpolation": false,
+    "debugDrawObjects": true,
+    "disableVisualSmoothing": false,
+    "useNewVisualSmoothing": false,
+    "showServerProxies": false,
+    "updateSkillsNetworked": true,
+    "overrideRemoteLerpSettings": false,
+    "remoteLerpOffsetInSeconds": 0.1,
+    "remoteLerpWeightBlendDurationInSeconds": 0.05,
+    "name": "DebugConfig",
+    "hideFlags": 0
+  },
+  "matchConfig": {
+    "$type": "Imi.SharedWithServer.Config.MatchConfig, Assembly-CSharp",
+    "allowServerRandom": true,
+    "ConnectionWindowDuration": 60,
+    "LoadWindowDuration": 60,
+    "PlayerSelectionWindowDuration": 35,
+    "InitialLobbyEnteredPause": 8,
+    "WaitingForPlayersDuration": 5,
+    "PlayerChampionPickDuration": 9,
+    "PauseBetweenPicks": 1,
+    "GracePeriodWindowDuration": 2,
+    "MaximumChampionPicksPerTeamAllowed": 1,
+    "championsForRandomSelection": {
+      "$type": "Imi.SharedWithServer.Game.ChampionType[], Assembly-CSharp",
+      "$values": [
+        1,
+        2,
+        5,
+        7,
+        6,
+        11,
+        8
+      ]
+    },
+    "durationInSeconds": 300,
+    "playgroundDurationInSeconds": 3600,
+    "gameEndedCutsceneLengthInSeconds": 0.5,
+    "goalCutsceneLengthInSeconds": 5.5,
+    "introCutsceneLengthInSeconds": 11.0,
+    "basicTrainingIntroCutsceneLengthInSeconds": 8.0,
+    "getReadyCutsceneLengthInSeconds": 7.0,
+    "startPointCutsceneLengthInSeconds": 3.0,
+    "victoryScreenLength": 7.0,
+    "victoryPosesLength": 5.0,
+    "statsScreenLength": 40.0,
+    "overtimeEnabled": true,
+    "overtimeCutsceneLength": 7.5,
+    "overtimeDuration": 120.0,
+    "forfeitStartTime": 150.0,
+    "forfeitVoteTime": 30.0,
+    "respawnTime": 12.0,
+    "addedRespawnTime": 2.0,
+    "respawnTimeCap": 16.0,
+    "enableLoserBall": true,
+    "loserBallTeamOrange": -10.5,
+    "loserBallTeamBlue": 10.5,
+    "playersAllowedToMove": 2,
+    "matchPoint": 8,
+    "matchPointInPlayground": 1000,
+    "skillPickupRechargeAmount": 1.0,
+    "sprintPickupRechargeAmount": 0.12,
+    "name": "MatchConfig",
+    "hideFlags": 0
+  },
+  "physicsEngineConfig": {
+    "$type": "Imi.SharedWithServer.Config.PhysicsEngineConfig, Assembly-CSharp",
+    "allowedPenetration": 0.01,
+    "bias": 1.5,
+    "breakThreshold": 0.01,
+    "maximumBias": 30.0,
+    "minVelocity": 0.001,
+    "name": "PhysicsEngineConfig",
+    "hideFlags": 0
+  },
+  "bagpipes": {
+    "$type": "Imi.SharedWithServer.Config.ChampionConfig, Assembly-CSharp",
+    "championType": 2,
+    "colliderRadius": 0.725,
+    "maxHealth": 5,
+    "ballSpawnOffset": 0.0,
+    "ballPickupRange": 1.05,
+    "maxSpeed": 6.0,
+    "stamina": {
+      "$type": "Imi.SharedWithServer.Config.StaminaConfig, Assembly-CSharp",
+      "amount": 6.75,
+      "name": "Stamina2Star",
+      "hideFlags": 0
+    },
+    "uiDisplaySpeed": 2,
+    "acceleration": 13.0,
+    "deceleration": 12.0,
+    "controlsThrusterContribution": 0.6,
+    "moveOnlyForward": false,
+    "useTurnSpeed": false,
+    "turnSpeed": 600.0,
+    "playerSkillGraphs": {
+      "$type": "Imi.SharedWithServer.Config.SkillGraphConfig[], Assembly-CSharp",
+      "$values": [
+        "ThrowBallConfig4Star",
+        "TackleDodgeConfig",
+        "SprintConfig2Star",
+        "SlamConfig",
+        "WarsongConfig",
+        "EmoteConfig_Bagpipes",
+        "PingConfig"
+      ]
+    },
+    "name": "ChampionConfigBagpipes",
+    "hideFlags": 0
+  },
+  "servitor": {
+    "$type": "Imi.SharedWithServer.Config.ChampionConfig, Assembly-CSharp",
+    "championType": 1,
+    "colliderRadius": 0.725,
+    "maxHealth": 4,
+    "ballSpawnOffset": 0.0,
+    "ballPickupRange": 1.05,
+    "maxSpeed": 6.2,
+    "stamina": {
+      "$type": "Imi.SharedWithServer.Config.StaminaConfig, Assembly-CSharp",
+      "amount": 7.0,
+      "name": "Stamina3Star",
+      "hideFlags": 0
+    },
+    "uiDisplaySpeed": 3,
+    "acceleration": 13.0,
+    "deceleration": 12.0,
+    "controlsThrusterContribution": 0.65,
+    "moveOnlyForward": false,
+    "useTurnSpeed": false,
+    "turnSpeed": 600.0,
+    "playerSkillGraphs": {
+      "$type": "Imi.SharedWithServer.Config.SkillGraphConfig[], Assembly-CSharp",
+      "$values": [
+        "ThrowBallConfig3Star",
+        "TackleDodgeConfig",
+        "SprintConfig3Star",
+        "BarrierConfig",
+        "TurretConfig",
+        "EmoteConfig_Servitor",
+        "PingConfig"
+      ]
+    },
+    "name": "ChampionConfigServitor",
+    "hideFlags": 0
+  },
+  "li": {
+    "$type": "Imi.SharedWithServer.Config.ChampionConfig, Assembly-CSharp",
+    "championType": 5,
+    "colliderRadius": 0.725,
+    "maxHealth": 3,
+    "ballSpawnOffset": 0.0,
+    "ballPickupRange": 1.05,
+    "maxSpeed": 6.2,
+    "stamina": {
+      "$type": "Imi.SharedWithServer.Config.StaminaConfig, Assembly-CSharp",
+      "amount": 7.0,
+      "name": "Stamina3Star",
+      "hideFlags": 0
+    },
+    "uiDisplaySpeed": 3,
+    "acceleration": 13.0,
+    "deceleration": 12.0,
+    "controlsThrusterContribution": 0.6,
+    "moveOnlyForward": false,
+    "useTurnSpeed": false,
+    "turnSpeed": 600.0,
+    "playerSkillGraphs": {
+      "$type": "Imi.SharedWithServer.Config.SkillGraphConfig[], Assembly-CSharp",
+      "$values": [
+        "ThrowBallConfig2Star",
+        "TackleDodgeConfig",
+        "SprintConfig4Star",
+        "VirtualStrikeConfig",
+        "VirtualSwapConfig",
+        "EmoteConfig_Li",
+        "PingConfig"
+      ]
+    },
+    "name": "ChampionConfigLi",
+    "hideFlags": 0
+  },
+  "mali": {
+    "$type": "Imi.SharedWithServer.Config.ChampionConfig, Assembly-CSharp",
+    "championType": 6,
+    "colliderRadius": 0.725,
+    "maxHealth": 3,
+    "ballSpawnOffset": 0.0,
+    "ballPickupRange": 1.05,
+    "maxSpeed": 6.4,
+    "stamina": {
+      "$type": "Imi.SharedWithServer.Config.StaminaConfig, Assembly-CSharp",
+      "amount": 7.25,
+      "name": "Stamina4Star",
+      "hideFlags": 0
+    },
+    "uiDisplaySpeed": 4,
+    "acceleration": 13.0,
+    "deceleration": 12.0,
+    "controlsThrusterContribution": 0.6,
+    "moveOnlyForward": false,
+    "useTurnSpeed": false,
+    "turnSpeed": 600.0,
+    "playerSkillGraphs": {
+      "$type": "Imi.SharedWithServer.Config.SkillGraphConfig[], Assembly-CSharp",
+      "$values": [
+        "ThrowBallConfig2Star",
+        "TackleDodgeConfig",
+        "SprintConfig3Star",
+        "EmoteConfig_Mali",
+        "ElectrobaticsConfig",
+        "LightningStrikeConfig",
+        "PingConfig"
+      ]
+    },
+    "name": "ChampionConfigMali",
+    "hideFlags": 0
+  },
+  "hildegard": {
+    "$type": "Imi.SharedWithServer.Config.ChampionConfig, Assembly-CSharp",
+    "championType": 7,
+    "colliderRadius": 0.725,
+    "maxHealth": 5,
+    "ballSpawnOffset": 0.0,
+    "ballPickupRange": 1.05,
+    "maxSpeed": 6.0,
+    "stamina": {
+      "$type": "Imi.SharedWithServer.Config.StaminaConfig, Assembly-CSharp",
+      "amount": 7.0,
+      "name": "Stamina3Star",
+      "hideFlags": 0
+    },
+    "uiDisplaySpeed": 2,
+    "acceleration": 13.0,
+    "deceleration": 12.0,
+    "controlsThrusterContribution": 0.6,
+    "moveOnlyForward": false,
+    "useTurnSpeed": false,
+    "turnSpeed": 600.0,
+    "playerSkillGraphs": {
+      "$type": "Imi.SharedWithServer.Config.SkillGraphConfig[], Assembly-CSharp",
+      "$values": [
+        "ThrowBallConfig5Star",
+        "TackleDodgeConfig",
+        "SprintConfig2Star",
+        "ShieldThrowConfig",
+        "CageConfig",
+        "EmoteConfig_Hilde",
+        "PingConfig"
+      ]
+    },
+    "name": "ChampionConfigHildegard",
+    "hideFlags": 0
+  },
+  "acrid": {
+    "$type": "Imi.SharedWithServer.Config.ChampionConfig, Assembly-CSharp",
+    "championType": 8,
+    "colliderRadius": 0.725,
+    "maxHealth": 4,
+    "ballSpawnOffset": 0.0,
+    "ballPickupRange": 1.05,
+    "maxSpeed": 6.0,
+    "stamina": {
+      "$type": "Imi.SharedWithServer.Config.StaminaConfig, Assembly-CSharp",
+      "amount": 7.0,
+      "name": "Stamina3Star",
+      "hideFlags": 0
+    },
+    "uiDisplaySpeed": 2,
+    "acceleration": 13.0,
+    "deceleration": 12.0,
+    "controlsThrusterContribution": 0.6,
+    "moveOnlyForward": false,
+    "useTurnSpeed": false,
+    "turnSpeed": 600.0,
+    "playerSkillGraphs": {
+      "$type": "Imi.SharedWithServer.Config.SkillGraphConfig[], Assembly-CSharp",
+      "$values": [
+        "ThrowBallConfig4Star",
+        "TackleDodgeConfig",
+        "SprintConfig3Star",
+        "PingConfig",
+        "EmoteConfig_Acrid",
+        "RampageConfig",
+        "PutridDischargeConfig"
+      ]
+    },
+    "name": "ChampionConfigAcrid",
+    "hideFlags": 0
+  },
+  "galena": {
+    "$type": "Imi.SharedWithServer.Config.ChampionConfig, Assembly-CSharp",
+    "championType": 11,
+    "colliderRadius": 0.725,
+    "maxHealth": 3,
+    "ballSpawnOffset": 0.0,
+    "ballPickupRange": 1.05,
+    "maxSpeed": 6.2,
+    "stamina": {
+      "$type": "Imi.SharedWithServer.Config.StaminaConfig, Assembly-CSharp",
+      "amount": 7.25,
+      "name": "Stamina4Star",
+      "hideFlags": 0
+    },
+    "uiDisplaySpeed": 3,
+    "acceleration": 13.0,
+    "deceleration": 12.0,
+    "controlsThrusterContribution": 0.6,
+    "moveOnlyForward": false,
+    "useTurnSpeed": false,
+    "turnSpeed": 600.0,
+    "playerSkillGraphs": {
+      "$type": "Imi.SharedWithServer.Config.SkillGraphConfig[], Assembly-CSharp",
+      "$values": [
+        "ThrowBallConfig3Star",
+        "TackleDodgeConfig",
+        "SprintConfig2Star",
+        "EmoteConfig_Galena",
+        "VortexConfig",
+        "ScrambleConfig",
+        "PingConfig"
+      ]
+    },
+    "name": "ChampionConfigGalena",
+    "hideFlags": 0
+  },
+  "kenny": {
+    "$type": "Imi.SharedWithServer.Config.ChampionConfig, Assembly-CSharp",
+    "championType": 12,
+    "colliderRadius": 0.725,
+    "maxHealth": 3,
+    "ballSpawnOffset": 0.0,
+    "ballPickupRange": 1.05,
+    "maxSpeed": 6.6,
+    "stamina": {
+      "$type": "Imi.SharedWithServer.Config.StaminaConfig, Assembly-CSharp",
+      "amount": 6.5,
+      "name": "Stamina1Star",
+      "hideFlags": 0
+    },
+    "uiDisplaySpeed": 5,
+    "acceleration": 13.0,
+    "deceleration": 12.0,
+    "controlsThrusterContribution": 0.65,
+    "moveOnlyForward": false,
+    "useTurnSpeed": false,
+    "turnSpeed": 600.0,
+    "playerSkillGraphs": {
+      "$type": "Imi.SharedWithServer.Config.SkillGraphConfig[], Assembly-CSharp",
+      "$values": [
+        "ThrowBallConfig2Star",
+        "TackleDodgeConfig",
+        "SprintConfig5Star",
+        "EmoteConfig_Mali",
+        "PingConfig",
+        "AfterBurner",
+        "DiveBombConfig"
+      ]
+    },
+    "name": "ChampionConfigKenny",
+    "hideFlags": 0
+  },
+  "robot": {
+    "$type": "Imi.SharedWithServer.Config.ChampionConfig, Assembly-CSharp",
+    "championType": 13,
+    "colliderRadius": 0.8,
+    "maxHealth": 4,
+    "ballSpawnOffset": 0.0,
+    "ballPickupRange": 1.2,
+    "maxSpeed": 6.0,
+    "stamina": {
+      "$type": "Imi.SharedWithServer.Config.StaminaConfig, Assembly-CSharp",
+      "amount": 6.75,
+      "name": "Stamina2Star",
+      "hideFlags": 0
+    },
+    "uiDisplaySpeed": 0,
+    "acceleration": 20.0,
+    "deceleration": 16.0,
+    "controlsThrusterContribution": 0.6,
+    "moveOnlyForward": false,
+    "useTurnSpeed": false,
+    "turnSpeed": 600.0,
+    "playerSkillGraphs": {
+      "$type": "Imi.SharedWithServer.Config.SkillGraphConfig[], Assembly-CSharp",
+      "$values": [
+        "ThrowBallConfig1Star",
+        "TackleDodgeConfig",
+        "SprintConfig2Star",
+        "PingConfig"
+      ]
+    },
+    "name": "ChampionConfigRobot",
+    "hideFlags": 0
+  },
+  "name": "ConfigProvider",
+  "hideFlags": 0
+}

@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 354ca96272245ac4486b952d148b4226, type: 3}
+  m_Name: ShieldThrowConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name: ShieldThrowConfig
+    sizeInBytes: 158
+    numDirtyBytes: 4
+    numSyncActions: 6
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: Trigger Toss Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: Trigger Toss Voice.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: End Toss Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: Shield Hit Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 9
+    - name: impact vfx.SyncActionTick
+      type: 3
+      size: 4
+      index: 12
+    - name: dissolve vfx.SyncActionTick
+      type: 3
+      size: 4
+      index: 15
+    - name: Aim Preview.offset
+      type: 9
+      size: 12
+      index: 18
+    - name: Aim Preview.position
+      type: 9
+      size: 12
+      index: 30
+    - name: Aim Preview.lookDir
+      type: 9
+      size: 12
+      index: 42
+    - name: Aim Preview.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 54
+    - name: Aim Preview.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 55
+    - name: Aim Preview.onUnparentPosition
+      type: 9
+      size: 12
+      index: 56
+    - name: Aim Preview.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 68
+    - name: Throw Animation.normalizedProgress
+      type: 5
+      size: 4
+      index: 80
+    - name: Throw Animation.variation
+      type: 3
+      size: 4
+      index: 84
+    - name: TurnToAimAnimation.normalizedProgress
+      type: 5
+      size: 4
+      index: 88
+    - name: TurnToAimAnimation.variation
+      type: 3
+      size: 4
+      index: 92
+    - name: Delay Throw.startTick
+      type: 3
+      size: 4
+      index: 96
+    - name: While skill can be Performed.wasTrue
+      type: 1
+      size: 1
+      index: 100
+    - name: Projectile State.serverPosition
+      type: 9
+      size: 12
+      index: 101
+    - name: Projectile State.serverVelocity
+      type: 9
+      size: 12
+      index: 113
+    - name: Projectile State.projectileId
+      type: 10
+      size: 2
+      index: 125
+    - name: WhileUpdateCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 127
+    - name: UpdateCooldown.targetValue
+      type: 5
+      size: 4
+      index: 128
+    - name: '[SkillVar] AimDir'
+      type: 9
+      size: 12
+      index: 132
+    - name: '[SkillVar] IsOnCooldown'
+      type: 1
+      size: 1
+      index: 144
+    - name: '[SkillVar] IsAiming'
+      type: 1
+      size: 1
+      index: 145
+    - name: '[SkillVar] CurrentCooldown'
+      type: 5
+      size: 4
+      index: 146
+  iconName: icon_stomp_inverted_01_tex
+  shape:
+    shape: 2
+    radius: 0
+    deadZone: 0
+    angle: 0
+    rectWidth: 0.85
+    rectLength: 7
+    vfxPrefab:
+      value: {fileID: 1315723256914022, guid: b72e141c73bc7a24cb9755765bf5a2b5, type: 2}
+  cooldown: 42
+  showPreviewOnRemoteEntities: 1
+  maxAirTimeFallback: 30
+  durationUntilHideShield: 0.1
+  aimMovementFactor: 1
+  shieldInChampionName: char_hildegard_shield_model
+  shieldSpeed: 30
+  shieldRotationSpeed: 850
+  spawnOffset:
+    X: 0
+    Y: 1.2
+    Z: 1
+  shieldCollisionRadius: 0.8
+  shieldCollisionHeight: 0
+  damage: 1
+  pushDistance: 2
+  stunDuration: 1
+  pushDuration: 0.3
+  destroyAfterImpactCount: 3
+  minDistanceBetweenImpactCount: 2
+  maxTravelDistanceUntilImpact: 35
+  shieldPrefab:
+    value: {fileID: 1522938752103895, guid: aa5c36ee170e91343942fec7618fb85c, type: 2}
+  impactVfxPrefab:
+    value: {fileID: 1536326510657726, guid: 31f760b9ee55fe44b83027db739af765, type: 2}
+  dissolveVfxPrefab:
+    value: {fileID: 1593163002424694, guid: 2df9def7583c07d4da74d8d288af0970, type: 2}

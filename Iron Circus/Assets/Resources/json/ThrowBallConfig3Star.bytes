@@ -1,0 +1,38 @@
+{
+  "$type": "Imi.SharedWithServer.Config.ThrowBallConfig, Assembly-CSharp",
+  "chargeDuration": 0.75,
+  "prechargeTimeout": 0.5,
+  "chargeCurve": {
+    "$type": "SteelCircus.GameElements.Curve, Assembly-CSharp",
+    "points": {
+      "$type": "System.Collections.Generic.List`1[[SteelCircus.GameElements.CurvePoint]], mscorlib",
+      "$values": [
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint, Assembly-CSharp",
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 1.0,
+          "outSlope": 1.0,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint, Assembly-CSharp",
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 1.0,
+          "outSlope": 1.0,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        }
+      ]
+    }
+  },
+  "turnSnapAngle": 5.0,
+  "turnSpeed": 1000.0,
+  "ballHitVelocityMin": 23.0,
+  "ballHitVelocityMax": 42.0,
+  "throwAnimDuration": 0.0,
+  "name": "ThrowBallConfig3Star",
+  "hideFlags": 0
+}

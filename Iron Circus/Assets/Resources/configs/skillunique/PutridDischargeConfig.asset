@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d399e828b3712e34ea22cef5c21ecd55, type: 3}
+  m_Name: PutridDischargeConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name: PutridDischargeConfig
+    sizeInBytes: 267
+    numDirtyBytes: 10
+    numSyncActions: 3
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: playPukeAnim.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: dischargeVoiceAimStartAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: dischargeSpitAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: StartCasting.startTick
+      type: 3
+      size: 4
+      index: 9
+    - name: StopWhileCasting.duration
+      type: 5
+      size: 4
+      index: 13
+    - name: StopWhileCasting.startTick
+      type: 3
+      size: 4
+      index: 17
+    - name: ModSpeedState.duration
+      type: 5
+      size: 4
+      index: 21
+    - name: ModSpeedState.startTick
+      type: 3
+      size: 4
+      index: 25
+    - name: WhileCouldActivate.wasTrue
+      type: 1
+      size: 1
+      index: 29
+    - name: ShowAoePreview.position
+      type: 9
+      size: 12
+      index: 30
+    - name: ShowAoePreview.lookDir
+      type: 9
+      size: 12
+      index: 42
+    - name: ShowAoePreview.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 54
+    - name: ShowAoePreview.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 55
+    - name: ShowAoePreview.onUnparentPosition
+      type: 9
+      size: 12
+      index: 56
+    - name: ShowAoePreview.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 68
+    - name: CastDurationState.startTick
+      type: 3
+      size: 4
+      index: 80
+    - name: WaitForApplyState.startTick
+      type: 3
+      size: 4
+      index: 84
+    - name: WhileUpdateCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 88
+    - name: UpdateCooldown.targetValue
+      type: 5
+      size: 4
+      index: 89
+    - name: PlayAnimation.normalizedProgress
+      type: 5
+      size: 4
+      index: 93
+    - name: PlayAnimation.variation
+      type: 3
+      size: 4
+      index: 97
+    - name: TurnToAim.normalizedProgress
+      type: 5
+      size: 4
+      index: 101
+    - name: TurnToAim.variation
+      type: 3
+      size: 4
+      index: 105
+    - name: ApplySpeedModOnExit.targetPlayerId
+      type: 4
+      size: 8
+      index: 109
+    - name: ApplySpeedModWhileInside.targetPlayerId
+      type: 4
+      size: 8
+      index: 117
+    - name: ApplySpeedModWhileInside.duration
+      type: 5
+      size: 4
+      index: 125
+    - name: OnMatchStart.targetPlayerId
+      type: 4
+      size: 8
+      index: 129
+    - name: OnMatchStart.stunDuration
+      type: 5
+      size: 4
+      index: 137
+    - name: OnMatchStart.pushVector
+      type: 9
+      size: 12
+      index: 141
+    - name: turnToAimDir.speed
+      type: 5
+      size: 4
+      index: 153
+    - name: turnToAimDir.turnSpeed
+      type: 5
+      size: 4
+      index: 157
+    - name: '[SkillVar] [ApplyStatusModifier] StopWhileCasting.StopStatusEffect'
+      type: 1
+      size: 1
+      index: 161
+    - name: '[SkillVar] [ApplySpeedModToOwnerState][ModSpeedState]Internal'
+      type: 1
+      size: 1
+      index: 162
+    - name: '[SkillVar] AoePosition'
+      type: 9
+      size: 12
+      index: 163
+    - name: '[SkillVar] AimDir'
+      type: 9
+      size: 12
+      index: 175
+    - name: '[SkillVar] HitEntities.length'
+      type: 2
+      size: 1
+      index: 187
+    - name: '[SkillVar] HitEntities[0]'
+      type: 10
+      size: 2
+      index: 188
+    - name: '[SkillVar] HitEntities[1]'
+      type: 10
+      size: 2
+      index: 190
+    - name: '[SkillVar] HitEntities[2]'
+      type: 10
+      size: 2
+      index: 192
+    - name: '[SkillVar] HitEntities[3]'
+      type: 10
+      size: 2
+      index: 194
+    - name: '[SkillVar] HitEntities[4]'
+      type: 10
+      size: 2
+      index: 196
+    - name: '[SkillVar] HitEntities[5]'
+      type: 10
+      size: 2
+      index: 198
+    - name: '[SkillVar] HitEntities[6]'
+      type: 10
+      size: 2
+      index: 200
+    - name: '[SkillVar] HitEntities[7]'
+      type: 10
+      size: 2
+      index: 202
+    - name: '[SkillVar] HitEntities[8]'
+      type: 10
+      size: 2
+      index: 204
+    - name: '[SkillVar] HitEntities[9]'
+      type: 10
+      size: 2
+      index: 206
+    - name: '[SkillVar] HitEntities[10]'
+      type: 10
+      size: 2
+      index: 208
+    - name: '[SkillVar] HitEntities[11]'
+      type: 10
+      size: 2
+      index: 210
+    - name: '[SkillVar] HitEntities[12]'
+      type: 10
+      size: 2
+      index: 212
+    - name: '[SkillVar] HitEntities[13]'
+      type: 10
+      size: 2
+      index: 214
+    - name: '[SkillVar] HitEntities[14]'
+      type: 10
+      size: 2
+      index: 216
+    - name: '[SkillVar] HitEntities[15]'
+      type: 10
+      size: 2
+      index: 218
+    - name: '[SkillVar] ExitHitEntities.length'
+      type: 2
+      size: 1
+      index: 220
+    - name: '[SkillVar] ExitHitEntities[0]'
+      type: 10
+      size: 2
+      index: 221
+    - name: '[SkillVar] ExitHitEntities[1]'
+      type: 10
+      size: 2
+      index: 223
+    - name: '[SkillVar] ExitHitEntities[2]'
+      type: 10
+      size: 2
+      index: 225
+    - name: '[SkillVar] ExitHitEntities[3]'
+      type: 10
+      size: 2
+      index: 227
+    - name: '[SkillVar] ExitHitEntities[4]'
+      type: 10
+      size: 2
+      index: 229
+    - name: '[SkillVar] ExitHitEntities[5]'
+      type: 10
+      size: 2
+      index: 231
+    - name: '[SkillVar] ExitHitEntities[6]'
+      type: 10
+      size: 2
+      index: 233
+    - name: '[SkillVar] ExitHitEntities[7]'
+      type: 10
+      size: 2
+      index: 235
+    - name: '[SkillVar] ExitHitEntities[8]'
+      type: 10
+      size: 2
+      index: 237
+    - name: '[SkillVar] ExitHitEntities[9]'
+      type: 10
+      size: 2
+      index: 239
+    - name: '[SkillVar] ExitHitEntities[10]'
+      type: 10
+      size: 2
+      index: 241
+    - name: '[SkillVar] ExitHitEntities[11]'
+      type: 10
+      size: 2
+      index: 243
+    - name: '[SkillVar] ExitHitEntities[12]'
+      type: 10
+      size: 2
+      index: 245
+    - name: '[SkillVar] ExitHitEntities[13]'
+      type: 10
+      size: 2
+      index: 247
+    - name: '[SkillVar] ExitHitEntities[14]'
+      type: 10
+      size: 2
+      index: 249
+    - name: '[SkillVar] ExitHitEntities[15]'
+      type: 10
+      size: 2
+      index: 251
+    - name: '[SkillVar] CurrentCooldown'
+      type: 5
+      size: 4
+      index: 253
+    - name: '[SkillVar] IsActive'
+      type: 1
+      size: 1
+      index: 257
+    - name: '[SkillVar] IsOnCooldown'
+      type: 1
+      size: 1
+      index: 258
+  button: 4
+  skillIcon:
+  cooldown: 42
+  castDuration: 0.2
+  applyEffectAt: 0.2
+  aoe:
+    shape: 1
+    radius: 18
+    deadZone: 9
+    angle: 11
+    rectWidth: 0
+    rectLength: 0
+    vfxPrefab:
+      value: {fileID: 1781813881933208, guid: f595fcbf6add37b4cb3bb4a88af6ab73, type: 2}
+  aoeOffset: -7
+  duration: 3.5
+  moveSpeedDuringHold: 6
+  initialPushDuration: 0.3
+  initialPushDistance: 3.5
+  damage: 1
+  slowAmount: -0.5
+  slowDuration: 1.5
+  puddlePrefab:
+    value: {fileID: 1965213384361340, guid: 2255c5c902178dd419695dc4824a8738, type: 2}
+  pukePrefab:
+    value: {fileID: 1464888034167484, guid: cacefddf1c866354cb21f9b6c6126adf, type: 2}

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: kenny_flame_mat
+  m_Shader: {fileID: 4800000, guid: 184f6ea880d31774fb2159194c5c1c31, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 26ba9e3915442e74cae271a1f7f1e7d0, type: 3}
+        m_Scale: {x: 5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: cffac57d142e0af448b87881cd58e5b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RingTex:
+        m_Texture: {fileID: 2800000, guid: d42d913cc894692408291fe28a306d53, type: 3}
+        m_Scale: {x: 1, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AfterBurnerDisplacement: 1.76
+    - _Brightness: 15.08
+    - _BrightnessMax: 8
+    - _BrightnessMin: 1
+    - _Displacement: 0.4
+    - _Displacement_Ring: -0.03
+    - _Intensity: 0.1
+    - _SpeedDisplacement: 1.6
+    - _SpeedMain: -0.5
+    - _SpeedRing: -0.3
+    - _SpeedScale: 4
+    m_Colors:
+    - _AfterBurnerTiling: {r: 2, g: 1.4, b: 0, a: 0}

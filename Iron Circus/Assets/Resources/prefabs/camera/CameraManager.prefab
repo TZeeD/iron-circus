@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  serializedVersion: 2
+  m_RootGameObject: {fileID: 1864710317213896}
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1864710317213896
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4798749945780982}
+  - component: {fileID: 114707779823813492}
+  m_Layer: 0
+  m_Name: CameraManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4798749945780982
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864710317213896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114707779823813492
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864710317213896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c54ad076ec6944f9d0005a58431474, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  defaultInGameCamera: {fileID: 1688274033124568, guid: 6df2717261cadc6479e6cc61b727007f, type: 2}
+  defaultIntroCamera: {fileID: 1535463724939936, guid: 4d8ba4be8f58ee5469898937120fbf5e, type: 2}
+  defaultGoalCameras: {fileID: 1943945400940833, guid: 5b01cf3b920c2f4429a2915384ac20f1, type: 2}
+  defaultVictoryCameras: {fileID: 1177768360460064, guid: ea5e727a288ac6f4fb23541a7ac263ef, type: 2}
+  defaultMenuUICamera: {fileID: 1133626712497135, guid: c6d191a2355f3d643bf51ae143ef348f, type: 2}

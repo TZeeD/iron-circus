@@ -1,0 +1,49 @@
+{
+  "$type": "Imi.SharedWithServer.Config.TurretConfig, Assembly-CSharp",
+  "button": 8,
+  "skillIconName": "icon_mine_inverted_01_tex",
+  "cooldown": 62.0,
+  "rangeMin": 0.0,
+  "rangeMax": 60.0,
+  "rangeChangePerSecond": 16.0,
+  "activationDuration": 0.4,
+  "delayToImpact": 0.7,
+  "standUpDuration": 0.5,
+  "stunDuration": 1.75,
+  "pushDuration": 0.25,
+  "pushDistance": 2.5,
+  "damage": 1,
+  "aoe": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 0,
+    "radius": 5.0,
+    "deadZone": 0.0,
+    "angle": 0.0,
+    "rectWidth": 0.0,
+    "rectLength": 0.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": true
+    }
+  },
+  "cameraSpeed": 30.0,
+  "cameraStickAtTargetDuration": 0.7,
+  "impactVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "muzzleFlashVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "flightVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "chargeUpPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "TurretConfig",
+  "hideFlags": 0
+}

@@ -1,0 +1,307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554bed96b16fcd74582077d71582c4a1, type: 3}
+  m_Name: DiveBombConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name: DeathFromAbove
+    sizeInBytes: 268
+    numDirtyBytes: 9
+    numSyncActions: 2
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: impact vfx.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: launch trail vfx.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: FreezeMoveOnEnter.startTick
+      type: 3
+      size: 4
+      index: 6
+    - name: FreezeMoveForImpact.startTick
+      type: 3
+      size: 4
+      index: 10
+    - name: BlockHoldBall.duration
+      type: 5
+      size: 4
+      index: 14
+    - name: BlockHoldBall.startTick
+      type: 3
+      size: 4
+      index: 18
+    - name: NoDamage.duration
+      type: 5
+      size: 4
+      index: 22
+    - name: NoDamage.startTick
+      type: 3
+      size: 4
+      index: 26
+    - name: AoE Preview.offset
+      type: 9
+      size: 12
+      index: 30
+    - name: AoE Preview.position
+      type: 9
+      size: 12
+      index: 42
+    - name: AoE Preview.lookDir
+      type: 9
+      size: 12
+      index: 54
+    - name: AoE Preview.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 66
+    - name: AoE Preview.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 67
+    - name: AoE Preview.onUnparentPosition
+      type: 9
+      size: 12
+      index: 68
+    - name: AoE Preview.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 80
+    - name: PlayAnimation.normalizedProgress
+      type: 5
+      size: 4
+      index: 92
+    - name: PlayAnimation.variation
+      type: 3
+      size: 4
+      index: 96
+    - name: StopTrackingBall.normalizedProgress
+      type: 5
+      size: 4
+      index: 100
+    - name: StopTrackingBall.variation
+      type: 3
+      size: 4
+      index: 104
+    - name: activationDuration.startTick
+      type: 3
+      size: 4
+      index: 108
+    - name: InterruptWindow.startTick
+      type: 3
+      size: 4
+      index: 112
+    - name: InvisibleAt.startTick
+      type: 3
+      size: 4
+      index: 116
+    - name: MaxAimDuration.startTick
+      type: 3
+      size: 4
+      index: 120
+    - name: WaitForImpact.startTick
+      type: 3
+      size: 4
+      index: 124
+    - name: delayToPlayLandingAnimState.startTick
+      type: 3
+      size: 4
+      index: 128
+    - name: ModMoveState.moveDir
+      type: 9
+      size: 12
+      index: 132
+    - name: ModMoveState.startTick
+      type: 3
+      size: 4
+      index: 144
+    - name: ModMoveState.speedOnActivate
+      type: 5
+      size: 4
+      index: 148
+    - name: ModMoveState.cachedMoveDir
+      type: 9
+      size: 12
+      index: 152
+    - name: ModMoveState.cachedDistance
+      type: 5
+      size: 4
+      index: 164
+    - name: No Collision State.targetEntityId
+      type: 10
+      size: 2
+      index: 168
+    - name: whileUpdateCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 170
+    - name: updateCooldown.targetValue
+      type: 5
+      size: 4
+      index: 171
+    - name: CheckHitAction.targetPlayerId
+      type: 4
+      size: 8
+      index: 175
+    - name: CheckHitAction.pushVector
+      type: 9
+      size: 12
+      index: 183
+    - name: StopOnEnterAction.lookDir
+      type: 9
+      size: 12
+      index: 195
+    - name: StopOnEnterAction.speed
+      type: 5
+      size: 4
+      index: 207
+    - name: StopOnEnterAction.turnSpeed
+      type: 5
+      size: 4
+      index: 211
+    - name: '[SkillVar] [ApplyStatusModifier] FreezeMoveOnEnter.StopStatusEffect'
+      type: 1
+      size: 1
+      index: 215
+    - name: '[SkillVar] [ApplyStatusModifier] FreezeMoveForImpact.StopStatusEffect'
+      type: 1
+      size: 1
+      index: 216
+    - name: '[SkillVar] [ApplyStatusModifier] BlockHoldBall.StopStatusEffect'
+      type: 1
+      size: 1
+      index: 217
+    - name: '[SkillVar] [ApplyStatusModifier] NoDamage.StopStatusEffect'
+      type: 1
+      size: 1
+      index: 218
+    - name: '[SkillVar] [InvisibleState][InvisibleState]Internal'
+      type: 1
+      size: 1
+      index: 219
+    - name: '[SkillVar] CooldownOver'
+      type: 1
+      size: 1
+      index: 220
+    - name: '[SkillVar] IsActive'
+      type: 1
+      size: 1
+      index: 221
+    - name: '[SkillVar] CanTrigger'
+      type: 1
+      size: 1
+      index: 222
+    - name: '[SkillVar] CurrentCooldown'
+      type: 5
+      size: 4
+      index: 223
+    - name: '[SkillVar] HitEntities.length'
+      type: 2
+      size: 1
+      index: 227
+    - name: '[SkillVar] HitEntities[0]'
+      type: 10
+      size: 2
+      index: 228
+    - name: '[SkillVar] HitEntities[1]'
+      type: 10
+      size: 2
+      index: 230
+    - name: '[SkillVar] HitEntities[2]'
+      type: 10
+      size: 2
+      index: 232
+    - name: '[SkillVar] HitEntities[3]'
+      type: 10
+      size: 2
+      index: 234
+    - name: '[SkillVar] HitEntities[4]'
+      type: 10
+      size: 2
+      index: 236
+    - name: '[SkillVar] HitEntities[5]'
+      type: 10
+      size: 2
+      index: 238
+    - name: '[SkillVar] HitEntities[6]'
+      type: 10
+      size: 2
+      index: 240
+    - name: '[SkillVar] HitEntities[7]'
+      type: 10
+      size: 2
+      index: 242
+    - name: '[SkillVar] HitEntities[8]'
+      type: 10
+      size: 2
+      index: 244
+    - name: '[SkillVar] HitEntities[9]'
+      type: 10
+      size: 2
+      index: 246
+    - name: '[SkillVar] HitEntities[10]'
+      type: 10
+      size: 2
+      index: 248
+    - name: '[SkillVar] HitEntities[11]'
+      type: 10
+      size: 2
+      index: 250
+    - name: '[SkillVar] HitEntities[12]'
+      type: 10
+      size: 2
+      index: 252
+    - name: '[SkillVar] HitEntities[13]'
+      type: 10
+      size: 2
+      index: 254
+    - name: '[SkillVar] HitEntities[14]'
+      type: 10
+      size: 2
+      index: 256
+    - name: '[SkillVar] HitEntities[15]'
+      type: 10
+      size: 2
+      index: 258
+  button: 8
+  skillIconName:
+  cooldown: 64
+  activationDuration: 0.85
+  interruptWindow: 0.55
+  delayToInvisible: 0.75
+  targetMoveSpeed: 20
+  maxAimDuration: 3
+  delayToPlayLandingAnim: 0.25
+  delayToImpact: 0.35
+  standUpDuration: 0.4
+  stunDuration: 0.6
+  pushDuration: 0.4
+  pushDistance: 4.5
+  damage: 0
+  aoe:
+    shape: 0
+    radius: 4.25
+    deadZone: 0
+    angle: 0
+    rectWidth: 0
+    rectLength: 0
+    vfxPrefab:
+      value: {fileID: 1284729173085310, guid: 61b61dcf66f468643b3b76a2ff2ad7c1, type: 2}
+  impactVfxPrefab:
+    value: {fileID: 1757152444908757, guid: 1645801336f0e634fa59e9acb6e76e2c, type: 2}
+  launchTrailVfxPrefab:
+    value: {fileID: 1167564019314332, guid: 9a4b606268d44414981be06fc36d9e40, type: 2}

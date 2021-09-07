@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4529c6cbc905c5a4f9b90452b9e385cd, type: 3}
+  m_Name: TurretConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name:
+    sizeInBytes: 254
+    numDirtyBytes: 8
+    numSyncActions: 7
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: Impact Vfx.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: Muzzle Flash.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: Projectile Flight.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: PlayImpactAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 9
+    - name: Play Transform Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 12
+    - name: Play Transform Voice Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 15
+    - name: Play Shoot Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 18
+    - name: Input.btnIsDown
+      type: 1
+      size: 1
+      index: 21
+    - name: Control Camera.wasTrue
+      type: 1
+      size: 1
+      index: 22
+    - name: Freeze Move.moveDir
+      type: 9
+      size: 12
+      index: 23
+    - name: Freeze Move.currentSpeed
+      type: 5
+      size: 4
+      index: 35
+    - name: Freeze Move.timeSinceEnter
+      type: 5
+      size: 4
+      index: 39
+    - name: Freeze Move.speedOnActivate
+      type: 5
+      size: 4
+      index: 43
+    - name: Freeze Move.cachedCurveDuration
+      type: 5
+      size: 4
+      index: 47
+    - name: Freeze Move.cachedMoveDir
+      type: 9
+      size: 12
+      index: 51
+    - name: Freeze Move.cachedStartPosition
+      type: 9
+      size: 12
+      index: 63
+    - name: Freeze Move.cachedDistance
+      type: 5
+      size: 4
+      index: 75
+    - name: AoE Preview.offset
+      type: 9
+      size: 12
+      index: 79
+    - name: AoE Preview.lookDir
+      type: 9
+      size: 12
+      index: 91
+    - name: AoE Preview.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 103
+    - name: AoE Preview.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 104
+    - name: AoE Preview.onUnparentPosition
+      type: 9
+      size: 12
+      index: 105
+    - name: AoE Preview.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 117
+    - name: WhileProgressCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 129
+    - name: Cooldown.targetValue
+      type: 5
+      size: 4
+      index: 130
+    - name: Cooldown.currentVal
+      type: 5
+      size: 4
+      index: 134
+    - name: Move Target.wasTrue
+      type: 1
+      size: 1
+      index: 138
+    - name: Activate TurretMode.progressInTicks
+      type: 3
+      size: 4
+      index: 139
+    - name: Delay to Impact.progressInTicks
+      type: 3
+      size: 4
+      index: 143
+    - name: Camera stay at target.progressInTicks
+      type: 3
+      size: 4
+      index: 147
+    - name: Turret Anim.normalizedProgress
+      type: 5
+      size: 4
+      index: 151
+    - name: Turret Anim.variation
+      type: 3
+      size: 4
+      index: 155
+    - name: StopLookingAtBall.normalizedProgress
+      type: 5
+      size: 4
+      index: 159
+    - name: StopLookingAtBall.variation
+      type: 3
+      size: 4
+      index: 163
+    - name: ChargeVfx.position
+      type: 9
+      size: 12
+      index: 167
+    - name: SkillVar.CooldownOver
+      type: 1
+      size: 1
+      index: 179
+    - name: SkillVar.MoteTargetMode
+      type: 1
+      size: 1
+      index: 180
+    - name: SkillVar.CanEnterTurretMode
+      type: 1
+      size: 1
+      index: 181
+    - name: SkillVar.CanFire
+      type: 1
+      size: 1
+      index: 182
+    - name: SkillVar.ControlCamera
+      type: 1
+      size: 1
+      index: 183
+    - name: SkillVar.isInactive
+      type: 1
+      size: 1
+      index: 184
+    - name: SkillVar.CurrentCooldown
+      type: 5
+      size: 4
+      index: 185
+    - name: SkillVar.ProxyPosition
+      type: 9
+      size: 12
+      index: 189
+    - name: SkillVar.CameraTarget
+      type: 9
+      size: 12
+      index: 201
+    - name: SkillVar.length
+      type: 2
+      size: 1
+      index: 213
+    - name: SkillVar.HitEntities[0]
+      type: 10
+      size: 2
+      index: 214
+    - name: SkillVar.HitEntities[1]
+      type: 10
+      size: 2
+      index: 216
+    - name: SkillVar.HitEntities[2]
+      type: 10
+      size: 2
+      index: 218
+    - name: SkillVar.HitEntities[3]
+      type: 10
+      size: 2
+      index: 220
+    - name: SkillVar.HitEntities[4]
+      type: 10
+      size: 2
+      index: 222
+    - name: SkillVar.HitEntities[5]
+      type: 10
+      size: 2
+      index: 224
+    - name: SkillVar.HitEntities[6]
+      type: 10
+      size: 2
+      index: 226
+    - name: SkillVar.HitEntities[7]
+      type: 10
+      size: 2
+      index: 228
+    - name: SkillVar.HitEntities[8]
+      type: 10
+      size: 2
+      index: 230
+    - name: SkillVar.HitEntities[9]
+      type: 10
+      size: 2
+      index: 232
+    - name: SkillVar.HitEntities[10]
+      type: 10
+      size: 2
+      index: 234
+    - name: SkillVar.HitEntities[11]
+      type: 10
+      size: 2
+      index: 236
+    - name: SkillVar.HitEntities[12]
+      type: 10
+      size: 2
+      index: 238
+    - name: SkillVar.HitEntities[13]
+      type: 10
+      size: 2
+      index: 240
+    - name: SkillVar.HitEntities[14]
+      type: 10
+      size: 2
+      index: 242
+    - name: SkillVar.HitEntities[15]
+      type: 10
+      size: 2
+      index: 244
+  button: 8
+  skillIconName: icon_mine_inverted_01_tex
+  cooldown: 62
+  rangeMin: 0
+  rangeMax: 60
+  rangeChangePerSecond: 16
+  activationDuration: 0.4
+  delayToImpact: 0.7
+  standUpDuration: 0.5
+  stunDuration: 1.75
+  pushDuration: 0.25
+  pushDistance: 2.5
+  damage: 1
+  aoe:
+    shape: 0
+    radius: 5
+    deadZone: 0
+    angle: 0
+    rectWidth: 0
+    rectLength: 0
+    vfxPrefab:
+      value: {fileID: 1016205011653338, guid: 5d06b3004e0b37743b2c31832e74f00d, type: 2}
+  cameraSpeed: 30
+  cameraStickAtTargetDuration: 0.7
+  impactVfxPrefab:
+    value: {fileID: 1627554537360966, guid: 26d7f7377591c6942a22142351628221, type: 2}
+  muzzleFlashVfxPrefab:
+    value: {fileID: 1905128203250956, guid: 73c8add89b4d93343bffe0c2f382c4aa, type: 2}
+  flightVfxPrefab:
+    value: {fileID: 1479435347976612, guid: b2402f62a433ccf4eb9ce49913525118, type: 2}
+  chargeUpPrefab:
+    value: {fileID: 1138143021365649, guid: f72a51d85f27f434a975cfc61625b105, type: 2}

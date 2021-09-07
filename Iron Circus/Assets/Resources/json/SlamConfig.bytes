@@ -1,0 +1,36 @@
+{
+  "$type": "Imi.SharedWithServer.Config.SlamConfig, Assembly-CSharp",
+  "button": 4,
+  "iconName": "icon_stomp_inverted_01_tex",
+  "aoe": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 1,
+    "radius": 15.0,
+    "deadZone": 7.0,
+    "angle": 22.0,
+    "rectWidth": 0.0,
+    "rectLength": 0.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": true
+    }
+  },
+  "aoeOffset": -5.75,
+  "damage": 1,
+  "cooldown": 44.0,
+  "hopDuration": 0.5,
+  "postHopFreeze": 0.1,
+  "stunDuration": 1.0,
+  "pushDuration": 0.43,
+  "pushDistance": 5.5,
+  "speedModDuration": 1.5,
+  "speedModAmount": -0.5,
+  "pushSidewaysPercent": 0.4,
+  "showAoePreviewOnlyForLocalPlayer": false,
+  "impactVfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "SlamConfig",
+  "hideFlags": 0
+}

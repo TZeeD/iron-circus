@@ -1,0 +1,68 @@
+{
+  "$type": "Imi.SharedWithServer.Config.RampageConfig, Assembly-CSharp",
+  "button": 8,
+  "skillIcon": "",
+  "cooldown": 72.0,
+  "castDuration": 0.35,
+  "duration": 3.5,
+  "modelScale": 1.2,
+  "scaleDuration": 0.6,
+  "scaleCurve": {
+    "$type": "SteelCircus.GameElements.Curve, Assembly-CSharp",
+    "points": {
+      "$type": "System.Collections.Generic.List`1[[SteelCircus.GameElements.CurvePoint]], mscorlib",
+      "$values": [
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint, Assembly-CSharp",
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 2.0,
+          "outSlope": 2.0,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint, Assembly-CSharp",
+          "time": 0.798568368,
+          "value": 1.199091,
+          "inSlope": 1.00068378,
+          "outSlope": 1.00068378,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint, Assembly-CSharp",
+          "time": 1.00040507,
+          "value": 1.099024,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        }
+      ]
+    }
+  },
+  "moveSpeed": 11.0,
+  "accelerationFactor": 1.0,
+  "thrusterFraction": 0.85,
+  "activateRange": 0.0,
+  "range": 1.8,
+  "pushDistance": 7.5,
+  "pushDuration": 0.55,
+  "stunDuration": 0.0,
+  "ballPushForce": 20.0,
+  "trailPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "particlesPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "aoePrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "RampageConfig",
+  "hideFlags": 0
+}

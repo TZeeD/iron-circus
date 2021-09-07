@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fdc19a42adc049958eaa57f4ab453, type: 3}
+  m_Name: ChampionConfigGalena
+  m_EditorClassIdentifier:
+  championType: 11
+  classType: 2
+  colliderRadius: 0.725
+  maxHealth: 3
+  ballPickupRange: 1.05
+  maxSpeed: 6.2
+  stamina: {fileID: 11400000, guid: 7c3b06e1a80ff4a4b8be6cbe81e66816, type: 2}
+  uiDisplaySpeed: 3
+  acceleration: 13
+  deceleration: 12
+  controlsThrusterContribution: 0.6
+  moveOnlyForward: 0
+  useTurnSpeed: 0
+  turnSpeed: 600
+  playerSkillGraphs:
+  - {fileID: 11400000, guid: 2f700ad7b8363c74ab6b5793513d8022, type: 2}
+  - {fileID: 11400000, guid: bd1ab717a6472404fbca1e9fbc853374, type: 2}
+  - {fileID: 11400000, guid: 2d83e7d1d64ed824cb00265f318d885a, type: 2}
+  - {fileID: 11400000, guid: 2f012583077b8d94aa2645964bf9341a, type: 2}
+  - {fileID: 11400000, guid: 5d7b7e37860c0dc489a2515862b41e33, type: 2}
+  - {fileID: 11400000, guid: fb18603e8ccaaf84c804d2d7a72ff588, type: 2}
+  - {fileID: 11400000, guid: f9bb39521713b0547820056fd551aa43, type: 2}
+  icon: {fileID: 21300000, guid: 57a8dcd9eb06e4c4896e130636e20003, type: 3}
+  dev_icon: {fileID: 21300000, guid: ab6f521799e7b0846b2d1d3d21c3c90b, type: 3}
+  faction: {fileID: 11400000, guid: 3c433959e0ca5fd4ab69e116c0220d05, type: 2}
+  Champion3DIconPrefab: {fileID: 1454960056381710, guid: 63757ce425216cb40ae637aa90af42af, type: 2}
+  inGameModelScale: 1.18
+  skins:
+  - {fileID: 11400000, guid: 9ea91e92d97b5e14abd32ba86e24521a, type: 2}
+  - {fileID: 11400000, guid: d3b2fed7687176048b969c3105fd1fc0, type: 2}
+  - {fileID: 11400000, guid: 52ded2fc39564ff4491c2ad9b1714bbc, type: 2}
+  - {fileID: 11400000, guid: 0c42607f8df5de34ea5cd5752b2a56e8, type: 2}
+  - {fileID: 11400000, guid: 6038d4daaa3389b42aa5c66df13db741, type: 2}
+  - {fileID: 11400000, guid: 3fa772321ac8154428324afc9154eff7, type: 2}
+  - {fileID: 11400000, guid: fe362c1ca2710194fbaf98d33ae35912, type: 2}
+  - {fileID: 11400000, guid: 90a16880bced3594f9930f93db4d7e19, type: 2}
+  - {fileID: 11400000, guid: ebd93b2440817054f8d19a53eddc5eeb, type: 2}
+  - {fileID: 11400000, guid: 4069afaf594d81d49bd7061b3301910b, type: 2}
+  maxAimRotation: 100
+  aimAnimRotationSpeed: 500
+  aimRotationBones:
+  - spine1_loResSpine2
+  - spine1_loResSpine3
+  - head1_neck
+  emoteConfig: {fileID: 11400000, guid: 38d12b0d65d1e3d429b8cad75cf47558, type: 2}
+  victoryPoseConfig: {fileID: 11400000, guid: 417c2a95f1b45014497ac0b191706e89, type: 2}
+  displayName: Galena
+  ballHoldHandName: rightArm1_LoResHand
+  ballHoldOffsetFromHand: {x: 0.042, y: 0.201, z: 0.018}
+  uiAnchor: {x: 0, y: 0.55, z: 0}
+  uiAnchorBoneName: head1_head
+  uiAnchorBoneRestPos: {x: 0, y: 1.63, z: 0}
+  uiAnchorBoneMinHeight: 1.1
+  uiAnchorBoneInfluence: 0.4
+  uiAnchorBoneSpringFrequency: 9
+  turntableModelScale: 1.18
+  cameraFar:
+    position: {x: -0.7, y: 1.55, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraClose:
+    position: {x: -0.22, y: 1.89, z: -4.68}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraMainMenu:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  shopIconTranslation: {x: 6.13, y: -224.74}
+  shopIconScale: 0.94

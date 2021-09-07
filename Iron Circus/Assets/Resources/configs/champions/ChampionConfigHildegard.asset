@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fdc19a42adc049958eaa57f4ab453, type: 3}
+  m_Name: ChampionConfigHildegard
+  m_EditorClassIdentifier:
+  championType: 7
+  classType: 1
+  colliderRadius: 0.725
+  maxHealth: 5
+  ballPickupRange: 1.05
+  maxSpeed: 6
+  stamina: {fileID: 11400000, guid: b5b568d10adb3c64e8af3ca7194ac321, type: 2}
+  uiDisplaySpeed: 2
+  acceleration: 13
+  deceleration: 12
+  controlsThrusterContribution: 0.6
+  moveOnlyForward: 0
+  useTurnSpeed: 0
+  turnSpeed: 600
+  playerSkillGraphs:
+  - {fileID: 11400000, guid: 3b6117bee9d07d240a2ab365476e34d3, type: 2}
+  - {fileID: 11400000, guid: bd1ab717a6472404fbca1e9fbc853374, type: 2}
+  - {fileID: 11400000, guid: 2d83e7d1d64ed824cb00265f318d885a, type: 2}
+  - {fileID: 11400000, guid: f6767d4ebd660614e843561904150262, type: 2}
+  - {fileID: 11400000, guid: 8352e541c9528f249825051b7e21f6be, type: 2}
+  - {fileID: 11400000, guid: d3c04162d72acf74d9689da17d4da76d, type: 2}
+  - {fileID: 11400000, guid: f9bb39521713b0547820056fd551aa43, type: 2}
+  icon: {fileID: 21300000, guid: a1d9f20af0ddcc5498c9c4b4a02955c7, type: 3}
+  dev_icon: {fileID: 21300000, guid: 3efc7f579683f5246970467d1d647139, type: 3}
+  faction: {fileID: 11400000, guid: 0a58537c089c2a945b5fa453c2367dbb, type: 2}
+  Champion3DIconPrefab: {fileID: 1900679751994085, guid: 3d6a789db2923af409900f348ad7c3cb, type: 2}
+  inGameModelScale: 0.97
+  skins:
+  - {fileID: 11400000, guid: 19d2e6990c8f776438f5031a79fc36b1, type: 2}
+  - {fileID: 11400000, guid: 00526dc7e71239b498ebeaa710911e7a, type: 2}
+  - {fileID: 11400000, guid: 2dea9af7e4038bb4b9ecb35f34607240, type: 2}
+  - {fileID: 11400000, guid: d1ae44e3bad98f04981ad56ee8806d29, type: 2}
+  - {fileID: 11400000, guid: 5ea84c1a207256645817f36c903bf8e5, type: 2}
+  - {fileID: 11400000, guid: a6168e3cd4ea49041b33668409002b3e, type: 2}
+  - {fileID: 11400000, guid: f7533c5ee1c6e41498ad8f61e41735d9, type: 2}
+  maxAimRotation: 100
+  aimAnimRotationSpeed: 500
+  aimRotationBones:
+  - spine1_loResSpine2
+  - spine1_loResSpine3
+  - head1_neck
+  emoteConfig: {fileID: 11400000, guid: 014d7d19e84c4fd4287a1e12d742b2de, type: 2}
+  victoryPoseConfig: {fileID: 11400000, guid: fdd4acb986f256c49bd315ba00b7e827, type: 2}
+  displayName: Ellika
+  ballHoldHandName: leftArm1_LoResHand
+  ballHoldOffsetFromHand: {x: -0.1, y: -0.213, z: 0}
+  uiAnchor: {x: 0, y: 0.4, z: 0}
+  uiAnchorBoneName: head1_head
+  uiAnchorBoneRestPos: {x: 0, y: 2.1, z: 0}
+  uiAnchorBoneMinHeight: 1.5
+  uiAnchorBoneInfluence: 0.4
+  uiAnchorBoneSpringFrequency: 9
+  turntableModelScale: 0.97
+  cameraFar:
+    position: {x: -0.7, y: 1.55, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraClose:
+    position: {x: -0.17, y: 2.11, z: -4.49}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraMainMenu:
+    position: {x: -0.06, y: 0.02, z: -0.06}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  shopIconTranslation: {x: -14.7, y: -250.4}
+  shopIconScale: 1

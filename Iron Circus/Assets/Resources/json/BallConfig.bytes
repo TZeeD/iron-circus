@@ -1,0 +1,130 @@
+{
+  "$type": "Imi.SharedWithServer.Config.BallConfig",
+  "ballHitDeactivationDurationForAll": 0.0,
+  "ballHitDeactivationDurationForHitter": 0.1,
+  "bounceFriction": 0.75,
+  "defaultFlightDrag": 0.33,
+  "dragAfterForce": 0.4,
+  "dragAfterForceCurve": {
+    "$type": "SteelCircus.GameElements.Curve",
+    "points": {
+      "$type": "System.Collections.Generic.List`1[[SteelCircus.GameElements.CurvePoint]]",
+      "$values": [
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 0.8545135,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 1.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        }
+      ]
+    }
+  },
+  "dragAfterForceDuration": 1.1,
+  "flightPath": {
+    "$type": "SteelCircus.GameElements.Curve",
+    "points": {
+      "$type": "System.Collections.Generic.List`1[[SteelCircus.GameElements.CurvePoint]]",
+      "$values": [
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 0.262081265,
+          "value": 0.55316776,
+          "inSlope": 4.33823633,
+          "outSlope": 4.33823633,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 0.596246,
+          "value": 0.9734143,
+          "inSlope": -0.5587561,
+          "outSlope": -0.5587561,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 0.8432231,
+          "value": 0.300495118,
+          "inSlope": -3.663396,
+          "outSlope": -3.663396,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 1.0,
+          "value": 0.00100708008,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        }
+      ]
+    }
+  },
+  "flightPathParabolaToCurveDuration": 0.9,
+  "forceToVelocityScale": 1.0,
+  "hoverAmplitude": 0.1,
+  "hoverFrequency": 1.0,
+  "hoverHeight": 0.35,
+  "hoverStartupCurve": {
+    "$type": "SteelCircus.GameElements.Curve",
+    "points": {
+      "$type": "System.Collections.Generic.List`1[[SteelCircus.GameElements.CurvePoint]]",
+      "$values": [
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 1.28435171,
+          "outSlope": 1.28435171,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 0.0209971163,
+          "outSlope": 0.0209971163,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        }
+      ]
+    }
+  },
+  "hoverStartupDuration": 0.6,
+  "hoverThresholdVelocity": 20.0,
+  "mass": 10000.0,
+  "maxFlightHeight": 2.2,
+  "maxFlightHeightAtVelocity": 32.0,
+  "restThresholdVelocity": 0.1,
+  "takeBallInterpolationDuration": 0.2,
+  "takeBallMaxAdvanceButtonPress": 1.0,
+  "velocityToFlightDurationScale": 0.025,
+  "name": "BallConfig",
+  "hideFlags": 0
+}

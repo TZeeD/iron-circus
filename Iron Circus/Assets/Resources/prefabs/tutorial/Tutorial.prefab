@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  serializedVersion: 2
+  m_RootGameObject: {fileID: 1014263025524033}
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1014263025524033
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4431417748162536}
+  - component: {fileID: 114803535668501703}
+  m_Layer: 0
+  m_Name: Tutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4431417748162536
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014263025524033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114803535668501703
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014263025524033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d84c756e2a0ad2349aac93f976ed7d6f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  tutorialTextBoxPrefab: {fileID: 1868462336200870, guid: de335d81b31b9a04ca3e65cb72f9d21f, type: 2}
+  tutorialPreloaderPrefab: {fileID: 1348544294358378, guid: cc91b7dc2725c8144b94107dadc71888, type: 2}
+  imgSprint: {fileID: 21300000, guid: 6e70baa6e0b63674b9e906213c08402f, type: 3}
+  imgBall: {fileID: 21300000, guid: 89586655272749b42b1c2479c0273c3a, type: 3}
+  imgEnemyGoal: {fileID: 21300000, guid: c8e981cefb078294e823b36a6d53cf5f, type: 3}
+  imgPass: {fileID: 21300000, guid: 0b1aedf45afd44043b4a6e9927d3d450, type: 3}
+  imgTeamMate: {fileID: 21300000, guid: ddb75a5aca143144888c14dc1a0421f5, type: 3}
+  imgOpponent: {fileID: 21300000, guid: a31e6affcc6d7494ebbe81788b633043, type: 3}
+  imgTackle: {fileID: 21300000, guid: 875903a8c4d038f4aad216a933c714f4, type: 3}
+  imgDodge: {fileID: 21300000, guid: a391ace8bc65c6645bd3f37712561f63, type: 3}
+  imgPickup: {fileID: 21300000, guid: 94d9ba2799097074fb3bd62f9ec69c15, type: 3}
+  imgWall: {fileID: 21300000, guid: 8d7e45f5d40d1d543bb7a2526f6023b6, type: 3}
+  imgTurret1: {fileID: 21300000, guid: 3e13cfb2255bff74690871e6ee004415, type: 3}
+  imgLogo: {fileID: 21300000, guid: 865abaa8f9b03194eab2c892bcac5aee, type: 3}

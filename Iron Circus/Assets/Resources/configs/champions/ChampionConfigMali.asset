@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fdc19a42adc049958eaa57f4ab453, type: 3}
+  m_Name: ChampionConfigMali
+  m_EditorClassIdentifier:
+  championType: 6
+  classType: 0
+  colliderRadius: 0.725
+  maxHealth: 3
+  ballPickupRange: 1.05
+  maxSpeed: 6.4
+  stamina: {fileID: 11400000, guid: 7c3b06e1a80ff4a4b8be6cbe81e66816, type: 2}
+  uiDisplaySpeed: 4
+  acceleration: 13
+  deceleration: 12
+  controlsThrusterContribution: 0.6
+  moveOnlyForward: 0
+  useTurnSpeed: 0
+  turnSpeed: 600
+  playerSkillGraphs:
+  - {fileID: 11400000, guid: 4f709acf9d5b5cb4dbb3f44bf0ad17aa, type: 2}
+  - {fileID: 11400000, guid: bd1ab717a6472404fbca1e9fbc853374, type: 2}
+  - {fileID: 11400000, guid: 4023dcfd96cf1004f83f89f5fc3d2aca, type: 2}
+  - {fileID: 11400000, guid: 67921e90e6e741747ba7ddb0963bca8b, type: 2}
+  - {fileID: 11400000, guid: e5d44e6e715d79944bb229cc457b0eb9, type: 2}
+  - {fileID: 11400000, guid: 7ec0e00721ed8e64892b459d6401ec6b, type: 2}
+  - {fileID: 11400000, guid: f9bb39521713b0547820056fd551aa43, type: 2}
+  icon: {fileID: 21300000, guid: 9c842f3a435f81d41b0a33dd866bceb8, type: 3}
+  dev_icon: {fileID: 21300000, guid: f84d4f96a6dd13046a15d78c3f386170, type: 3}
+  faction: {fileID: 11400000, guid: dc06628e83dd88a45a29a19c186b665a, type: 2}
+  Champion3DIconPrefab: {fileID: 1423540173698166, guid: f27c03ac956361947a60ec59603311b6, type: 2}
+  inGameModelScale: 1
+  skins:
+  - {fileID: 11400000, guid: 463b29181c85d1d4a8f269eb29abebce, type: 2}
+  - {fileID: 11400000, guid: 0c5662965283b864a828b848f8b598ab, type: 2}
+  - {fileID: 11400000, guid: c03632189d57f104381e1f13c728e6be, type: 2}
+  - {fileID: 11400000, guid: 204dc5ce571c04846b8fa0791e2cafb0, type: 2}
+  - {fileID: 11400000, guid: 311152c8e9e8cdb4a81dc2ea584f974d, type: 2}
+  - {fileID: 11400000, guid: 97342cfe5c6443545ae841c3636b68dc, type: 2}
+  - {fileID: 11400000, guid: d151de6a37c64654899be42c2575599c, type: 2}
+  - {fileID: 11400000, guid: 032ddb0b591d7244baf26f6284b9e743, type: 2}
+  - {fileID: 11400000, guid: 962689212d16ad34ab1f1f353013bf3a, type: 2}
+  maxAimRotation: 100
+  aimAnimRotationSpeed: 500
+  aimRotationBones:
+  - spine1_loResSpine2
+  - spine1_loResSpine3
+  - head1_neck
+  emoteConfig: {fileID: 11400000, guid: a19c4355c8d1d6f48a3e59d717d18fe8, type: 2}
+  victoryPoseConfig: {fileID: 11400000, guid: 51a4c43e869d3694083540c6d299205f, type: 2}
+  displayName: Shani
+  ballHoldHandName: rightArm1_LoResHand
+  ballHoldOffsetFromHand: {x: 0.11, y: 0.2, z: -0.06}
+  uiAnchor: {x: 0, y: 0.4, z: 0}
+  uiAnchorBoneName: head1_head
+  uiAnchorBoneRestPos: {x: 0, y: 1.53, z: 0}
+  uiAnchorBoneMinHeight: 1
+  uiAnchorBoneInfluence: 0.4
+  uiAnchorBoneSpringFrequency: 9
+  turntableModelScale: 1
+  cameraFar:
+    position: {x: -0.7, y: 1.55, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraClose:
+    position: {x: -0.16, y: 1.45, z: -4.66}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraMainMenu:
+    position: {x: -0.14, y: -0.3, z: 0.16}
+    rotation: {x: 0, y: 5.1, z: 0}
+    fov: 35
+  shopIconTranslation: {x: 1.38, y: -220}
+  shopIconScale: 0.8

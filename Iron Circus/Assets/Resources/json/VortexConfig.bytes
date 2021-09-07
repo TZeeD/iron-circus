@@ -1,0 +1,31 @@
+{
+  "$type": "Imi.SharedWithServer.Config.VortexConfig, Assembly-CSharp",
+  "button": 8,
+  "minThrowDistance": 1.0,
+  "maxThrowDistance": 7.5,
+  "throwDuration": 0.3,
+  "activationDuration": 0.2,
+  "pullSpeed": 5.5,
+  "pullDuration": 4.0,
+  "cooldown": 62.0,
+  "showAoePreviewForOtherPlayers": true,
+  "aoe": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 0,
+    "radius": 7.5,
+    "deadZone": 0.0,
+    "angle": 0.0,
+    "rectWidth": 0.0,
+    "rectLength": 0.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": true
+    }
+  },
+  "implosionVfx": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "VortexConfig",
+  "hideFlags": 0
+}

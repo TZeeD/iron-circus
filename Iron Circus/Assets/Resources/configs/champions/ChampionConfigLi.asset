@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fdc19a42adc049958eaa57f4ab453, type: 3}
+  m_Name: ChampionConfigLi
+  m_EditorClassIdentifier:
+  championType: 5
+  classType: 0
+  colliderRadius: 0.725
+  maxHealth: 3
+  ballPickupRange: 1.05
+  maxSpeed: 6.2
+  stamina: {fileID: 11400000, guid: b5b568d10adb3c64e8af3ca7194ac321, type: 2}
+  uiDisplaySpeed: 3
+  acceleration: 13
+  deceleration: 12
+  controlsThrusterContribution: 0.6
+  moveOnlyForward: 0
+  useTurnSpeed: 0
+  turnSpeed: 600
+  playerSkillGraphs:
+  - {fileID: 11400000, guid: 4f709acf9d5b5cb4dbb3f44bf0ad17aa, type: 2}
+  - {fileID: 11400000, guid: bd1ab717a6472404fbca1e9fbc853374, type: 2}
+  - {fileID: 11400000, guid: 78f5b5341a4c2424db830c10b4bcdc5c, type: 2}
+  - {fileID: 11400000, guid: f25b9649214e0cc4f84a02ca4067ec75, type: 2}
+  - {fileID: 11400000, guid: cbbc77f6fd763ad4abbf9118b5f6200a, type: 2}
+  - {fileID: 11400000, guid: 577dfd03f75beea48bf09286a7903988, type: 2}
+  - {fileID: 11400000, guid: f9bb39521713b0547820056fd551aa43, type: 2}
+  icon: {fileID: 21300000, guid: cadba3df30498864b8d39ca2313ed697, type: 3}
+  dev_icon: {fileID: 21300000, guid: 9ea5c94f9a4b5474aa4422d6df04c810, type: 3}
+  faction: {fileID: 11400000, guid: 8b4e3f4b09eacee488fb4bb4bc5e7870, type: 2}
+  Champion3DIconPrefab: {fileID: 1466776418163802, guid: e76dd2d0ad897714bb80588fab2f1004, type: 2}
+  inGameModelScale: 1.1
+  skins:
+  - {fileID: 11400000, guid: a4dc2cef13d8cbd47b13e2da5a1a2ab8, type: 2}
+  - {fileID: 11400000, guid: e22601a2ffb2b0e4b8bd3672b8d546ca, type: 2}
+  - {fileID: 11400000, guid: 56ef99731b58e954fb293cf352286217, type: 2}
+  - {fileID: 11400000, guid: 82b5e975997830543928bcde1dd58628, type: 2}
+  - {fileID: 11400000, guid: 5e9347f337fbb7943885bdee5ca41f9f, type: 2}
+  - {fileID: 11400000, guid: 39394909d9b5b4c4f90b3847f5c31375, type: 2}
+  - {fileID: 11400000, guid: df23d38d5f923fd46b191d6ee04bc1f2, type: 2}
+  - {fileID: 11400000, guid: 233c86388ebdfa447b54ceba1253ead9, type: 2}
+  - {fileID: 11400000, guid: bed14ed94e695c446a2d1b2d22eb45e0, type: 2}
+  - {fileID: 11400000, guid: d87753c876566d34fbd16212198510b0, type: 2}
+  - {fileID: 11400000, guid: fe15fb05a7ee708479582db2274f1b5e, type: 2}
+  - {fileID: 11400000, guid: 88456a990d329e14ea10bf597349a44f, type: 2}
+  maxAimRotation: 100
+  aimAnimRotationSpeed: 500
+  aimRotationBones:
+  - spine1_loResSpine2
+  - spine1_loResSpine3
+  - head1_neck
+  emoteConfig: {fileID: 11400000, guid: fcb52b728d188be4ea8d82f988732def, type: 2}
+  victoryPoseConfig: {fileID: 11400000, guid: 042884fe571213947863e9dd2bfcc2e3, type: 2}
+  displayName: Schröder
+  ballHoldHandName: rightArm1_LoResHand
+  ballHoldOffsetFromHand: {x: 0.042, y: 0.197, z: -0.018}
+  uiAnchor: {x: 0, y: 0.4, z: 0}
+  uiAnchorBoneName: head1_head
+  uiAnchorBoneRestPos: {x: 0, y: 1.562, z: 0}
+  uiAnchorBoneMinHeight: 1
+  uiAnchorBoneInfluence: 0.4
+  uiAnchorBoneSpringFrequency: 9
+  turntableModelScale: 1.1
+  cameraFar:
+    position: {x: -0.7, y: 1.55, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraClose:
+    position: {x: -0.26, y: 1.8, z: -4.2}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraMainMenu:
+    position: {x: 0.28, y: -0.07, z: 0.66}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  shopIconTranslation: {x: -1.1, y: -253.8}
+  shopIconScale: 1

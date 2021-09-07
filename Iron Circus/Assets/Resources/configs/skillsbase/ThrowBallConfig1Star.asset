@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c6fdbbe09798f429494eafe905a502, type: 3}
+  m_Name: ThrowBallConfig1Star
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name:
+    sizeInBytes: 56
+    numDirtyBytes: 2
+    numSyncActions: 0
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: Input.btnIsDown
+      type: 1
+      size: 1
+      index: 0
+    - name: While Can Throw.wasTrue
+      type: 1
+      size: 1
+      index: 1
+    - name: ShouldPlayChargeAnim.wasTrue
+      type: 1
+      size: 1
+      index: 2
+    - name: Charge Throw.targetValue
+      type: 5
+      size: 4
+      index: 3
+    - name: Pre-Charge Expire.startTick
+      type: 3
+      size: 4
+      index: 7
+    - name: BallthrowDelay.startTick
+      type: 3
+      size: 4
+      index: 11
+    - name: Throw Anim.variation
+      type: 3
+      size: 4
+      index: 15
+    - name: SkillVar.Charge Amount
+      type: 5
+      size: 4
+      index: 19
+    - name: SkillVar.ThrowBall
+      type: 1
+      size: 1
+      index: 23
+    - name: SkillVar.ThrowDir
+      type: 9
+      size: 12
+      index: 24
+    - name: SkillVar.AimDir
+      type: 9
+      size: 12
+      index: 36
+  chargeDuration: 0.75
+  prechargeTimeout: 0.5
+  chargeCurve:
+    points:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      leftTangentMode: 0
+      rightTangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      leftTangentMode: 0
+      rightTangentMode: 0
+  turnSnapAngle: 5
+  turnSpeed: 1000
+  ballHitVelocityMin: 21
+  ballHitVelocityMax: 38
+  throwAnimDuration: 0

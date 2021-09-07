@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d10651b9b461243bae4510bcf2c25b, type: 3}
+  m_Name: WarsongConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name:
+    sizeInBytes: 153
+    numDirtyBytes: 6
+    numSyncActions: 2
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: PlayVoice.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: PlayStopAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: Input.btnIsDown
+      type: 1
+      size: 1
+      index: 6
+    - name: Intro.progressInTicks
+      type: 3
+      size: 4
+      index: 7
+    - name: ActiveState.progressInTicks
+      type: 3
+      size: 4
+      index: 11
+    - name: ShowAoE.offset
+      type: 9
+      size: 12
+      index: 15
+    - name: ShowAoE.position
+      type: 9
+      size: 12
+      index: 27
+    - name: ShowAoE.lookDir
+      type: 9
+      size: 12
+      index: 39
+    - name: ShowAoE.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 51
+    - name: ShowAoE.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 52
+    - name: ShowAoE.onUnparentPosition
+      type: 9
+      size: 12
+      index: 53
+    - name: ShowAoE.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 65
+    - name: PlayAnim.normalizedProgress
+      type: 5
+      size: 4
+      index: 77
+    - name: PlayAnim.variation
+      type: 3
+      size: 4
+      index: 81
+    - name: StopLookingAtBall.normalizedProgress
+      type: 5
+      size: 4
+      index: 85
+    - name: StopLookingAtBall.variation
+      type: 3
+      size: 4
+      index: 89
+    - name: WhileUpdateCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 93
+    - name: UpdateCooldown.targetValue
+      type: 5
+      size: 4
+      index: 94
+    - name: UpdateCooldown.currentVal
+      type: 5
+      size: 4
+      index: 98
+    - name: SkillVar.CooldownOver
+      type: 1
+      size: 1
+      index: 102
+    - name: SkillVar.IsActive
+      type: 1
+      size: 1
+      index: 103
+    - name: SkillVar.CurrentCooldown
+      type: 5
+      size: 4
+      index: 104
+    - name: SkillVar.CurrentReapplyDuration
+      type: 5
+      size: 4
+      index: 108
+    - name: SkillVar.length
+      type: 2
+      size: 1
+      index: 112
+    - name: SkillVar.Affected Entities[0]
+      type: 10
+      size: 2
+      index: 113
+    - name: SkillVar.Affected Entities[1]
+      type: 10
+      size: 2
+      index: 115
+    - name: SkillVar.Affected Entities[2]
+      type: 10
+      size: 2
+      index: 117
+    - name: SkillVar.Affected Entities[3]
+      type: 10
+      size: 2
+      index: 119
+    - name: SkillVar.Affected Entities[4]
+      type: 10
+      size: 2
+      index: 121
+    - name: SkillVar.Affected Entities[5]
+      type: 10
+      size: 2
+      index: 123
+    - name: SkillVar.Affected Entities[6]
+      type: 10
+      size: 2
+      index: 125
+    - name: SkillVar.Affected Entities[7]
+      type: 10
+      size: 2
+      index: 127
+    - name: SkillVar.Affected Entities[8]
+      type: 10
+      size: 2
+      index: 129
+    - name: SkillVar.Affected Entities[9]
+      type: 10
+      size: 2
+      index: 131
+    - name: SkillVar.Affected Entities[10]
+      type: 10
+      size: 2
+      index: 133
+    - name: SkillVar.Affected Entities[11]
+      type: 10
+      size: 2
+      index: 135
+    - name: SkillVar.Affected Entities[12]
+      type: 10
+      size: 2
+      index: 137
+    - name: SkillVar.Affected Entities[13]
+      type: 10
+      size: 2
+      index: 139
+    - name: SkillVar.Affected Entities[14]
+      type: 10
+      size: 2
+      index: 141
+    - name: SkillVar.Affected Entities[15]
+      type: 10
+      size: 2
+      index: 143
+  button: 8
+  iconName: icon_warsong_inverted_01_tex
+  cooldown: 60
+  reapplyDuration: 0.25
+  moveSpeedModifierEnemies: -0.5
+  moveSpeedModifierAllies: 0.2
+  moveSpeedModifierOwn: 0.2
+  castDuration: 0.1
+  effectDuration: 5
+  aoe:
+    shape: 0
+    radius: 6
+    deadZone: 0
+    angle: 0
+    rectWidth: 0
+    rectLength: 0
+    vfxPrefab:
+      value: {fileID: 1900144285306682, guid: caee7de3e5c3ab542a18d74784a1c5cf, type: 2}
+  vfxPrefab:
+    value: {fileID: 1604733678291242, guid: fd2e1d01f7a98874ea8748e01d591c56, type: 2}

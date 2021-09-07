@@ -1,0 +1,4213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54e9118bb282cf44b96b58071817296d, type: 3}
+  m_Name: ItemsConfig
+  m_EditorClassIdentifier:
+  championConfigProvider: {fileID: 11400000, guid: a93da6b687992b24fb48d02ca64b406e, type: 2}
+  standalonePlayerLoadoutConfig: {fileID: 11400000, guid: 7638e6ef3ae40b042810ff3a26a6b445, type: 2}
+  spraytags:
+  - name: ST000001
+    type: 1
+    fileName: acrid_face_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 1
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f6136fff8cb534842bf4ac9c34b416e6, type: 3}
+    prefab: {fileID: 1614476692185696, guid: 0a9b08adb1edf784bbb16ff2298fef9e, type: 2}
+  - name: ST000002
+    type: 1
+    fileName: acrid_nom__spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 2
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 5ee6d355f1d58d64ba876d198d0a674b, type: 3}
+    prefab: {fileID: 1232399620026196, guid: a56c87dd7439a744394831e4caa993a3, type: 2}
+  - name: ST000005
+    type: 1
+    fileName: acrid_vomit_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 3
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4d81fb84595514b48a4acea5112b1a35, type: 3}
+    prefab: {fileID: 1683278052857810, guid: e2f22d80ee1921344910e1b02aaddb98, type: 2}
+  - name: ST000006
+    type: 1
+    fileName: bagpipes_flex_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 4
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: dacb4dcbd09f86a41a1803e6f005a801, type: 3}
+    prefab: {fileID: 1935516831729382, guid: 1dd92451eec4db44b947d89a3ca53542, type: 2}
+  - name: ST000007
+    type: 1
+    fileName: bagpipes_golf_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 5
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 7872379b247fed54ea7e9071d6cf7e6a, type: 3}
+    prefab: {fileID: 1211948625397924, guid: 4e298e1a1c98e6b46871277434c71462, type: 2}
+  - name: ST000008
+    type: 1
+    fileName: bagpipes_pipes_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 6
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: bed55e34b597ecc4886f3d9aa465d392, type: 3}
+    prefab: {fileID: 1533848458549116, guid: c75bb2e1d74536c49b70b5aee9ad9e8d, type: 2}
+  - name: ST000009
+    type: 1
+    fileName: bagpipes_rage_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 7
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 8a18a6b39f143be4ba3e31cf45e49363, type: 3}
+    prefab: {fileID: 1591699893332676, guid: 373c229ca28c1764b87577d755aa07ac, type: 2}
+  - name: ST000010
+    type: 1
+    fileName: generic_animated_happy_bird_spray
+    tier: 2
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 8
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: efd4cf67d25fa7544a282f07ddf4259a, type: 3}
+    prefab: {fileID: 1749599363024254, guid: ec88bd8476722774aa68ac551223f10c, type: 2}
+  - name: ST000011
+    type: 1
+    fileName: generic_animated_rage_bird_spray
+    tier: 2
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 9
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b1115b260030a7d429ec39882e932215, type: 3}
+    prefab: {fileID: 1285968048601859, guid: 284b99880ce95254faab886f5898d0fd, type: 2}
+  - name: ST000012
+    type: 1
+    fileName: generic_animated_sad_bird_spray
+    tier: 2
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 10
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 06987e209c1f8c544b588916e84316b6, type: 3}
+    prefab: {fileID: 1502546968815014, guid: b6110abf71f3b534db6fa486882443e7, type: 2}
+  - name: ST000013
+    type: 1
+    fileName: generic_animated_thumbs_bird_spray
+    tier: 2
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 11
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 71ee6d6d69b341b49a9b4c26cbaf469a, type: 3}
+    prefab: {fileID: 1054143414124383, guid: 9b85895d2783a8e4195ad11d66c60145, type: 2}
+  - name: ST000014
+    type: 1
+    fileName: generic_cake_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 12
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0e3f42c9162844044bd0212f68083c5b, type: 3}
+    prefab: {fileID: 1884948801989370, guid: 8885fdcf26cf1cb42944c6545e8bbec3, type: 2}
+  - name: ST000015
+    type: 1
+    fileName: generic_happy_emoji_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 13
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: de1cd14decd6eec49926421ff7b24c1f, type: 3}
+    prefab: {fileID: 1562981400904515, guid: a366b1292372c08459977943f8386edd, type: 2}
+  - name: ST000016
+    type: 1
+    fileName: generic_heart_broken_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 14
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6d1ed7e32080f2c408d604c2eadcfe63, type: 3}
+    prefab: {fileID: 1744104922286303, guid: 8b282343a3d1aff4e9912d03cf11f741, type: 2}
+  - name: ST000017
+    type: 1
+    fileName: generic_heart_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 15
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b31352a681c80bf4386f7d7c26957551, type: 3}
+    prefab: {fileID: 1197811810929874, guid: 9c4e235d2d3228044ab1af0892a921eb, type: 2}
+  - name: ST000018
+    type: 1
+    fileName: generic_rage_emoji_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 16
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 22bdc40b8123dda4cb575505871f4461, type: 3}
+    prefab: {fileID: 1789040639720585, guid: 796df2d9ad1ebd449a03d6bfd82a052c, type: 2}
+  - name: ST000019
+    type: 1
+    fileName: generic_sad_emoji_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 17
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 2d31678822d4ec8409673230c9278880, type: 3}
+    prefab: {fileID: 1037814191117512, guid: 3f8791f7cef947849b70b35e66e66427, type: 2}
+  - name: ST000020
+    type: 1
+    fileName: generic_sceptical_emoji_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 18
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 263c7646a2897b54b833d3bf0b85cf9c, type: 3}
+    prefab: {fileID: 1908453994224090, guid: 7c2f608f5e03d744e947d7e4f0a86b77, type: 2}
+  - name: ST000021
+    type: 1
+    fileName: generic_tea_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 19
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0084f85868320c04c9ed7c46217c6bf6, type: 3}
+    prefab: {fileID: 1381247755618977, guid: c17a849db3f1d054b9ae36167a82ba2e, type: 2}
+  - name: ST000022
+    type: 1
+    fileName: generic_thumbs_up_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 20
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: bbacc0cac65a907478d49e156d8dea9f, type: 3}
+    prefab: {fileID: 1031175957552008, guid: 7cf04b2549d334346be73423b38f4e4e, type: 2}
+  - name: ST000023
+    type: 1
+    fileName: hildegard_badge_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 21
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 206d840ad7c64a34398fd2c4b6c52046, type: 3}
+    prefab: {fileID: 1235268989002675, guid: 8af13351b0db421469ca8cffd114e7a2, type: 2}
+  - name: ST000024
+    type: 1
+    fileName: hildegard_busted_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 22
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c710cc4e3a1c9ab4080848c97d7fc8d5, type: 3}
+    prefab: {fileID: 1355886344709172, guid: 919e8a8be490c234a80deaf582f34dfc, type: 2}
+  - name: ST000025
+    type: 1
+    fileName: hildegard_pose_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 23
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 5f9d55b9e41e98b4a84f6cae8607fcec, type: 3}
+    prefab: {fileID: 1997445797693772, guid: 0e3eed6244d7c5f47ae01bd34e299b77, type: 2}
+  - name: ST000026
+    type: 1
+    fileName: hildegard_rage_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 24
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 826756d8062d4f94fbb44858878186d9, type: 3}
+    prefab: {fileID: 1742792888766539, guid: 338a026608497624f8d2729b2ed75463, type: 2}
+  - name: ST000027
+    type: 1
+    fileName: li_cat_spray_2
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 25
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0b61b0474a953f54c8ecc6d7fc3f1b8c, type: 3}
+    prefab: {fileID: 1732002266207295, guid: ea9db674de0c3cf4d9c0f74490363358, type: 2}
+  - name: ST000028
+    type: 1
+    fileName: li_face_spray_2
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 26
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: fed3a01153a32004aa6e6085bb115534, type: 3}
+    prefab: {fileID: 1403650596147091, guid: 69d5a978ac5b2ed4a97de96972b328d0, type: 2}
+  - name: ST000029
+    type: 1
+    fileName: li_hand_spray_2
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 27
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 004da2460519a5f449db9fdde0f01a2c, type: 3}
+    prefab: {fileID: 1496719133322873, guid: 3bb0ee273e87f934fac0576d84b7408a, type: 2}
+  - name: ST000030
+    type: 1
+    fileName: li_suit_spray_2
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 28
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: aebe68263cb7b594aa2b1c0a727a11f1, type: 3}
+    prefab: {fileID: 1409258254406831, guid: 913b79abc57e5a5468c0d43ead478c84, type: 2}
+  - name: ST000031
+    type: 1
+    fileName: mali_face_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 29
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4464aebc2a61d94458cf96522cf8ccc4, type: 3}
+    prefab: {fileID: 1018798488227964, guid: 242ae33e50573b04cb866ac199383197, type: 2}
+  - name: ST000033
+    type: 1
+    fileName: mali_hand_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 30
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 131e3f931f69d7b479adec5ea8b8d2d7, type: 3}
+    prefab: {fileID: 1674068414046206, guid: 2eb11209c8b2ac642a69a1c2481d0f1f, type: 2}
+  - name: ST000035
+    type: 1
+    fileName: servitor_bones_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 31
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: aa450816d83bbc44180323ec8aee66b7, type: 3}
+    prefab: {fileID: 1364814627008868, guid: 750d4581147be5d40981346c7343bb29, type: 2}
+  - name: ST000036
+    type: 1
+    fileName: servitor_face_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 32
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e2c07eff619db2747a106cb7d62413f8, type: 3}
+    prefab: {fileID: 1685274705692413, guid: d3ebe6408ff4d0048a5d0b1914aca3b8, type: 2}
+  - name: ST000037
+    type: 1
+    fileName: servitor_hat_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 33
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d9c39f92a44f8584a9cd4062a157b107, type: 3}
+    prefab: {fileID: 1840470211885625, guid: 89f10d648afa83a46933153ed58476e4, type: 2}
+  - name: ST000038
+    type: 1
+    fileName: servitor_hi_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 34
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4310bf1283e9dc8499ecc890bed6ade9, type: 3}
+    prefab: {fileID: 1289999660411985, guid: 2045caaaf906be64984cac1842a98ef5, type: 2}
+  - name: ST000039
+    type: 1
+    fileName: servitor_pew_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 35
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: afb2ef624ad0d9f46b2472aa1ad36524, type: 3}
+    prefab: {fileID: 1721142987047570, guid: 4c725ba8c09b86442b8c2a6b9bc782e3, type: 2}
+  - name: ST000040
+    type: 1
+    fileName: galena_heart_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 36
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 02122f146fb23a044b315f45d66f6f1e, type: 3}
+    prefab: {fileID: 1769292625695089, guid: 6354a824290ddd2488c9b610ccd9b45a, type: 2}
+  - name: ST000041
+    type: 1
+    fileName: galena_kiss_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 37
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c63c7d7b9583cdb4788cb7ce0f92686d, type: 3}
+    prefab: {fileID: 1323232723670788, guid: d283c100eed9b614085bfef8e32b22f5, type: 2}
+  - name: ST000042
+    type: 1
+    fileName: generic_bun_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 38
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 8950e52802b8d354b8a83c7f951e9050, type: 3}
+    prefab: {fileID: 1337833715423078, guid: d5b99afdc6975bf48ba46f29efe8c6d6, type: 2}
+  - name: ST000043
+    type: 1
+    fileName: generic_chicken_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 39
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4b74fa49f5d95e94ebcf09c89669329c, type: 3}
+    prefab: {fileID: 1936563711640148, guid: f4874b7c1c871924290dc47148a4a694, type: 2}
+  - name: ST000044
+    type: 1
+    fileName: generic_hotdog_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 40
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: eaf5ea0f4ffc7b547923183fb31df6c4, type: 3}
+    prefab: {fileID: 1739741513608850, guid: 2be9daa083c41de47ba2e5246f130277, type: 2}
+  - name: ST000045
+    type: 1
+    fileName: generic_spacedog_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 41
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0b28bf2f52ca7164386fb9098b368e80, type: 3}
+    prefab: {fileID: 1035625643544931, guid: 72514f8c7e5730b44a35a1e39d67423d, type: 2}
+  - name: ST000046
+    type: 1
+    fileName: generic_sunglasses_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 42
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 065a0c033c892094b89b92aa78334a3d, type: 3}
+    prefab: {fileID: 1491283221462275, guid: 12164b69e28a0364296192047296eca4, type: 2}
+  - name: ST000047
+    type: 1
+    fileName: acrid_rampage_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 43
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 95b5d85fb236dc342b4f44a07ed7d3f9, type: 3}
+    prefab: {fileID: 1849397237919062, guid: 07cc7982b4a49ac45be3d140397995f9, type: 2}
+  - name: ST000048
+    type: 1
+    fileName: galena_zap_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 44
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0c04542edb3862041848dc7ca120b856, type: 3}
+    prefab: {fileID: 1668411630713295, guid: e6e159a447dcbdf469c17ec516afe574, type: 2}
+  - name: ST000049
+    type: 1
+    fileName: generic_fistbump_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 45
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 49e0c569505a40542970995af05ad087, type: 3}
+    prefab: {fileID: 1375394211699359, guid: 147134fd53ce27b40935f6a034144f44, type: 2}
+  - name: ST000050
+    type: 1
+    fileName: generic_handshake_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 46
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 5950c0849b29af14c9b12b0a9580cec0, type: 3}
+    prefab: {fileID: 1383877453089672, guid: c1af060f507d44e4cb6eaa447a28dac6, type: 2}
+  - name: ST000051
+    type: 1
+    fileName: generic_sour_emoji_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 47
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 3ac4a6591d981d14686f506307df36c5, type: 3}
+    prefab: {fileID: 1380665366628808, guid: 8f907901bd14d8a4dbc191d4bf9da9e9, type: 2}
+  - name: ST000052
+    type: 1
+    fileName: mali_charge_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 48
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2be607fb5d42e9447a2cb70aaf3d7fcb, type: 3}
+    prefab: {fileID: 1495137423860194, guid: 17d40d5019d2d2d438ac360fbd73a795, type: 2}
+  - name: ST000053
+    type: 1
+    fileName: mali_close_one_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 49
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2b3ce9586c6551049a53f9e9e39618cf, type: 3}
+    prefab: {fileID: 1919693619706936, guid: 1ac183baba9757544a51d7e8f6c08abb, type: 2}
+  skins:
+  - name: SK000001
+    type: 3
+    fileName: char_acrid
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 50
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 91ea1d3eb8614124eb1dd0b0e4110f9e, type: 3}
+    prefab: {fileID: 1011017794728263, guid: 43d84ff7607daad4ca99d82d7aede2f5, type: 2}
+  - name: SK000002
+    type: 3
+    fileName: cos_acrid_green
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4200
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 51
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 7a63dfdc4745f19408b2f317223f4fc8, type: 3}
+    prefab: {fileID: 1517975457605465, guid: 9231e0f09d3c6df49b504e03e6bf49fc, type: 2}
+  - name: SK000003
+    type: 3
+    fileName: cos_acrid_blue
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 52
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 57c39346483d4f649b569b9d17d2fa9e, type: 3}
+    prefab: {fileID: 1186633645846935, guid: d2d22f6449601af499ad4c00bc9da64d, type: 2}
+  - name: SK000004
+    type: 3
+    fileName: char_bagpipes
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 53
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: ee54e2d9988d2f64fa709b85ce7639b1, type: 3}
+    prefab: {fileID: 1561632766493718, guid: 94b0535b26880cd4abda7ed998c932d5, type: 2}
+  - name: SK000005
+    type: 3
+    fileName: cos_bagpipes_tattoo
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 54
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: fc1c209b558b0844494b97e4e087196c, type: 3}
+    prefab: {fileID: 1379301944357097, guid: 7b83d34e26a3596429473c0bf01efa9e, type: 2}
+  - name: SK000006
+    type: 3
+    fileName: cos_bagpipes_reggae
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 55
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d3e408f89cd435943a6bb41ddb674446, type: 3}
+    prefab: {fileID: 1376613117670608, guid: 420ad8da266bba34fbadf465e0c65dac, type: 2}
+  - name: SK000007
+    type: 3
+    fileName: cos_bagpipes_traditional
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 56
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 583994f0fdddbb141989dcac543b118b, type: 3}
+    prefab: {fileID: 1932842512226943, guid: 71ff66dd02e126f498c85f5ff5f280d1, type: 2}
+  - name: SK000008
+    type: 3
+    fileName: cos_bagpipes_traditional_redwhite
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 57
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f33dc17cd3cbbc9478fdedbcb14d43e4, type: 3}
+    prefab: {fileID: 1110232009899272, guid: fc38bd5a6e508a44686eb996f141d0aa, type: 2}
+  - name: SK000009
+    type: 3
+    fileName: cos_bagpipes_rugby
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 58
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ea2fd45e5b38c5847a6793b3dcd6bf2d, type: 3}
+    prefab: {fileID: 1541387254670376, guid: 535979fec6169ad4c812bbcc1a61d684, type: 2}
+  - name: SK000010
+    type: 3
+    fileName: cos_bagpipes_rugby_neon
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 59
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c3cde8d14c3d694429afb4d6606588fc, type: 3}
+    prefab: {fileID: 1353948220174178, guid: 9f3170d5ae1b1fd45a2222cb134dfb4f, type: 2}
+  - name: SK000011
+    type: 3
+    fileName: char_galena
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 60
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 96766ecd2efb7454baa31324829b6648, type: 3}
+    prefab: {fileID: 1563715683955799, guid: e7d55df115875bd469fff4fcbcf07711, type: 2}
+  - name: SK000012
+    type: 3
+    fileName: cos_galena_blue
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 61
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: aed89ab2238bfb949907d02b0269a440, type: 3}
+    prefab: {fileID: 1415417812010627, guid: 2a90d48841ff7ac49b732d3421a531c1, type: 2}
+  - name: SK000013
+    type: 3
+    fileName: cos_galena_purple
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 62
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e6df4ef19adfcad479306a9c29083cab, type: 3}
+    prefab: {fileID: 1329051906049145, guid: 78ac14c249626f7418ba1e6d05a10653, type: 2}
+  - name: SK000014
+    type: 3
+    fileName: char_hildegard
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 63
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 307ea75bde946b1448ffb0ae13ee7f74, type: 3}
+    prefab: {fileID: 1241919376929928, guid: dd250c75e4a2c4b4d8f4a88b976f8d98, type: 2}
+  - name: SK000015
+    type: 3
+    fileName: cos_hildegard_military
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 64
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6c32558a29338fa4598cc6d73d4a437f, type: 3}
+    prefab: {fileID: 1804053408218195, guid: 53acbab2f3528624b8626eb8f3604895, type: 2}
+  - name: SK000016
+    type: 3
+    fileName: cos_hildegard_space
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 65
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b5b9c26dcf326314a8d28b8f80f0d20d, type: 3}
+    prefab: {fileID: 1266724541466974, guid: 1ce88587c3529494da6532672b1615e7, type: 2}
+  - name: SK000017
+    type: 3
+    fileName: cos_hildegard_wrestling
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 66
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: fe74f5599cbfcbf41af44a6e46a2c41f, type: 3}
+    prefab: {fileID: 1853399338667731, guid: 165ed13ccc4efe644ba34b46a2a42b4f, type: 2}
+  - name: SK000018
+    type: 3
+    fileName: cos_hildegard_riotsuit_white
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 67
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4a2b4749fa06efa44be9f128b871bf20, type: 3}
+    prefab: {fileID: 1129442097006631, guid: 25e2c121146a7d647a96ae204b9a99df, type: 2}
+  - name: SK000019
+    type: 3
+    fileName: cos_hildegard_riotsuit_blue
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 68
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b9c6a15fb2acbe54a971d217bc0c8276, type: 3}
+    prefab: {fileID: 1870733622051033, guid: a45014f1afc05f34297d64fa2bae1615, type: 2}
+  - name: SK000020
+    type: 3
+    fileName: cos_hildegard_wrestling_blue
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 69
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b6741f124ece4e84b8e4b535abbf759e, type: 3}
+    prefab: {fileID: 1878974413831144, guid: cb326b851b7f5814d8efcfa853fbf36c, type: 2}
+  - name: SK000021
+    type: 3
+    fileName: char_li
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 70
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: e070d21851ed4c64e92c748835c79572, type: 3}
+    prefab: {fileID: 1132158998495318, guid: 58d08450a6e43564da6d3f16ae34166f, type: 2}
+  - name: SK000022
+    type: 3
+    fileName: cos_li_gold
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 71
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: fa077f71d6535674782331862305b6e5, type: 3}
+    prefab: {fileID: 1669520098544859, guid: 70740bb5d2811e4408ca91d391f6989f, type: 2}
+  - name: SK000023
+    type: 3
+    fileName: cos_li_purple
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 72
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 597ac64150757284c8e80d693ce5b0aa, type: 3}
+    prefab: {fileID: 1156528812962902, guid: afe8dc26ccbbd9d4498979763f2dbd56, type: 2}
+  - name: SK000024
+    type: 3
+    fileName: cos_li_devilmask_white
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 73
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e24b56db63438c8438de630d42204d97, type: 3}
+    prefab: {fileID: 1692843016906202, guid: 04ecac7dbc08f214db1d6abf40a3bea6, type: 2}
+  - name: SK000025
+    type: 3
+    fileName: cos_li_devilmask_black
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 74
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 957c1f00156ce72428e518a550008c17, type: 3}
+    prefab: {fileID: 1515050291603924, guid: c7ba0cd14f8536141b825fe021ad3ff9, type: 2}
+  - name: SK000026
+    type: 3
+    fileName: cos_li_aero_red
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 75
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6edeaf84a6a3a42429186b8b1c40a5d0, type: 3}
+    prefab: {fileID: 1503954970927702, guid: 224e6316a291e52418e65482c9a70dd2, type: 2}
+  - name: SK000027
+    type: 3
+    fileName: cos_li_aero_purple
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 76
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6c7ab7f07e07e9b43bc1dee8ade91b48, type: 3}
+    prefab: {fileID: 1878041081104488, guid: 7a0bfdc32596a7146bec6df397126805, type: 2}
+  - name: SK000028
+    type: 3
+    fileName: char_mali
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 77
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: cf542189fe3d4374290a7a8b86ec28f9, type: 3}
+    prefab: {fileID: 1954726226462342, guid: ea120b36c7915c04e8f2d2ce74870fc4, type: 2}
+  - name: SK000029
+    type: 3
+    fileName: cos_mali_hexagonpink
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 78
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 76fb5a912507c354588674869cf5e9b0, type: 3}
+    prefab: {fileID: 1400198394835632, guid: a27a32a52f98f9942b205cd73625194c, type: 2}
+  - name: SK000030
+    type: 3
+    fileName: cos_mali_cameroon
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 79
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b5341070cfdee3f4da5f3ec4fe04fa3c, type: 3}
+    prefab: {fileID: 1644290214786827, guid: 4b83169d9be0fc2448f3c4265cd1fcdf, type: 2}
+  - name: SK000031
+    type: 3
+    fileName: cos_mali_traditional
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 80
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 440ee49a433237a4a808f59633c8a157, type: 3}
+    prefab: {fileID: 1064745683428412, guid: af1a37cfb97ca9c4e931d360f7d32b26, type: 2}
+  - name: SK000032
+    type: 3
+    fileName: cos_mali_traditional_red
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 81
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6df4dc70a5622a14d8c3ac8fef397f6f, type: 3}
+    prefab: {fileID: 1907698169058121, guid: feddfcd866d4a8f4296f90894e8a9df3, type: 2}
+  - name: SK000033
+    type: 3
+    fileName: cos_mali_coilhair
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 82
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 172fe9123044eb4468eb86c1a626bc4f, type: 3}
+    prefab: {fileID: 1329310683084555, guid: 71f1c6ce63eb6504783d511a7a683240, type: 2}
+  - name: SK000034
+    type: 3
+    fileName: cos_mali_coilhair_purple
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 83
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 96806ada6ec51154181c5b7f567745a0, type: 3}
+    prefab: {fileID: 1209431369136393, guid: a0d873236188cc24ea4eb2bd8c952600, type: 2}
+  - name: SK000035
+    type: 3
+    fileName: char_servitor
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 84
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 09998f8906f7a054daa8e5c440cb0f7f, type: 3}
+    prefab: {fileID: 1775585168587692, guid: a4f66fae3cf3e3e4e8208ec946294b46, type: 2}
+  - name: SK000036
+    type: 3
+    fileName: cos_servitor_medic
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 85
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d4d28c8d03c73fe47a7806f0e8e4a896, type: 3}
+    prefab: {fileID: 1607469994273495, guid: 0ddc5c9575731b24e9cda378dd9d17b6, type: 2}
+  - name: SK000037
+    type: 3
+    fileName: cos_servitor_military
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 86
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d57aaedd519128c4f837874a882b9fe2, type: 3}
+    prefab: {fileID: 1878698842820575, guid: c918790e7e9f6dd4ba5f38e01986beb6, type: 2}
+  - name: SK000038
+    type: 3
+    fileName: cos_servitor_candy
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 87
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: a579fcb9f41816240991de8550866635, type: 3}
+    prefab: {fileID: 1229959671672476, guid: 529d4e96b23a0e84082b61dc65df4c17, type: 2}
+  - name: SK000039
+    type: 3
+    fileName: cos_servitor_fox
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 88
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 7a1e26aaa73527948ae13dc8c6907322, type: 3}
+    prefab: {fileID: 1760486878479092, guid: 938fa2b74aee81742ab4266751b5bceb, type: 2}
+  - name: SK000040
+    type: 3
+    fileName: cos_servitor_fox_cat
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 89
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 035f8fc7df76ab54db3f55a5e2a07136, type: 3}
+    prefab: {fileID: 1842422855434885, guid: e499c414960f2eb4ea50e41d409273d8, type: 2}
+  - name: SK000041
+    type: 3
+    fileName: cos_li_aero_yellow
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 90
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6a755627ca57ff94db16493cebdb660b, type: 3}
+    prefab: {fileID: 1047717513759480, guid: 101237a6b72709c4ba6837bb0e768e0d, type: 2}
+  - name: SK000042
+    type: 3
+    fileName: cos_li_aero_green
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 91
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4d1b9db5278eff74fa0ef94d41f5a4cd, type: 3}
+    prefab: {fileID: 1766550413348788, guid: 820eb337f648e024e82dc446352aded3, type: 2}
+  - name: SK000043
+    type: 3
+    fileName: cos_li_mechamask
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 92
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 63b58b70aec583d49a005f20971e6e86, type: 3}
+    prefab: {fileID: 1400279815162270, guid: ce1b11c2bd929e34d9da4a496a57dfbb, type: 2}
+  - name: SK000044
+    type: 3
+    fileName: cos_li_mechamask_white
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 93
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4790b51720463a64d8e5ae942780cb98, type: 3}
+    prefab: {fileID: 1147360726150960, guid: 8b31451f62665194d923431f439fc070, type: 2}
+  - name: SK000045
+    type: 3
+    fileName: cos_acrid_nomask
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 94
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 37bad288c0ea98045bc82eb0d4e3d582, type: 3}
+    prefab: {fileID: 1714279228315927, guid: d1aef17af0d99f14ea37c5c2775f40d4, type: 2}
+  - name: SK000046
+    type: 3
+    fileName: cos_galena_sandstorm
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 95
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f7694df94d97d5749b8d60eccf14f3ed, type: 3}
+    prefab: {fileID: 1406347156774567, guid: ea36aacda3b6cfd458fce4914f436529, type: 2}
+  - name: SK000047
+    type: 3
+    fileName: cos_galena_sandstorm_blue
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 96
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 51561a8db86653c48a7b6142807be1e6, type: 3}
+    prefab: {fileID: 1928819269026352, guid: 04262c4261247da40839e78f477061bf, type: 2}
+  - name: SK000048
+    type: 3
+    fileName: cos_servitor_skeleton
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 97
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 437e0980e60fdfd4fb834590d9755736, type: 3}
+    prefab: {fileID: 1280095292163446, guid: adbedf43eac30574d9c2f2a98f7e06b5, type: 2}
+  - name: SK000049
+    type: 3
+    fileName: cos_acrid_fins
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 98
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 248faedb786cffc4bb87c453b1c1ced3, type: 3}
+    prefab: {fileID: 1905149357219443, guid: c7a739e63d129384a96d5f4c46ecff8b, type: 2}
+  - name: SK000050
+    type: 3
+    fileName: cos_acrid_fins_pink
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 99
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: a2d937cb3d0dcb647ac4245ad9eb8ac3, type: 3}
+    prefab: {fileID: 1784910569002784, guid: fbd078de7ad9f84408e3723aed216f3c, type: 2}
+  - name: SK000051
+    type: 3
+    fileName: cos_acrid_spikes
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 100
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 712ca503f2c922442bef8839e0bc911d, type: 3}
+    prefab: {fileID: 1488888838970914, guid: b25388f9ac3e6fe4680bd2f8ccc8099f, type: 2}
+  - name: SK000052
+    type: 3
+    fileName: cos_acrid_spikes_red
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 101
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 9d60a54aab01be449848bb8b8e8009d3, type: 3}
+    prefab: {fileID: 1913455230610627, guid: 5578125142e093d4d94658542ce0953a, type: 2}
+  - name: SK000053
+    type: 3
+    fileName: cos_bagpipes_techarm
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 102
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 1a4acd7aad942e7458fca1e3e8ecbcc1, type: 3}
+    prefab: {fileID: 1935612714877992, guid: c3beaf8e81ee8d8479ca5be048727c5f, type: 2}
+  - name: SK000054
+    type: 3
+    fileName: cos_bagpipes_techarm_purple
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 103
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0b3ba984c9513824ea9dce017f3a5a6e, type: 3}
+    prefab: {fileID: 1860118681646911, guid: e9eb458404b5fc246a957d90315ca3fe, type: 2}
+  - name: SK000055
+    type: 3
+    fileName: cos_bagpipes_techarm_white
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 104
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2043eb660f51a1541a3b23ddd648a7b2, type: 3}
+    prefab: {fileID: 1741126207716101, guid: 3500eb398ff486f41adf15105d78d0d2, type: 2}
+  - name: SK000056
+    type: 3
+    fileName: cos_galena_majestic
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 105
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2e79a86ccf9b54c48884e36d1d6b65c3, type: 3}
+    prefab: {fileID: 1279982027756087, guid: befc85c446afee1448c2bbed408c09cd, type: 2}
+  - name: SK000057
+    type: 3
+    fileName: cos_galena_majestic_red
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 106
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 1e2e97eba006d1846b55072f2113f5bf, type: 3}
+    prefab: {fileID: 1748544338211823, guid: 7806c0a4f281c014697b0b52d8205ded, type: 2}
+  - name: SK000058
+    type: 3
+    fileName: cos_galena_majestic_royal_blue
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 107
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 8c913350788f5654a8eef782257c4359, type: 3}
+    prefab: {fileID: 1010345592169912, guid: a604b6e2e5f3bd747a18ae938ac14b10, type: 2}
+  - name: SK000059
+    type: 3
+    fileName: cos_robot
+    tier: 0
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: dc7ee5a6822db4a4ab3432c2c8a9fc8f, type: 2}
+    definitionId: 1001
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 8c913350788f5654a8eef782257c4359, type: 3}
+    prefab: {fileID: 1583823525940725, guid: 23fdc1c9dd3df634fbfb94359c7c74bb, type: 2}
+  victoryPoses:
+  - name: PO000001
+    type: 5
+    fileName: char_acrid_victory_001_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 149
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 15cd77c3f233db64d8f3c7318354bcf1, type: 3}
+    prefab: {fileID: 7400000, guid: ef999338695a21d47864f999061e5690, type: 2}
+  - name: PO000002
+    type: 5
+    fileName: char_acrid_victory_002_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 150
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: d5f978d6454305d4891a3f35c589b4e6, type: 3}
+    prefab: {fileID: 7400000, guid: 2f20bab1f86dfb94bb41730be59e4f10, type: 2}
+  - name: PO000003
+    type: 5
+    fileName: char_acrid_victory_003_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 151
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d71be9c3944aa0c448285a32111d16f1, type: 3}
+    prefab: {fileID: 7400000, guid: 41fc62b75341f6a4f8b6925f46ae46cb, type: 2}
+  - name: PO000005
+    type: 5
+    fileName: char_bagpipes_victory_001_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 152
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c8c7810bfdf20dd4ca0797a5f6745f18, type: 3}
+    prefab: {fileID: 7400000, guid: 6bf539d8975218643a425ef22f9589d3, type: 2}
+  - name: PO000006
+    type: 5
+    fileName: char_bagpipes_victory_002_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 153
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 956b2cb57e24b3c47a58c8e94087ff06, type: 3}
+    prefab: {fileID: 7400000, guid: f2b3e5db82944cf4e8c7e9d8a1867ad9, type: 2}
+  - name: PO000007
+    type: 5
+    fileName: char_bagpipes_victory_003_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 154
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e5fbb01134f98174dbcc8da4b5c01efe, type: 3}
+    prefab: {fileID: 7400000, guid: a961694f30e6f4847b301bd46396ba2f, type: 2}
+  - name: PO000009
+    type: 5
+    fileName: char_bagpipes_victory_005_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 155
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 01b8a8109900fbf488e652c2e4721fa4, type: 3}
+    prefab: {fileID: 7400000, guid: 3eb5891354ed9204992e7c9067ec6476, type: 2}
+  - name: PO000010
+    type: 5
+    fileName: char_hildegard_victory_001_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 156
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 5d2909fdaef2c7646b7828ca9a03f229, type: 3}
+    prefab: {fileID: 7400000, guid: 7775a041ca24a2143a3a47ea074c17bb, type: 2}
+  - name: PO000011
+    type: 5
+    fileName: char_hildegard_victory_002_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 157
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: b95383945ee9d8148aa719dd8ccacc30, type: 3}
+    prefab: {fileID: 7400000, guid: d1e8581e966daef4495dd7060dd4bfac, type: 2}
+  - name: PO000012
+    type: 5
+    fileName: char_hildegard_victory_003_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 158
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ffe19aeceaf5e144aaf2c43f351afedc, type: 3}
+    prefab: {fileID: 7400000, guid: b37fee5240ff4de44b61b0cace685b5d, type: 2}
+  - name: PO000013
+    type: 5
+    fileName: char_hildegard_victory_004_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 159
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ade06caa29148a541aec000cb4283180, type: 3}
+    prefab: {fileID: 7400000, guid: 71b1cfd17da22bf439409a001016004e, type: 2}
+  - name: PO000014
+    type: 5
+    fileName: char_hildegard_victory_005_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 160
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c97f59c4e23aa9844a2676b4234aca47, type: 3}
+    prefab: {fileID: 7400000, guid: 476c43ae3c82e8e4b82e5724c37f1937, type: 2}
+  - name: PO000015
+    type: 5
+    fileName: char_li_victory_001_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 161
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f38b19fba796c8f40809ef73038fe788, type: 3}
+    prefab: {fileID: 7400000, guid: 0fd99e31b6ffe2d468fdfc3579718a7b, type: 2}
+  - name: PO000016
+    type: 5
+    fileName: char_li_victory_002_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 162
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 60168ee7eadb4b64d86b3c44f6d3b367, type: 3}
+    prefab: {fileID: 7400000, guid: 86337210e734e2f4f9e30b7037c9750b, type: 2}
+  - name: PO000017
+    type: 5
+    fileName: char_li_victory_003_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 163
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: b12b6d8fbf8400d499a9e402b092cd08, type: 3}
+    prefab: {fileID: 7400000, guid: d6a9b30a2dd6d6541bd3b63fc42718e2, type: 2}
+  - name: PO000018
+    type: 5
+    fileName: char_li_victory_004_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 164
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e0c21f3098a4e4741b17a8ccf0bea75e, type: 3}
+    prefab: {fileID: 7400000, guid: 9b652125cf4069c40a1af833bcd3e460, type: 2}
+  - name: PO000019
+    type: 5
+    fileName: char_li_victory_005_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 165
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f7b2d28009cda6e4e87907a88c0398c6, type: 3}
+    prefab: {fileID: 7400000, guid: 31d487f6014ed18489df5c7c4498dc51, type: 2}
+  - name: PO000020
+    type: 5
+    fileName: char_mali_victory_001_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 166
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ff865e1279e72b443baee08089947b67, type: 3}
+    prefab: {fileID: 7400000, guid: 72fbbfea726ed5741a91f969ae545809, type: 2}
+  - name: PO000021
+    type: 5
+    fileName: char_mali_victory_002_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 167
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d9a9ed7c6212c1945b64fec81f5912cd, type: 3}
+    prefab: {fileID: 7400000, guid: 79b5efdca18e59c418180fae5a59840b, type: 2}
+  - name: PO000022
+    type: 5
+    fileName: char_mali_victory_003_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 168
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: af57d4748b15f7c4da3544553266cfbb, type: 3}
+    prefab: {fileID: 7400000, guid: 496865d3eb836e848bb8639838e513c3, type: 2}
+  - name: PO000023
+    type: 5
+    fileName: char_mali_victory_004_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 169
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 22f8a570c99914445a5aae9548b0cc6c, type: 3}
+    prefab: {fileID: 7400000, guid: 3bf877bfdac01cd439c7f1e73aa3bc98, type: 2}
+  - name: PO000024
+    type: 5
+    fileName: char_servitor_victory_001_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 170
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 6a14e9c2267edea4c951f30c71bfe5eb, type: 3}
+    prefab: {fileID: 7400000, guid: 71e836ec11e89e143b854778495b86bb, type: 2}
+  - name: PO000025
+    type: 5
+    fileName: char_servitor_victory_002_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 171
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 737c552f3fdf29b43aadce2a8b7c07c7, type: 3}
+    prefab: {fileID: 7400000, guid: dd458cc342672e448b636400f46366e3, type: 2}
+  - name: PO000026
+    type: 5
+    fileName: char_servitor_victory_003_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 172
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 06533961acca70b48bae1e128f861b6a, type: 3}
+    prefab: {fileID: 7400000, guid: ed1cd7d28a8339c4da007c771eeeb7bc, type: 2}
+  - name: PO000027
+    type: 5
+    fileName: char_servitor_victory_004_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 173
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b484a674b17952241bfdaa3554c267e2, type: 3}
+    prefab: {fileID: 7400000, guid: 452592a911a7aa84eae1eef809dacf73, type: 2}
+  - name: PO000028
+    type: 5
+    fileName: char_servitor_victory_005_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 174
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 3d9628c179da19b49b26062c12748a0d, type: 3}
+    prefab: {fileID: 7400000, guid: be6e6614bf20e9948a2a3643a2d3ac9d, type: 2}
+  - name: PO000029
+    type: 5
+    fileName: char_galena_victory_001_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 175
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0d04249fc2b94ab43949c5a0505597db, type: 3}
+    prefab: {fileID: 7400000, guid: 30f6580418ccd144fbb85b9980e71809, type: 2}
+  - name: PO000030
+    type: 5
+    fileName: char_galena_victory_002_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 176
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ab6c8b1c5f1765e48a57491eb2ba7276, type: 3}
+    prefab: {fileID: 7400000, guid: 4d753e1f572c7a24c81b32081c025aca, type: 2}
+  - name: PO000031
+    type: 5
+    fileName: char_galena_victory_003_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 177
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 9695e3d9c64a5244ebe69b75533642f1, type: 3}
+    prefab: {fileID: 7400000, guid: 9cd311d04aca9174ab8a4f09a43f531d, type: 2}
+  - name: PO000032
+    type: 5
+    fileName: char_galena_victory_004_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 178
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b5180ff1493a0264296730160e867ae6, type: 3}
+    prefab: {fileID: 7400000, guid: e91e2f518d1f9044cbdff48cccd7bfd6, type: 2}
+  - name: PO000033
+    type: 5
+    fileName: char_acrid_victory_004_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 179
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 7d257508d623c6948a0827e891acb4b0, type: 3}
+    prefab: {fileID: 7400000, guid: 45393d398ebcbea408617b1761b08f4f, type: 2}
+  - name: PO000034
+    type: 5
+    fileName: char_li_victory_006_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 180
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0d6ba411eb8b5ee4681114af9a616a33, type: 3}
+    prefab: {fileID: 7400000, guid: f6be4e2ab41da6f4da3a936665170cf7, type: 2}
+  - name: PO000035
+    type: 5
+    fileName: char_li_victory_007_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 181
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: bd12c30dd68de79408c88e12feff6f31, type: 3}
+    prefab: {fileID: 7400000, guid: a55b838eec32e9045b75bc65c4ed8aaa, type: 2}
+  - name: PO000036
+    type: 5
+    fileName: char_li_victory_008_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 182
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 8bc3012137d15c945bbec0ab49109a91, type: 3}
+    prefab: {fileID: 7400000, guid: 43fda2c1dd37f574db3c544aa3812af7, type: 2}
+  - name: PO000037
+    type: 5
+    fileName: char_li_victory_009_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 183
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 661faacb7b057144a85041a17a57bdd4, type: 3}
+    prefab: {fileID: 7400000, guid: 4244eacf707c71d4bb5afdd7b3117c02, type: 2}
+  emotes:
+  - name: EM000001
+    type: 4
+    fileName: char_acrid_emote_001_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 108
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2b01bfe9aba76714b85b595dd9d36243, type: 3}
+    prefab: {fileID: 7400000, guid: 5ca9363f15a4cee4dad3ef150f4415a1, type: 2}
+  - name: EM000002
+    type: 4
+    fileName: char_bagpipes_emote_001_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 109
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 8377fd9ee6030be4689087776fd7c2e0, type: 3}
+    prefab: {fileID: 7400000, guid: e3d62787342c02d4594147375e833c5c, type: 2}
+  - name: EM000003
+    type: 4
+    fileName: char_bagpipes_emote_002_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 110
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 8bd63ee7ea0f60948ac70ded8905e96e, type: 3}
+    prefab: {fileID: 7400000, guid: a1201dc9011ef8f4bae98e413b8111df, type: 2}
+  - name: EM000004
+    type: 4
+    fileName: char_bagpipes_emote_003_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 111
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 3c007a00489b7944bb665de4244c1d9a, type: 3}
+    prefab: {fileID: 7400000, guid: 7810be4191603064cb433f6d8df6c9c9, type: 2}
+  - name: EM000005
+    type: 4
+    fileName: char_bagpipes_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 112
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f779622324ae0c64f86c6fef2ab9c34d, type: 3}
+    prefab: {fileID: 7400000, guid: e00eeaa802348b545bc3c132049dcdc7, type: 2}
+  - name: EM000006
+    type: 4
+    fileName: char_hildegard_emote_001_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 113
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c25e526e15c5ff241857f2cc02132fe3, type: 3}
+    prefab: {fileID: 7400000, guid: 2f0aa5be5187c9c489371d226337fb2f, type: 2}
+  - name: EM000007
+    type: 4
+    fileName: char_hildegard_emote_002_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 114
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 95e2f2c9664d53f4e8c98873b3355660, type: 3}
+    prefab: {fileID: 7400000, guid: 880462179a4eea14eb4d3fb576de4f6d, type: 2}
+  - name: EM000008
+    type: 4
+    fileName: char_hildegard_emote_003_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 115
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ab23a412b6eb84040ad5097ec1f6ea0e, type: 3}
+    prefab: {fileID: 7400000, guid: f15146fd7d582274f99f08f1a1521863, type: 2}
+  - name: EM000009
+    type: 4
+    fileName: char_li_emote_001_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 116
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 12adf563f398fa8459b386cd5466b434, type: 3}
+    prefab: {fileID: 7400000, guid: 0200dfac40a22774abcea6d2ee9d6154, type: 2}
+  - name: EM000010
+    type: 4
+    fileName: char_li_emote_002_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 117
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ff96cf8507d016547b5321a018455953, type: 3}
+    prefab: {fileID: 7400000, guid: f720239275e4f8347b0005b11d7a4bed, type: 2}
+  - name: EM000011
+    type: 4
+    fileName: char_li_emote_003_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 118
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 720e95f90ae0dfe4c8929972a81d9777, type: 3}
+    prefab: {fileID: 7400000, guid: dcdb54e3280eedc48b00d0d8cbebe360, type: 2}
+  - name: EM000012
+    type: 4
+    fileName: char_li_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 119
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 721254ae4b71edf49b6972a78e6d2222, type: 3}
+    prefab: {fileID: 7400000, guid: 7455d03af5940854eb228612db350b46, type: 2}
+  - name: EM000013
+    type: 4
+    fileName: char_mali_emote_001_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 120
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: c4c19daa9016bee45aae2398f9e4ad46, type: 3}
+    prefab: {fileID: 7400000, guid: fd06e2eb57b6cc349955b1e3ca567fc9, type: 2}
+  - name: EM000014
+    type: 4
+    fileName: char_mali_emote_002_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 121
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 653fec62a0d8af94e853af7ee3da52ae, type: 3}
+    prefab: {fileID: 7400000, guid: 52cc8c416d4450d478728b9409180f50, type: 2}
+  - name: EM000015
+    type: 4
+    fileName: char_mali_emote_003_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 122
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 740167ca9c4a34145a062fbf6a1ec4d3, type: 3}
+    prefab: {fileID: 7400000, guid: 09203109e9baff64c9b2e1b51fb1c9f5, type: 2}
+  - name: EM000016
+    type: 4
+    fileName: char_mali_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 123
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b18a9e492473d9347812ca6f40600700, type: 3}
+    prefab: {fileID: 7400000, guid: a55da176db63af142afcba793b9ae90e, type: 2}
+  - name: EM000017
+    type: 4
+    fileName: char_servitor_emote_001_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 124
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 9b76cdc0b3fff844091351de1fcbc0c5, type: 3}
+    prefab: {fileID: 7400000, guid: 65fad009b375f1042aa4d16e489e84b9, type: 2}
+  - name: EM000018
+    type: 4
+    fileName: char_servitor_emote_002_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 125
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 74bf1708fecf0cd4a9a3ba8076d7400a, type: 3}
+    prefab: {fileID: 7400000, guid: 480ded2ec4a1d334a9f7f6fd3735e792, type: 2}
+  - name: EM000019
+    type: 4
+    fileName: char_servitor_emote_003_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 126
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e0970bf23718c5c44b884974e67f04e9, type: 3}
+    prefab: {fileID: 7400000, guid: 39d15f135f875444b9d1d7fda02e45e9, type: 2}
+  - name: EM000020
+    type: 4
+    fileName: char_servitor_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 127
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: fcbd2fbefab852d46b9753ad9944bb4e, type: 3}
+    prefab: {fileID: 7400000, guid: c97cfab488d51b24f903bb9ff4bd613f, type: 2}
+  - name: EM000021
+    type: 4
+    fileName: char_galena_emote_001_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 128
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2293c8eaf01a26a468e605a932c410ef, type: 3}
+    prefab: {fileID: 7400000, guid: ce5325c7bf808b649bb9e79e266dada0, type: 2}
+  - name: EM000022
+    type: 4
+    fileName: char_galena_emote_002_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 129
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: a47f15a5e1808444bae1ca0a17e967b0, type: 3}
+    prefab: {fileID: 7400000, guid: f087983a630142f4fba9dfaedb374d05, type: 2}
+  - name: EM000023
+    type: 4
+    fileName: char_galena_emote_003_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 130
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 72e9e97724ead5042ab677d37505b7ca, type: 3}
+    prefab: {fileID: 7400000, guid: fc1f1594ff06b5447846a7b9737f7963, type: 2}
+  - name: EM000024
+    type: 4
+    fileName: char_galena_emote_004_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 131
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: d1c8b91e4ca1db4468142d90e14ea71c, type: 3}
+    prefab: {fileID: 7400000, guid: 7a678e6461a93cf41a73c5dee40e8c12, type: 2}
+  - name: EM000025
+    type: 4
+    fileName: char_bagpipes_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 132
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 65444ee2a7e40b24792201ed4d7f52fb, type: 3}
+    prefab: {fileID: 7400000, guid: d4bc4b3b7bbbbeb439c3a48f57922eb5, type: 2}
+  - name: EM000026
+    type: 4
+    fileName: char_hildegard_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 133
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 824224c8075a94e4597453ef32e8aaf1, type: 3}
+    prefab: {fileID: 7400000, guid: 8bb663de898429a4fa871a2bad7e32c2, type: 2}
+  - name: EM000027
+    type: 4
+    fileName: char_acrid_emote_002_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 134
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: fb0e0246e86ff6241819dcceb1cf4f28, type: 3}
+    prefab: {fileID: 7400000, guid: fe026a942ee9df04a9f07eec933e2d64, type: 2}
+  - name: EM000028
+    type: 4
+    fileName: char_acrid_emote_003_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 135
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e85b30ac3ccfb3345b1d2bc52205a1eb, type: 3}
+    prefab: {fileID: 7400000, guid: 7a9e2ce6681cd5b489840262f3a578c5, type: 2}
+  - name: EM000029
+    type: 4
+    fileName: char_bagpipes_emote_006_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 136
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 68443c7e4d6eab242b599e343dca1d52, type: 3}
+    prefab: {fileID: 7400000, guid: 04096e4f77f28d648b21d8f0b46fd665, type: 2}
+  - name: EM000030
+    type: 4
+    fileName: char_hildegard_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 137
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6dcb9e184374604499601d851342d52e, type: 3}
+    prefab: {fileID: 7400000, guid: c5412e330b969974e8ec545db0d4ccb2, type: 2}
+  - name: EM000031
+    type: 4
+    fileName: char_acrid_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 138
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 11098515ba5c9d345902a5ce01ef2a0a, type: 3}
+    prefab: {fileID: 7400000, guid: ff84a0d4e1c1c5b43a668f4c31d1ec01, type: 2}
+  - name: EM000032
+    type: 4
+    fileName: char_acrid_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 139
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 123eac9aeedb037438d42df028990df3, type: 3}
+    prefab: {fileID: 7400000, guid: 74ca0ea2cda88f54f85c6b73b9b5e6e8, type: 2}
+  - name: EM000033
+    type: 4
+    fileName: char_acrid_emote_006_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 140
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 9725a4d18df730d4da4c114e3ea13793, type: 3}
+    prefab: {fileID: 7400000, guid: 3a45d2873d2a66742a12a1e969f82a6a, type: 2}
+  - name: EM000034
+    type: 4
+    fileName: char_servitor_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 141
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b81869d7b4c36584f9d25064275a76c2, type: 3}
+    prefab: {fileID: 7400000, guid: 2a3cf10ba0f839c44bd75ba7612adcd5, type: 2}
+  - name: EM000035
+    type: 4
+    fileName: char_li_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 142
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b24daecc1d13a734da3d1aa57a45ba3f, type: 3}
+    prefab: {fileID: 7400000, guid: 84a0beb9071461943a47a57edec614d6, type: 2}
+  - name: EM000036
+    type: 4
+    fileName: char_li_emote_006_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 143
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c516ccb79d1ff9e47aa9a4eaa098860c, type: 3}
+    prefab: {fileID: 7400000, guid: 8589761ae13641c46bc77ebdffabe5dd, type: 2}
+  - name: EM000037
+    type: 4
+    fileName: char_mali_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 144
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 030d5bd70ffc62e44bd6293f3c7bf12f, type: 3}
+    prefab: {fileID: 7400000, guid: 4ee2b8e30528e554b84e7971dc18f16a, type: 2}
+  - name: EM000038
+    type: 4
+    fileName: char_bagpipes_emote_007_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 145
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 3ebc01315829ce84b9ea0979eec5131e, type: 3}
+    prefab: {fileID: 7400000, guid: c84ec74146b64d74299afd8aa6e269e9, type: 2}
+  - name: EM000039
+    type: 4
+    fileName: char_hildegard_emote_006_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 146
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 658241b864b84614fbbe542ce84ab3cf, type: 3}
+    prefab: {fileID: 7400000, guid: a5707415b86289140b1bb77a489639b8, type: 2}
+  - name: EM000040
+    type: 4
+    fileName: char_servitor_emote_006_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 147
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 07534832977bc7748aee3c0b55462c13, type: 3}
+    prefab: {fileID: 7400000, guid: b9475b6fd11f8ea44b6d55cfd1df8201, type: 2}
+  - name: EM000041
+    type: 4
+    fileName: char_mali_emote_006_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 148
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6802e9d5811fd254284c16852031177b, type: 3}
+    prefab: {fileID: 7400000, guid: 18bd806f59ad54740a6feb791e04ff21, type: 2}
+  champions:
+  - name: CH000001
+    type: 6
+    fileName: char_servitor
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 184
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 09998f8906f7a054daa8e5c440cb0f7f, type: 3}
+    prefab: {fileID: 1775585168587692, guid: a4f66fae3cf3e3e4e8208ec946294b46, type: 2}
+  - name: CH000002
+    type: 6
+    fileName: char_li
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 185
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: e070d21851ed4c64e92c748835c79572, type: 3}
+    prefab: {fileID: 1132158998495318, guid: 58d08450a6e43564da6d3f16ae34166f, type: 2}
+  - name: CH000003
+    type: 6
+    fileName: char_hildegard
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 186
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 307ea75bde946b1448ffb0ae13ee7f74, type: 3}
+    prefab: {fileID: 1241919376929928, guid: dd250c75e4a2c4b4d8f4a88b976f8d98, type: 2}
+  - name: CH000004
+    type: 6
+    fileName: char_bagpipes
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 187
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ee54e2d9988d2f64fa709b85ce7639b1, type: 3}
+    prefab: {fileID: 1561632766493718, guid: 94b0535b26880cd4abda7ed998c932d5, type: 2}
+  - name: CH000005
+    type: 6
+    fileName: char_mali
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 188
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: cf542189fe3d4374290a7a8b86ec28f9, type: 3}
+    prefab: {fileID: 1954726226462342, guid: ea120b36c7915c04e8f2d2ce74870fc4, type: 2}
+  - name: CH000006
+    type: 6
+    fileName: char_galena
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 189
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 96766ecd2efb7454baa31324829b6648, type: 3}
+    prefab: {fileID: 1563715683955799, guid: e7d55df115875bd469fff4fcbcf07711, type: 2}
+  - name: CH000007
+    type: 6
+    fileName: char_acrid
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 190
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 91ea1d3eb8614124eb1dd0b0e4110f9e, type: 3}
+    prefab: {fileID: 1011017794728263, guid: 43d84ff7607daad4ca99d82d7aede2f5, type: 2}
+  avatars: []
+  allItems:
+  - name: ST000001
+    type: 1
+    fileName: acrid_face_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 1
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f6136fff8cb534842bf4ac9c34b416e6, type: 3}
+    prefab: {fileID: 1614476692185696, guid: 0a9b08adb1edf784bbb16ff2298fef9e, type: 2}
+  - name: ST000002
+    type: 1
+    fileName: acrid_nom__spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 2
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 5ee6d355f1d58d64ba876d198d0a674b, type: 3}
+    prefab: {fileID: 1232399620026196, guid: a56c87dd7439a744394831e4caa993a3, type: 2}
+  - name: ST000005
+    type: 1
+    fileName: acrid_vomit_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 3
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4d81fb84595514b48a4acea5112b1a35, type: 3}
+    prefab: {fileID: 1683278052857810, guid: e2f22d80ee1921344910e1b02aaddb98, type: 2}
+  - name: ST000006
+    type: 1
+    fileName: bagpipes_flex_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 4
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: dacb4dcbd09f86a41a1803e6f005a801, type: 3}
+    prefab: {fileID: 1935516831729382, guid: 1dd92451eec4db44b947d89a3ca53542, type: 2}
+  - name: ST000007
+    type: 1
+    fileName: bagpipes_golf_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 5
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 7872379b247fed54ea7e9071d6cf7e6a, type: 3}
+    prefab: {fileID: 1211948625397924, guid: 4e298e1a1c98e6b46871277434c71462, type: 2}
+  - name: ST000008
+    type: 1
+    fileName: bagpipes_pipes_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 6
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: bed55e34b597ecc4886f3d9aa465d392, type: 3}
+    prefab: {fileID: 1533848458549116, guid: c75bb2e1d74536c49b70b5aee9ad9e8d, type: 2}
+  - name: ST000009
+    type: 1
+    fileName: bagpipes_rage_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 7
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 8a18a6b39f143be4ba3e31cf45e49363, type: 3}
+    prefab: {fileID: 1591699893332676, guid: 373c229ca28c1764b87577d755aa07ac, type: 2}
+  - name: ST000010
+    type: 1
+    fileName: generic_animated_happy_bird_spray
+    tier: 2
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 8
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: efd4cf67d25fa7544a282f07ddf4259a, type: 3}
+    prefab: {fileID: 1749599363024254, guid: ec88bd8476722774aa68ac551223f10c, type: 2}
+  - name: ST000011
+    type: 1
+    fileName: generic_animated_rage_bird_spray
+    tier: 2
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 9
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b1115b260030a7d429ec39882e932215, type: 3}
+    prefab: {fileID: 1285968048601859, guid: 284b99880ce95254faab886f5898d0fd, type: 2}
+  - name: ST000012
+    type: 1
+    fileName: generic_animated_sad_bird_spray
+    tier: 2
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 10
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 06987e209c1f8c544b588916e84316b6, type: 3}
+    prefab: {fileID: 1502546968815014, guid: b6110abf71f3b534db6fa486882443e7, type: 2}
+  - name: ST000013
+    type: 1
+    fileName: generic_animated_thumbs_bird_spray
+    tier: 2
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 11
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 71ee6d6d69b341b49a9b4c26cbaf469a, type: 3}
+    prefab: {fileID: 1054143414124383, guid: 9b85895d2783a8e4195ad11d66c60145, type: 2}
+  - name: ST000014
+    type: 1
+    fileName: generic_cake_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 12
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0e3f42c9162844044bd0212f68083c5b, type: 3}
+    prefab: {fileID: 1884948801989370, guid: 8885fdcf26cf1cb42944c6545e8bbec3, type: 2}
+  - name: ST000015
+    type: 1
+    fileName: generic_happy_emoji_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 13
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: de1cd14decd6eec49926421ff7b24c1f, type: 3}
+    prefab: {fileID: 1562981400904515, guid: a366b1292372c08459977943f8386edd, type: 2}
+  - name: ST000016
+    type: 1
+    fileName: generic_heart_broken_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 14
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6d1ed7e32080f2c408d604c2eadcfe63, type: 3}
+    prefab: {fileID: 1744104922286303, guid: 8b282343a3d1aff4e9912d03cf11f741, type: 2}
+  - name: ST000017
+    type: 1
+    fileName: generic_heart_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 15
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b31352a681c80bf4386f7d7c26957551, type: 3}
+    prefab: {fileID: 1197811810929874, guid: 9c4e235d2d3228044ab1af0892a921eb, type: 2}
+  - name: ST000018
+    type: 1
+    fileName: generic_rage_emoji_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 16
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 22bdc40b8123dda4cb575505871f4461, type: 3}
+    prefab: {fileID: 1789040639720585, guid: 796df2d9ad1ebd449a03d6bfd82a052c, type: 2}
+  - name: ST000019
+    type: 1
+    fileName: generic_sad_emoji_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 17
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 2d31678822d4ec8409673230c9278880, type: 3}
+    prefab: {fileID: 1037814191117512, guid: 3f8791f7cef947849b70b35e66e66427, type: 2}
+  - name: ST000020
+    type: 1
+    fileName: generic_sceptical_emoji_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 18
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 263c7646a2897b54b833d3bf0b85cf9c, type: 3}
+    prefab: {fileID: 1908453994224090, guid: 7c2f608f5e03d744e947d7e4f0a86b77, type: 2}
+  - name: ST000021
+    type: 1
+    fileName: generic_tea_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 19
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0084f85868320c04c9ed7c46217c6bf6, type: 3}
+    prefab: {fileID: 1381247755618977, guid: c17a849db3f1d054b9ae36167a82ba2e, type: 2}
+  - name: ST000022
+    type: 1
+    fileName: generic_thumbs_up_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 20
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: bbacc0cac65a907478d49e156d8dea9f, type: 3}
+    prefab: {fileID: 1031175957552008, guid: 7cf04b2549d334346be73423b38f4e4e, type: 2}
+  - name: ST000023
+    type: 1
+    fileName: hildegard_badge_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 21
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 206d840ad7c64a34398fd2c4b6c52046, type: 3}
+    prefab: {fileID: 1235268989002675, guid: 8af13351b0db421469ca8cffd114e7a2, type: 2}
+  - name: ST000024
+    type: 1
+    fileName: hildegard_busted_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 22
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c710cc4e3a1c9ab4080848c97d7fc8d5, type: 3}
+    prefab: {fileID: 1355886344709172, guid: 919e8a8be490c234a80deaf582f34dfc, type: 2}
+  - name: ST000025
+    type: 1
+    fileName: hildegard_pose_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 23
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 5f9d55b9e41e98b4a84f6cae8607fcec, type: 3}
+    prefab: {fileID: 1997445797693772, guid: 0e3eed6244d7c5f47ae01bd34e299b77, type: 2}
+  - name: ST000026
+    type: 1
+    fileName: hildegard_rage_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 24
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 826756d8062d4f94fbb44858878186d9, type: 3}
+    prefab: {fileID: 1742792888766539, guid: 338a026608497624f8d2729b2ed75463, type: 2}
+  - name: ST000027
+    type: 1
+    fileName: li_cat_spray_2
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 25
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0b61b0474a953f54c8ecc6d7fc3f1b8c, type: 3}
+    prefab: {fileID: 1732002266207295, guid: ea9db674de0c3cf4d9c0f74490363358, type: 2}
+  - name: ST000028
+    type: 1
+    fileName: li_face_spray_2
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 26
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: fed3a01153a32004aa6e6085bb115534, type: 3}
+    prefab: {fileID: 1403650596147091, guid: 69d5a978ac5b2ed4a97de96972b328d0, type: 2}
+  - name: ST000029
+    type: 1
+    fileName: li_hand_spray_2
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 27
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 004da2460519a5f449db9fdde0f01a2c, type: 3}
+    prefab: {fileID: 1496719133322873, guid: 3bb0ee273e87f934fac0576d84b7408a, type: 2}
+  - name: ST000030
+    type: 1
+    fileName: li_suit_spray_2
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 28
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: aebe68263cb7b594aa2b1c0a727a11f1, type: 3}
+    prefab: {fileID: 1409258254406831, guid: 913b79abc57e5a5468c0d43ead478c84, type: 2}
+  - name: ST000031
+    type: 1
+    fileName: mali_face_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 29
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4464aebc2a61d94458cf96522cf8ccc4, type: 3}
+    prefab: {fileID: 1018798488227964, guid: 242ae33e50573b04cb866ac199383197, type: 2}
+  - name: ST000033
+    type: 1
+    fileName: mali_hand_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 30
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 131e3f931f69d7b479adec5ea8b8d2d7, type: 3}
+    prefab: {fileID: 1674068414046206, guid: 2eb11209c8b2ac642a69a1c2481d0f1f, type: 2}
+  - name: ST000035
+    type: 1
+    fileName: servitor_bones_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 31
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: aa450816d83bbc44180323ec8aee66b7, type: 3}
+    prefab: {fileID: 1364814627008868, guid: 750d4581147be5d40981346c7343bb29, type: 2}
+  - name: ST000036
+    type: 1
+    fileName: servitor_face_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 32
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e2c07eff619db2747a106cb7d62413f8, type: 3}
+    prefab: {fileID: 1685274705692413, guid: d3ebe6408ff4d0048a5d0b1914aca3b8, type: 2}
+  - name: ST000037
+    type: 1
+    fileName: servitor_hat_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 33
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d9c39f92a44f8584a9cd4062a157b107, type: 3}
+    prefab: {fileID: 1840470211885625, guid: 89f10d648afa83a46933153ed58476e4, type: 2}
+  - name: ST000038
+    type: 1
+    fileName: servitor_hi_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 34
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4310bf1283e9dc8499ecc890bed6ade9, type: 3}
+    prefab: {fileID: 1289999660411985, guid: 2045caaaf906be64984cac1842a98ef5, type: 2}
+  - name: ST000039
+    type: 1
+    fileName: servitor_pew_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 35
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: afb2ef624ad0d9f46b2472aa1ad36524, type: 3}
+    prefab: {fileID: 1721142987047570, guid: 4c725ba8c09b86442b8c2a6b9bc782e3, type: 2}
+  - name: ST000040
+    type: 1
+    fileName: galena_heart_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 36
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 02122f146fb23a044b315f45d66f6f1e, type: 3}
+    prefab: {fileID: 1769292625695089, guid: 6354a824290ddd2488c9b610ccd9b45a, type: 2}
+  - name: ST000041
+    type: 1
+    fileName: galena_kiss_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 37
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c63c7d7b9583cdb4788cb7ce0f92686d, type: 3}
+    prefab: {fileID: 1323232723670788, guid: d283c100eed9b614085bfef8e32b22f5, type: 2}
+  - name: ST000042
+    type: 1
+    fileName: generic_bun_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 38
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 8950e52802b8d354b8a83c7f951e9050, type: 3}
+    prefab: {fileID: 1337833715423078, guid: d5b99afdc6975bf48ba46f29efe8c6d6, type: 2}
+  - name: ST000043
+    type: 1
+    fileName: generic_chicken_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 39
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4b74fa49f5d95e94ebcf09c89669329c, type: 3}
+    prefab: {fileID: 1936563711640148, guid: f4874b7c1c871924290dc47148a4a694, type: 2}
+  - name: ST000044
+    type: 1
+    fileName: generic_hotdog_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 40
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: eaf5ea0f4ffc7b547923183fb31df6c4, type: 3}
+    prefab: {fileID: 1739741513608850, guid: 2be9daa083c41de47ba2e5246f130277, type: 2}
+  - name: ST000045
+    type: 1
+    fileName: generic_spacedog_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 41
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0b28bf2f52ca7164386fb9098b368e80, type: 3}
+    prefab: {fileID: 1035625643544931, guid: 72514f8c7e5730b44a35a1e39d67423d, type: 2}
+  - name: ST000046
+    type: 1
+    fileName: generic_sunglasses_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 42
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 065a0c033c892094b89b92aa78334a3d, type: 3}
+    prefab: {fileID: 1491283221462275, guid: 12164b69e28a0364296192047296eca4, type: 2}
+  - name: ST000047
+    type: 1
+    fileName: acrid_rampage_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 43
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 95b5d85fb236dc342b4f44a07ed7d3f9, type: 3}
+    prefab: {fileID: 1849397237919062, guid: 07cc7982b4a49ac45be3d140397995f9, type: 2}
+  - name: ST000048
+    type: 1
+    fileName: galena_zap_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 44
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0c04542edb3862041848dc7ca120b856, type: 3}
+    prefab: {fileID: 1668411630713295, guid: e6e159a447dcbdf469c17ec516afe574, type: 2}
+  - name: ST000049
+    type: 1
+    fileName: generic_fistbump_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 45
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 49e0c569505a40542970995af05ad087, type: 3}
+    prefab: {fileID: 1375394211699359, guid: 147134fd53ce27b40935f6a034144f44, type: 2}
+  - name: ST000050
+    type: 1
+    fileName: generic_handshake_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 46
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 5950c0849b29af14c9b12b0a9580cec0, type: 3}
+    prefab: {fileID: 1383877453089672, guid: c1af060f507d44e4cb6eaa447a28dac6, type: 2}
+  - name: ST000051
+    type: 1
+    fileName: generic_sour_emoji_spray
+    tier: 0
+    priceCreds: 200
+    priceSteel: 2000
+    champion: {fileID: 11400000, guid: f6c22b103d451cb43a5b202514656272, type: 2}
+    definitionId: 47
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 3ac4a6591d981d14686f506307df36c5, type: 3}
+    prefab: {fileID: 1380665366628808, guid: 8f907901bd14d8a4dbc191d4bf9da9e9, type: 2}
+  - name: ST000052
+    type: 1
+    fileName: mali_charge_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 48
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2be607fb5d42e9447a2cb70aaf3d7fcb, type: 3}
+    prefab: {fileID: 1495137423860194, guid: 17d40d5019d2d2d438ac360fbd73a795, type: 2}
+  - name: ST000053
+    type: 1
+    fileName: mali_close_one_spray
+    tier: 1
+    priceCreds: 250
+    priceSteel: 2400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 49
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2b3ce9586c6551049a53f9e9e39618cf, type: 3}
+    prefab: {fileID: 1919693619706936, guid: 1ac183baba9757544a51d7e8f6c08abb, type: 2}
+  - name: SK000001
+    type: 3
+    fileName: char_acrid
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 50
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 91ea1d3eb8614124eb1dd0b0e4110f9e, type: 3}
+    prefab: {fileID: 1011017794728263, guid: 43d84ff7607daad4ca99d82d7aede2f5, type: 2}
+  - name: SK000002
+    type: 3
+    fileName: cos_acrid_green
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4200
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 51
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 7a63dfdc4745f19408b2f317223f4fc8, type: 3}
+    prefab: {fileID: 1517975457605465, guid: 9231e0f09d3c6df49b504e03e6bf49fc, type: 2}
+  - name: SK000003
+    type: 3
+    fileName: cos_acrid_blue
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 52
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 57c39346483d4f649b569b9d17d2fa9e, type: 3}
+    prefab: {fileID: 1186633645846935, guid: d2d22f6449601af499ad4c00bc9da64d, type: 2}
+  - name: SK000004
+    type: 3
+    fileName: char_bagpipes
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 53
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: ee54e2d9988d2f64fa709b85ce7639b1, type: 3}
+    prefab: {fileID: 1561632766493718, guid: 94b0535b26880cd4abda7ed998c932d5, type: 2}
+  - name: SK000005
+    type: 3
+    fileName: cos_bagpipes_tattoo
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 54
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: fc1c209b558b0844494b97e4e087196c, type: 3}
+    prefab: {fileID: 1379301944357097, guid: 7b83d34e26a3596429473c0bf01efa9e, type: 2}
+  - name: SK000006
+    type: 3
+    fileName: cos_bagpipes_reggae
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 55
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d3e408f89cd435943a6bb41ddb674446, type: 3}
+    prefab: {fileID: 1376613117670608, guid: 420ad8da266bba34fbadf465e0c65dac, type: 2}
+  - name: SK000007
+    type: 3
+    fileName: cos_bagpipes_traditional
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 56
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 583994f0fdddbb141989dcac543b118b, type: 3}
+    prefab: {fileID: 1932842512226943, guid: 71ff66dd02e126f498c85f5ff5f280d1, type: 2}
+  - name: SK000008
+    type: 3
+    fileName: cos_bagpipes_traditional_redwhite
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 57
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f33dc17cd3cbbc9478fdedbcb14d43e4, type: 3}
+    prefab: {fileID: 1110232009899272, guid: fc38bd5a6e508a44686eb996f141d0aa, type: 2}
+  - name: SK000009
+    type: 3
+    fileName: cos_bagpipes_rugby
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 58
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ea2fd45e5b38c5847a6793b3dcd6bf2d, type: 3}
+    prefab: {fileID: 1541387254670376, guid: 535979fec6169ad4c812bbcc1a61d684, type: 2}
+  - name: SK000010
+    type: 3
+    fileName: cos_bagpipes_rugby_neon
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 59
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c3cde8d14c3d694429afb4d6606588fc, type: 3}
+    prefab: {fileID: 1353948220174178, guid: 9f3170d5ae1b1fd45a2222cb134dfb4f, type: 2}
+  - name: SK000011
+    type: 3
+    fileName: char_galena
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 60
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 96766ecd2efb7454baa31324829b6648, type: 3}
+    prefab: {fileID: 1563715683955799, guid: e7d55df115875bd469fff4fcbcf07711, type: 2}
+  - name: SK000012
+    type: 3
+    fileName: cos_galena_blue
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 61
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: aed89ab2238bfb949907d02b0269a440, type: 3}
+    prefab: {fileID: 1415417812010627, guid: 2a90d48841ff7ac49b732d3421a531c1, type: 2}
+  - name: SK000013
+    type: 3
+    fileName: cos_galena_purple
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 62
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e6df4ef19adfcad479306a9c29083cab, type: 3}
+    prefab: {fileID: 1329051906049145, guid: 78ac14c249626f7418ba1e6d05a10653, type: 2}
+  - name: SK000014
+    type: 3
+    fileName: char_hildegard
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 63
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 307ea75bde946b1448ffb0ae13ee7f74, type: 3}
+    prefab: {fileID: 1241919376929928, guid: dd250c75e4a2c4b4d8f4a88b976f8d98, type: 2}
+  - name: SK000015
+    type: 3
+    fileName: cos_hildegard_military
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 64
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6c32558a29338fa4598cc6d73d4a437f, type: 3}
+    prefab: {fileID: 1804053408218195, guid: 53acbab2f3528624b8626eb8f3604895, type: 2}
+  - name: SK000016
+    type: 3
+    fileName: cos_hildegard_space
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 65
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b5b9c26dcf326314a8d28b8f80f0d20d, type: 3}
+    prefab: {fileID: 1266724541466974, guid: 1ce88587c3529494da6532672b1615e7, type: 2}
+  - name: SK000017
+    type: 3
+    fileName: cos_hildegard_wrestling
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 66
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: fe74f5599cbfcbf41af44a6e46a2c41f, type: 3}
+    prefab: {fileID: 1853399338667731, guid: 165ed13ccc4efe644ba34b46a2a42b4f, type: 2}
+  - name: SK000018
+    type: 3
+    fileName: cos_hildegard_riotsuit_white
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 67
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4a2b4749fa06efa44be9f128b871bf20, type: 3}
+    prefab: {fileID: 1129442097006631, guid: 25e2c121146a7d647a96ae204b9a99df, type: 2}
+  - name: SK000019
+    type: 3
+    fileName: cos_hildegard_riotsuit_blue
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 68
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b9c6a15fb2acbe54a971d217bc0c8276, type: 3}
+    prefab: {fileID: 1870733622051033, guid: a45014f1afc05f34297d64fa2bae1615, type: 2}
+  - name: SK000020
+    type: 3
+    fileName: cos_hildegard_wrestling_blue
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 69
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b6741f124ece4e84b8e4b535abbf759e, type: 3}
+    prefab: {fileID: 1878974413831144, guid: cb326b851b7f5814d8efcfa853fbf36c, type: 2}
+  - name: SK000021
+    type: 3
+    fileName: char_li
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 70
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: e070d21851ed4c64e92c748835c79572, type: 3}
+    prefab: {fileID: 1132158998495318, guid: 58d08450a6e43564da6d3f16ae34166f, type: 2}
+  - name: SK000022
+    type: 3
+    fileName: cos_li_gold
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 71
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: fa077f71d6535674782331862305b6e5, type: 3}
+    prefab: {fileID: 1669520098544859, guid: 70740bb5d2811e4408ca91d391f6989f, type: 2}
+  - name: SK000023
+    type: 3
+    fileName: cos_li_purple
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 72
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 597ac64150757284c8e80d693ce5b0aa, type: 3}
+    prefab: {fileID: 1156528812962902, guid: afe8dc26ccbbd9d4498979763f2dbd56, type: 2}
+  - name: SK000024
+    type: 3
+    fileName: cos_li_devilmask_white
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 73
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e24b56db63438c8438de630d42204d97, type: 3}
+    prefab: {fileID: 1692843016906202, guid: 04ecac7dbc08f214db1d6abf40a3bea6, type: 2}
+  - name: SK000025
+    type: 3
+    fileName: cos_li_devilmask_black
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 74
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 957c1f00156ce72428e518a550008c17, type: 3}
+    prefab: {fileID: 1515050291603924, guid: c7ba0cd14f8536141b825fe021ad3ff9, type: 2}
+  - name: SK000026
+    type: 3
+    fileName: cos_li_aero_red
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 75
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6edeaf84a6a3a42429186b8b1c40a5d0, type: 3}
+    prefab: {fileID: 1503954970927702, guid: 224e6316a291e52418e65482c9a70dd2, type: 2}
+  - name: SK000027
+    type: 3
+    fileName: cos_li_aero_purple
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 76
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6c7ab7f07e07e9b43bc1dee8ade91b48, type: 3}
+    prefab: {fileID: 1878041081104488, guid: 7a0bfdc32596a7146bec6df397126805, type: 2}
+  - name: SK000028
+    type: 3
+    fileName: char_mali
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 77
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: cf542189fe3d4374290a7a8b86ec28f9, type: 3}
+    prefab: {fileID: 1954726226462342, guid: ea120b36c7915c04e8f2d2ce74870fc4, type: 2}
+  - name: SK000029
+    type: 3
+    fileName: cos_mali_hexagonpink
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 78
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 76fb5a912507c354588674869cf5e9b0, type: 3}
+    prefab: {fileID: 1400198394835632, guid: a27a32a52f98f9942b205cd73625194c, type: 2}
+  - name: SK000030
+    type: 3
+    fileName: cos_mali_cameroon
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 79
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b5341070cfdee3f4da5f3ec4fe04fa3c, type: 3}
+    prefab: {fileID: 1644290214786827, guid: 4b83169d9be0fc2448f3c4265cd1fcdf, type: 2}
+  - name: SK000031
+    type: 3
+    fileName: cos_mali_traditional
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 80
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 440ee49a433237a4a808f59633c8a157, type: 3}
+    prefab: {fileID: 1064745683428412, guid: af1a37cfb97ca9c4e931d360f7d32b26, type: 2}
+  - name: SK000032
+    type: 3
+    fileName: cos_mali_traditional_red
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 81
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6df4dc70a5622a14d8c3ac8fef397f6f, type: 3}
+    prefab: {fileID: 1907698169058121, guid: feddfcd866d4a8f4296f90894e8a9df3, type: 2}
+  - name: SK000033
+    type: 3
+    fileName: cos_mali_coilhair
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 82
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 172fe9123044eb4468eb86c1a626bc4f, type: 3}
+    prefab: {fileID: 1329310683084555, guid: 71f1c6ce63eb6504783d511a7a683240, type: 2}
+  - name: SK000034
+    type: 3
+    fileName: cos_mali_coilhair_purple
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 83
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 96806ada6ec51154181c5b7f567745a0, type: 3}
+    prefab: {fileID: 1209431369136393, guid: a0d873236188cc24ea4eb2bd8c952600, type: 2}
+  - name: SK000035
+    type: 3
+    fileName: char_servitor
+    tier: 0
+    priceCreds: 0
+    priceSteel: 0
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 84
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 09998f8906f7a054daa8e5c440cb0f7f, type: 3}
+    prefab: {fileID: 1775585168587692, guid: a4f66fae3cf3e3e4e8208ec946294b46, type: 2}
+  - name: SK000036
+    type: 3
+    fileName: cos_servitor_medic
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 85
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d4d28c8d03c73fe47a7806f0e8e4a896, type: 3}
+    prefab: {fileID: 1607469994273495, guid: 0ddc5c9575731b24e9cda378dd9d17b6, type: 2}
+  - name: SK000037
+    type: 3
+    fileName: cos_servitor_military
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 86
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d57aaedd519128c4f837874a882b9fe2, type: 3}
+    prefab: {fileID: 1878698842820575, guid: c918790e7e9f6dd4ba5f38e01986beb6, type: 2}
+  - name: SK000038
+    type: 3
+    fileName: cos_servitor_candy
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 87
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: a579fcb9f41816240991de8550866635, type: 3}
+    prefab: {fileID: 1229959671672476, guid: 529d4e96b23a0e84082b61dc65df4c17, type: 2}
+  - name: SK000039
+    type: 3
+    fileName: cos_servitor_fox
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 88
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 7a1e26aaa73527948ae13dc8c6907322, type: 3}
+    prefab: {fileID: 1760486878479092, guid: 938fa2b74aee81742ab4266751b5bceb, type: 2}
+  - name: SK000040
+    type: 3
+    fileName: cos_servitor_fox_cat
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 89
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 035f8fc7df76ab54db3f55a5e2a07136, type: 3}
+    prefab: {fileID: 1842422855434885, guid: e499c414960f2eb4ea50e41d409273d8, type: 2}
+  - name: SK000041
+    type: 3
+    fileName: cos_li_aero_yellow
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 90
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6a755627ca57ff94db16493cebdb660b, type: 3}
+    prefab: {fileID: 1047717513759480, guid: 101237a6b72709c4ba6837bb0e768e0d, type: 2}
+  - name: SK000042
+    type: 3
+    fileName: cos_li_aero_green
+    tier: 3
+    priceCreds: 1200
+    priceSteel: 11200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 91
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4d1b9db5278eff74fa0ef94d41f5a4cd, type: 3}
+    prefab: {fileID: 1766550413348788, guid: 820eb337f648e024e82dc446352aded3, type: 2}
+  - name: SK000043
+    type: 3
+    fileName: cos_li_mechamask
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 92
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 63b58b70aec583d49a005f20971e6e86, type: 3}
+    prefab: {fileID: 1400279815162270, guid: ce1b11c2bd929e34d9da4a496a57dfbb, type: 2}
+  - name: SK000044
+    type: 3
+    fileName: cos_li_mechamask_white
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 93
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 4790b51720463a64d8e5ae942780cb98, type: 3}
+    prefab: {fileID: 1147360726150960, guid: 8b31451f62665194d923431f439fc070, type: 2}
+  - name: SK000045
+    type: 3
+    fileName: cos_acrid_nomask
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 94
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 37bad288c0ea98045bc82eb0d4e3d582, type: 3}
+    prefab: {fileID: 1714279228315927, guid: d1aef17af0d99f14ea37c5c2775f40d4, type: 2}
+  - name: SK000046
+    type: 3
+    fileName: cos_galena_sandstorm
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 95
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f7694df94d97d5749b8d60eccf14f3ed, type: 3}
+    prefab: {fileID: 1406347156774567, guid: ea36aacda3b6cfd458fce4914f436529, type: 2}
+  - name: SK000047
+    type: 3
+    fileName: cos_galena_sandstorm_blue
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 96
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 51561a8db86653c48a7b6142807be1e6, type: 3}
+    prefab: {fileID: 1928819269026352, guid: 04262c4261247da40839e78f477061bf, type: 2}
+  - name: SK000048
+    type: 3
+    fileName: cos_servitor_skeleton
+    tier: 1
+    priceCreds: 450
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 97
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 437e0980e60fdfd4fb834590d9755736, type: 3}
+    prefab: {fileID: 1280095292163446, guid: adbedf43eac30574d9c2f2a98f7e06b5, type: 2}
+  - name: SK000049
+    type: 3
+    fileName: cos_acrid_fins
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 98
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 248faedb786cffc4bb87c453b1c1ced3, type: 3}
+    prefab: {fileID: 1905149357219443, guid: c7a739e63d129384a96d5f4c46ecff8b, type: 2}
+  - name: SK000050
+    type: 3
+    fileName: cos_acrid_fins_pink
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 99
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: a2d937cb3d0dcb647ac4245ad9eb8ac3, type: 3}
+    prefab: {fileID: 1784910569002784, guid: fbd078de7ad9f84408e3723aed216f3c, type: 2}
+  - name: SK000051
+    type: 3
+    fileName: cos_acrid_spikes
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 100
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 712ca503f2c922442bef8839e0bc911d, type: 3}
+    prefab: {fileID: 1488888838970914, guid: b25388f9ac3e6fe4680bd2f8ccc8099f, type: 2}
+  - name: SK000052
+    type: 3
+    fileName: cos_acrid_spikes_red
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 101
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 9d60a54aab01be449848bb8b8e8009d3, type: 3}
+    prefab: {fileID: 1913455230610627, guid: 5578125142e093d4d94658542ce0953a, type: 2}
+  - name: SK000053
+    type: 3
+    fileName: cos_bagpipes_techarm
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 102
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 1a4acd7aad942e7458fca1e3e8ecbcc1, type: 3}
+    prefab: {fileID: 1935612714877992, guid: c3beaf8e81ee8d8479ca5be048727c5f, type: 2}
+  - name: SK000054
+    type: 3
+    fileName: cos_bagpipes_techarm_purple
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 103
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0b3ba984c9513824ea9dce017f3a5a6e, type: 3}
+    prefab: {fileID: 1860118681646911, guid: e9eb458404b5fc246a957d90315ca3fe, type: 2}
+  - name: SK000055
+    type: 3
+    fileName: cos_bagpipes_techarm_white
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 104
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2043eb660f51a1541a3b23ddd648a7b2, type: 3}
+    prefab: {fileID: 1741126207716101, guid: 3500eb398ff486f41adf15105d78d0d2, type: 2}
+  - name: SK000056
+    type: 3
+    fileName: cos_galena_majestic
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 105
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2e79a86ccf9b54c48884e36d1d6b65c3, type: 3}
+    prefab: {fileID: 1279982027756087, guid: befc85c446afee1448c2bbed408c09cd, type: 2}
+  - name: SK000057
+    type: 3
+    fileName: cos_galena_majestic_red
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 106
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 1e2e97eba006d1846b55072f2113f5bf, type: 3}
+    prefab: {fileID: 1748544338211823, guid: 7806c0a4f281c014697b0b52d8205ded, type: 2}
+  - name: SK000058
+    type: 3
+    fileName: cos_galena_majestic_royal_blue
+    tier: 2
+    priceCreds: 800
+    priceSteel: 7600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 107
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 8c913350788f5654a8eef782257c4359, type: 3}
+    prefab: {fileID: 1010345592169912, guid: a604b6e2e5f3bd747a18ae938ac14b10, type: 2}
+  - name: EM000001
+    type: 4
+    fileName: char_acrid_emote_001_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 108
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2b01bfe9aba76714b85b595dd9d36243, type: 3}
+    prefab: {fileID: 7400000, guid: 5ca9363f15a4cee4dad3ef150f4415a1, type: 2}
+  - name: EM000002
+    type: 4
+    fileName: char_bagpipes_emote_001_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 109
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 8377fd9ee6030be4689087776fd7c2e0, type: 3}
+    prefab: {fileID: 7400000, guid: e3d62787342c02d4594147375e833c5c, type: 2}
+  - name: EM000003
+    type: 4
+    fileName: char_bagpipes_emote_002_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 110
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 8bd63ee7ea0f60948ac70ded8905e96e, type: 3}
+    prefab: {fileID: 7400000, guid: a1201dc9011ef8f4bae98e413b8111df, type: 2}
+  - name: EM000004
+    type: 4
+    fileName: char_bagpipes_emote_003_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 111
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 3c007a00489b7944bb665de4244c1d9a, type: 3}
+    prefab: {fileID: 7400000, guid: 7810be4191603064cb433f6d8df6c9c9, type: 2}
+  - name: EM000005
+    type: 4
+    fileName: char_bagpipes_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 112
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f779622324ae0c64f86c6fef2ab9c34d, type: 3}
+    prefab: {fileID: 7400000, guid: e00eeaa802348b545bc3c132049dcdc7, type: 2}
+  - name: EM000006
+    type: 4
+    fileName: char_hildegard_emote_001_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 113
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c25e526e15c5ff241857f2cc02132fe3, type: 3}
+    prefab: {fileID: 7400000, guid: 2f0aa5be5187c9c489371d226337fb2f, type: 2}
+  - name: EM000007
+    type: 4
+    fileName: char_hildegard_emote_002_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 114
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 95e2f2c9664d53f4e8c98873b3355660, type: 3}
+    prefab: {fileID: 7400000, guid: 880462179a4eea14eb4d3fb576de4f6d, type: 2}
+  - name: EM000008
+    type: 4
+    fileName: char_hildegard_emote_003_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 115
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ab23a412b6eb84040ad5097ec1f6ea0e, type: 3}
+    prefab: {fileID: 7400000, guid: f15146fd7d582274f99f08f1a1521863, type: 2}
+  - name: EM000009
+    type: 4
+    fileName: char_li_emote_001_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 116
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 12adf563f398fa8459b386cd5466b434, type: 3}
+    prefab: {fileID: 7400000, guid: 0200dfac40a22774abcea6d2ee9d6154, type: 2}
+  - name: EM000010
+    type: 4
+    fileName: char_li_emote_002_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 117
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ff96cf8507d016547b5321a018455953, type: 3}
+    prefab: {fileID: 7400000, guid: f720239275e4f8347b0005b11d7a4bed, type: 2}
+  - name: EM000011
+    type: 4
+    fileName: char_li_emote_003_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 118
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 720e95f90ae0dfe4c8929972a81d9777, type: 3}
+    prefab: {fileID: 7400000, guid: dcdb54e3280eedc48b00d0d8cbebe360, type: 2}
+  - name: EM000012
+    type: 4
+    fileName: char_li_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 119
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 721254ae4b71edf49b6972a78e6d2222, type: 3}
+    prefab: {fileID: 7400000, guid: 7455d03af5940854eb228612db350b46, type: 2}
+  - name: EM000013
+    type: 4
+    fileName: char_mali_emote_001_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 120
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: c4c19daa9016bee45aae2398f9e4ad46, type: 3}
+    prefab: {fileID: 7400000, guid: fd06e2eb57b6cc349955b1e3ca567fc9, type: 2}
+  - name: EM000014
+    type: 4
+    fileName: char_mali_emote_002_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 121
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 653fec62a0d8af94e853af7ee3da52ae, type: 3}
+    prefab: {fileID: 7400000, guid: 52cc8c416d4450d478728b9409180f50, type: 2}
+  - name: EM000015
+    type: 4
+    fileName: char_mali_emote_003_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 122
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 740167ca9c4a34145a062fbf6a1ec4d3, type: 3}
+    prefab: {fileID: 7400000, guid: 09203109e9baff64c9b2e1b51fb1c9f5, type: 2}
+  - name: EM000016
+    type: 4
+    fileName: char_mali_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 123
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b18a9e492473d9347812ca6f40600700, type: 3}
+    prefab: {fileID: 7400000, guid: a55da176db63af142afcba793b9ae90e, type: 2}
+  - name: EM000017
+    type: 4
+    fileName: char_servitor_emote_001_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 124
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 9b76cdc0b3fff844091351de1fcbc0c5, type: 3}
+    prefab: {fileID: 7400000, guid: 65fad009b375f1042aa4d16e489e84b9, type: 2}
+  - name: EM000018
+    type: 4
+    fileName: char_servitor_emote_002_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 125
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 74bf1708fecf0cd4a9a3ba8076d7400a, type: 3}
+    prefab: {fileID: 7400000, guid: 480ded2ec4a1d334a9f7f6fd3735e792, type: 2}
+  - name: EM000019
+    type: 4
+    fileName: char_servitor_emote_003_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 126
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e0970bf23718c5c44b884974e67f04e9, type: 3}
+    prefab: {fileID: 7400000, guid: 39d15f135f875444b9d1d7fda02e45e9, type: 2}
+  - name: EM000020
+    type: 4
+    fileName: char_servitor_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 127
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: fcbd2fbefab852d46b9753ad9944bb4e, type: 3}
+    prefab: {fileID: 7400000, guid: c97cfab488d51b24f903bb9ff4bd613f, type: 2}
+  - name: EM000021
+    type: 4
+    fileName: char_galena_emote_001_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 128
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 2293c8eaf01a26a468e605a932c410ef, type: 3}
+    prefab: {fileID: 7400000, guid: ce5325c7bf808b649bb9e79e266dada0, type: 2}
+  - name: EM000022
+    type: 4
+    fileName: char_galena_emote_002_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 129
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: a47f15a5e1808444bae1ca0a17e967b0, type: 3}
+    prefab: {fileID: 7400000, guid: f087983a630142f4fba9dfaedb374d05, type: 2}
+  - name: EM000023
+    type: 4
+    fileName: char_galena_emote_003_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 130
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 72e9e97724ead5042ab677d37505b7ca, type: 3}
+    prefab: {fileID: 7400000, guid: fc1f1594ff06b5447846a7b9737f7963, type: 2}
+  - name: EM000024
+    type: 4
+    fileName: char_galena_emote_004_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 131
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: d1c8b91e4ca1db4468142d90e14ea71c, type: 3}
+    prefab: {fileID: 7400000, guid: 7a678e6461a93cf41a73c5dee40e8c12, type: 2}
+  - name: EM000025
+    type: 4
+    fileName: char_bagpipes_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 132
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 65444ee2a7e40b24792201ed4d7f52fb, type: 3}
+    prefab: {fileID: 7400000, guid: d4bc4b3b7bbbbeb439c3a48f57922eb5, type: 2}
+  - name: EM000026
+    type: 4
+    fileName: char_hildegard_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 133
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 824224c8075a94e4597453ef32e8aaf1, type: 3}
+    prefab: {fileID: 7400000, guid: 8bb663de898429a4fa871a2bad7e32c2, type: 2}
+  - name: EM000027
+    type: 4
+    fileName: char_acrid_emote_002_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 134
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: fb0e0246e86ff6241819dcceb1cf4f28, type: 3}
+    prefab: {fileID: 7400000, guid: fe026a942ee9df04a9f07eec933e2d64, type: 2}
+  - name: EM000028
+    type: 4
+    fileName: char_acrid_emote_003_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 135
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e85b30ac3ccfb3345b1d2bc52205a1eb, type: 3}
+    prefab: {fileID: 7400000, guid: 7a9e2ce6681cd5b489840262f3a578c5, type: 2}
+  - name: EM000029
+    type: 4
+    fileName: char_bagpipes_emote_006_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 136
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 68443c7e4d6eab242b599e343dca1d52, type: 3}
+    prefab: {fileID: 7400000, guid: 04096e4f77f28d648b21d8f0b46fd665, type: 2}
+  - name: EM000030
+    type: 4
+    fileName: char_hildegard_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 137
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6dcb9e184374604499601d851342d52e, type: 3}
+    prefab: {fileID: 7400000, guid: c5412e330b969974e8ec545db0d4ccb2, type: 2}
+  - name: EM000031
+    type: 4
+    fileName: char_acrid_emote_004_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 138
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 11098515ba5c9d345902a5ce01ef2a0a, type: 3}
+    prefab: {fileID: 7400000, guid: ff84a0d4e1c1c5b43a668f4c31d1ec01, type: 2}
+  - name: EM000032
+    type: 4
+    fileName: char_acrid_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 139
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 123eac9aeedb037438d42df028990df3, type: 3}
+    prefab: {fileID: 7400000, guid: 74ca0ea2cda88f54f85c6b73b9b5e6e8, type: 2}
+  - name: EM000033
+    type: 4
+    fileName: char_acrid_emote_006_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 140
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 9725a4d18df730d4da4c114e3ea13793, type: 3}
+    prefab: {fileID: 7400000, guid: 3a45d2873d2a66742a12a1e969f82a6a, type: 2}
+  - name: EM000034
+    type: 4
+    fileName: char_servitor_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 141
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b81869d7b4c36584f9d25064275a76c2, type: 3}
+    prefab: {fileID: 7400000, guid: 2a3cf10ba0f839c44bd75ba7612adcd5, type: 2}
+  - name: EM000035
+    type: 4
+    fileName: char_li_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 142
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b24daecc1d13a734da3d1aa57a45ba3f, type: 3}
+    prefab: {fileID: 7400000, guid: 84a0beb9071461943a47a57edec614d6, type: 2}
+  - name: EM000036
+    type: 4
+    fileName: char_li_emote_006_anim
+    tier: 1
+    priceCreds: 400
+    priceSteel: 3200
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 143
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c516ccb79d1ff9e47aa9a4eaa098860c, type: 3}
+    prefab: {fileID: 7400000, guid: 8589761ae13641c46bc77ebdffabe5dd, type: 2}
+  - name: EM000037
+    type: 4
+    fileName: char_mali_emote_005_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 144
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 030d5bd70ffc62e44bd6293f3c7bf12f, type: 3}
+    prefab: {fileID: 7400000, guid: 4ee2b8e30528e554b84e7971dc18f16a, type: 2}
+  - name: EM000038
+    type: 4
+    fileName: char_bagpipes_emote_007_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 145
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 3ebc01315829ce84b9ea0979eec5131e, type: 3}
+    prefab: {fileID: 7400000, guid: c84ec74146b64d74299afd8aa6e269e9, type: 2}
+  - name: EM000039
+    type: 4
+    fileName: char_hildegard_emote_006_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 146
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 658241b864b84614fbbe542ce84ab3cf, type: 3}
+    prefab: {fileID: 7400000, guid: a5707415b86289140b1bb77a489639b8, type: 2}
+  - name: EM000040
+    type: 4
+    fileName: char_servitor_emote_006_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 147
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 07534832977bc7748aee3c0b55462c13, type: 3}
+    prefab: {fileID: 7400000, guid: b9475b6fd11f8ea44b6d55cfd1df8201, type: 2}
+  - name: EM000041
+    type: 4
+    fileName: char_mali_emote_006_anim
+    tier: 2
+    priceCreds: 600
+    priceSteel: 4800
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 148
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 6802e9d5811fd254284c16852031177b, type: 3}
+    prefab: {fileID: 7400000, guid: 18bd806f59ad54740a6feb791e04ff21, type: 2}
+  - name: PO000001
+    type: 5
+    fileName: char_acrid_victory_001_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 149
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 15cd77c3f233db64d8f3c7318354bcf1, type: 3}
+    prefab: {fileID: 7400000, guid: ef999338695a21d47864f999061e5690, type: 2}
+  - name: PO000002
+    type: 5
+    fileName: char_acrid_victory_002_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 150
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: d5f978d6454305d4891a3f35c589b4e6, type: 3}
+    prefab: {fileID: 7400000, guid: 2f20bab1f86dfb94bb41730be59e4f10, type: 2}
+  - name: PO000003
+    type: 5
+    fileName: char_acrid_victory_003_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 151
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d71be9c3944aa0c448285a32111d16f1, type: 3}
+    prefab: {fileID: 7400000, guid: 41fc62b75341f6a4f8b6925f46ae46cb, type: 2}
+  - name: PO000005
+    type: 5
+    fileName: char_bagpipes_victory_001_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 152
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c8c7810bfdf20dd4ca0797a5f6745f18, type: 3}
+    prefab: {fileID: 7400000, guid: 6bf539d8975218643a425ef22f9589d3, type: 2}
+  - name: PO000006
+    type: 5
+    fileName: char_bagpipes_victory_002_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 153
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 956b2cb57e24b3c47a58c8e94087ff06, type: 3}
+    prefab: {fileID: 7400000, guid: f2b3e5db82944cf4e8c7e9d8a1867ad9, type: 2}
+  - name: PO000007
+    type: 5
+    fileName: char_bagpipes_victory_003_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 154
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e5fbb01134f98174dbcc8da4b5c01efe, type: 3}
+    prefab: {fileID: 7400000, guid: a961694f30e6f4847b301bd46396ba2f, type: 2}
+  - name: PO000009
+    type: 5
+    fileName: char_bagpipes_victory_005_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 155
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 01b8a8109900fbf488e652c2e4721fa4, type: 3}
+    prefab: {fileID: 7400000, guid: 3eb5891354ed9204992e7c9067ec6476, type: 2}
+  - name: PO000010
+    type: 5
+    fileName: char_hildegard_victory_001_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 156
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 5d2909fdaef2c7646b7828ca9a03f229, type: 3}
+    prefab: {fileID: 7400000, guid: 7775a041ca24a2143a3a47ea074c17bb, type: 2}
+  - name: PO000011
+    type: 5
+    fileName: char_hildegard_victory_002_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 157
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: b95383945ee9d8148aa719dd8ccacc30, type: 3}
+    prefab: {fileID: 7400000, guid: d1e8581e966daef4495dd7060dd4bfac, type: 2}
+  - name: PO000012
+    type: 5
+    fileName: char_hildegard_victory_003_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 158
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ffe19aeceaf5e144aaf2c43f351afedc, type: 3}
+    prefab: {fileID: 7400000, guid: b37fee5240ff4de44b61b0cace685b5d, type: 2}
+  - name: PO000013
+    type: 5
+    fileName: char_hildegard_victory_004_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 159
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ade06caa29148a541aec000cb4283180, type: 3}
+    prefab: {fileID: 7400000, guid: 71b1cfd17da22bf439409a001016004e, type: 2}
+  - name: PO000014
+    type: 5
+    fileName: char_hildegard_victory_005_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 160
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: c97f59c4e23aa9844a2676b4234aca47, type: 3}
+    prefab: {fileID: 7400000, guid: 476c43ae3c82e8e4b82e5724c37f1937, type: 2}
+  - name: PO000015
+    type: 5
+    fileName: char_li_victory_001_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 161
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f38b19fba796c8f40809ef73038fe788, type: 3}
+    prefab: {fileID: 7400000, guid: 0fd99e31b6ffe2d468fdfc3579718a7b, type: 2}
+  - name: PO000016
+    type: 5
+    fileName: char_li_victory_002_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 162
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 60168ee7eadb4b64d86b3c44f6d3b367, type: 3}
+    prefab: {fileID: 7400000, guid: 86337210e734e2f4f9e30b7037c9750b, type: 2}
+  - name: PO000017
+    type: 5
+    fileName: char_li_victory_003_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 163
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: b12b6d8fbf8400d499a9e402b092cd08, type: 3}
+    prefab: {fileID: 7400000, guid: d6a9b30a2dd6d6541bd3b63fc42718e2, type: 2}
+  - name: PO000018
+    type: 5
+    fileName: char_li_victory_004_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 164
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: e0c21f3098a4e4741b17a8ccf0bea75e, type: 3}
+    prefab: {fileID: 7400000, guid: 9b652125cf4069c40a1af833bcd3e460, type: 2}
+  - name: PO000019
+    type: 5
+    fileName: char_li_victory_005_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 165
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: f7b2d28009cda6e4e87907a88c0398c6, type: 3}
+    prefab: {fileID: 7400000, guid: 31d487f6014ed18489df5c7c4498dc51, type: 2}
+  - name: PO000020
+    type: 5
+    fileName: char_mali_victory_001_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 166
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ff865e1279e72b443baee08089947b67, type: 3}
+    prefab: {fileID: 7400000, guid: 72fbbfea726ed5741a91f969ae545809, type: 2}
+  - name: PO000021
+    type: 5
+    fileName: char_mali_victory_002_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 167
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: d9a9ed7c6212c1945b64fec81f5912cd, type: 3}
+    prefab: {fileID: 7400000, guid: 79b5efdca18e59c418180fae5a59840b, type: 2}
+  - name: PO000022
+    type: 5
+    fileName: char_mali_victory_003_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 168
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: af57d4748b15f7c4da3544553266cfbb, type: 3}
+    prefab: {fileID: 7400000, guid: 496865d3eb836e848bb8639838e513c3, type: 2}
+  - name: PO000023
+    type: 5
+    fileName: char_mali_victory_004_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 169
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 22f8a570c99914445a5aae9548b0cc6c, type: 3}
+    prefab: {fileID: 7400000, guid: 3bf877bfdac01cd439c7f1e73aa3bc98, type: 2}
+  - name: PO000024
+    type: 5
+    fileName: char_servitor_victory_001_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 170
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 6a14e9c2267edea4c951f30c71bfe5eb, type: 3}
+    prefab: {fileID: 7400000, guid: 71e836ec11e89e143b854778495b86bb, type: 2}
+  - name: PO000025
+    type: 5
+    fileName: char_servitor_victory_002_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 171
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 737c552f3fdf29b43aadce2a8b7c07c7, type: 3}
+    prefab: {fileID: 7400000, guid: dd458cc342672e448b636400f46366e3, type: 2}
+  - name: PO000026
+    type: 5
+    fileName: char_servitor_victory_003_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 172
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 06533961acca70b48bae1e128f861b6a, type: 3}
+    prefab: {fileID: 7400000, guid: ed1cd7d28a8339c4da007c771eeeb7bc, type: 2}
+  - name: PO000027
+    type: 5
+    fileName: char_servitor_victory_004_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 173
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b484a674b17952241bfdaa3554c267e2, type: 3}
+    prefab: {fileID: 7400000, guid: 452592a911a7aa84eae1eef809dacf73, type: 2}
+  - name: PO000028
+    type: 5
+    fileName: char_servitor_victory_005_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 174
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 3d9628c179da19b49b26062c12748a0d, type: 3}
+    prefab: {fileID: 7400000, guid: be6e6614bf20e9948a2a3643a2d3ac9d, type: 2}
+  - name: PO000029
+    type: 5
+    fileName: char_galena_victory_001_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 175
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0d04249fc2b94ab43949c5a0505597db, type: 3}
+    prefab: {fileID: 7400000, guid: 30f6580418ccd144fbb85b9980e71809, type: 2}
+  - name: PO000030
+    type: 5
+    fileName: char_galena_victory_002_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 176
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ab6c8b1c5f1765e48a57491eb2ba7276, type: 3}
+    prefab: {fileID: 7400000, guid: 4d753e1f572c7a24c81b32081c025aca, type: 2}
+  - name: PO000031
+    type: 5
+    fileName: char_galena_victory_003_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 177
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 9695e3d9c64a5244ebe69b75533642f1, type: 3}
+    prefab: {fileID: 7400000, guid: 9cd311d04aca9174ab8a4f09a43f531d, type: 2}
+  - name: PO000032
+    type: 5
+    fileName: char_galena_victory_004_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 178
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: b5180ff1493a0264296730160e867ae6, type: 3}
+    prefab: {fileID: 7400000, guid: e91e2f518d1f9044cbdff48cccd7bfd6, type: 2}
+  - name: PO000033
+    type: 5
+    fileName: char_acrid_victory_004_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 179
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 7d257508d623c6948a0827e891acb4b0, type: 3}
+    prefab: {fileID: 7400000, guid: 45393d398ebcbea408617b1761b08f4f, type: 2}
+  - name: PO000034
+    type: 5
+    fileName: char_li_victory_006_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 180
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 0d6ba411eb8b5ee4681114af9a616a33, type: 3}
+    prefab: {fileID: 7400000, guid: f6be4e2ab41da6f4da3a936665170cf7, type: 2}
+  - name: PO000035
+    type: 5
+    fileName: char_li_victory_007_anim
+    tier: 1
+    priceCreds: 350
+    priceSteel: 3600
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 181
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: bd12c30dd68de79408c88e12feff6f31, type: 3}
+    prefab: {fileID: 7400000, guid: a55b838eec32e9045b75bc65c4ed8aaa, type: 2}
+  - name: PO000036
+    type: 5
+    fileName: char_li_victory_008_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 182
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 8bc3012137d15c945bbec0ab49109a91, type: 3}
+    prefab: {fileID: 7400000, guid: 43fda2c1dd37f574db3c544aa3812af7, type: 2}
+  - name: PO000037
+    type: 5
+    fileName: char_li_victory_009_anim
+    tier: 2
+    priceCreds: 450
+    priceSteel: 4400
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 183
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 661faacb7b057144a85041a17a57bdd4, type: 3}
+    prefab: {fileID: 7400000, guid: 4244eacf707c71d4bb5afdd7b3117c02, type: 2}
+  - name: CH000001
+    type: 6
+    fileName: char_servitor
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: 8f9e22820aa0336429fd863e1cf96a59, type: 2}
+    definitionId: 184
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 09998f8906f7a054daa8e5c440cb0f7f, type: 3}
+    prefab: {fileID: 1775585168587692, guid: a4f66fae3cf3e3e4e8208ec946294b46, type: 2}
+  - name: CH000002
+    type: 6
+    fileName: char_li
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: e7c29663f14159144b67a442a71f98df, type: 2}
+    definitionId: 185
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: e070d21851ed4c64e92c748835c79572, type: 3}
+    prefab: {fileID: 1132158998495318, guid: 58d08450a6e43564da6d3f16ae34166f, type: 2}
+  - name: CH000003
+    type: 6
+    fileName: char_hildegard
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: eaa1510bc64935f4b98e01b554263040, type: 2}
+    definitionId: 186
+    unlockedByDefault: 1
+    icon: {fileID: 21300000, guid: 307ea75bde946b1448ffb0ae13ee7f74, type: 3}
+    prefab: {fileID: 1241919376929928, guid: dd250c75e4a2c4b4d8f4a88b976f8d98, type: 2}
+  - name: CH000004
+    type: 6
+    fileName: char_bagpipes
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: 3ddd977539b5be945a03f9277e51532d, type: 2}
+    definitionId: 187
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: ee54e2d9988d2f64fa709b85ce7639b1, type: 3}
+    prefab: {fileID: 1561632766493718, guid: 94b0535b26880cd4abda7ed998c932d5, type: 2}
+  - name: CH000005
+    type: 6
+    fileName: char_mali
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: 14410a64d297a0540ae148919dc22af7, type: 2}
+    definitionId: 188
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: cf542189fe3d4374290a7a8b86ec28f9, type: 3}
+    prefab: {fileID: 1954726226462342, guid: ea120b36c7915c04e8f2d2ce74870fc4, type: 2}
+  - name: CH000006
+    type: 6
+    fileName: char_galena
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: ed1f6f3b5316e07418c2ebb29d4ff6b2, type: 2}
+    definitionId: 189
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 96766ecd2efb7454baa31324829b6648, type: 3}
+    prefab: {fileID: 1563715683955799, guid: e7d55df115875bd469fff4fcbcf07711, type: 2}
+  - name: CH000007
+    type: 6
+    fileName: char_acrid
+    tier: 0
+    priceCreds: 0
+    priceSteel: 15000
+    champion: {fileID: 11400000, guid: 929ecaca13bd2264a85afe0d2d6c4ae4, type: 2}
+    definitionId: 190
+    unlockedByDefault: 0
+    icon: {fileID: 21300000, guid: 91ea1d3eb8614124eb1dd0b0e4110f9e, type: 3}
+    prefab: {fileID: 1011017794728263, guid: 43d84ff7607daad4ca99d82d7aede2f5, type: 2}

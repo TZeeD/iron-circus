@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48d4385a11080c4a9d8a825dd07c6a7, type: 3}
+  m_Name: VirtualStrikeConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name: VirtualMotionConfig
+    sizeInBytes: 252
+    numDirtyBytes: 8
+    numSyncActions: 7
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: StrikeAoeVfxAction.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: unnamed.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: unnamed.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: unnamed.SyncActionTick
+      type: 3
+      size: 4
+      index: 9
+    - name: unnamed.SyncActionTick
+      type: 3
+      size: 4
+      index: 12
+    - name: unnamed.SyncActionTick
+      type: 3
+      size: 4
+      index: 15
+    - name: Impact Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 18
+    - name: Input.btnIsDown
+      type: 1
+      size: 1
+      index: 21
+    - name: Disappear State.startTick
+      type: 3
+      size: 4
+      index: 22
+    - name: Invisible.startTick
+      type: 3
+      size: 4
+      index: 26
+    - name: Appear State.startTick
+      type: 3
+      size: 4
+      index: 30
+    - name: Appear Aoe Duration State.startTick
+      type: 3
+      size: 4
+      index: 34
+    - name: Appear Aoe Vfx.offset
+      type: 9
+      size: 12
+      index: 38
+    - name: Appear Aoe Vfx.position
+      type: 9
+      size: 12
+      index: 50
+    - name: Appear Aoe Vfx.lookDir
+      type: 9
+      size: 12
+      index: 62
+    - name: Appear Aoe Vfx.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 74
+    - name: Appear Aoe Vfx.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 75
+    - name: Appear Aoe Vfx.onUnparentPosition
+      type: 9
+      size: 12
+      index: 76
+    - name: Appear Aoe Vfx.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 88
+    - name: Move faster State.startTick
+      type: 3
+      size: 4
+      index: 100
+    - name: Move faster State.speedOnActivate
+      type: 5
+      size: 4
+      index: 104
+    - name: Move faster State.cachedMoveDir
+      type: 9
+      size: 12
+      index: 108
+    - name: Move faster State.cachedDistance
+      type: 5
+      size: 4
+      index: 120
+    - name: NoCollisionState.targetEntityId
+      type: 10
+      size: 2
+      index: 124
+    - name: WhileUpdateCooldown.wasTrue
+      type: 1
+      size: 1
+      index: 126
+    - name: UpdateCooldown.targetValue
+      type: 5
+      size: 4
+      index: 127
+    - name: Disappear Anim.normalizedProgress
+      type: 5
+      size: 4
+      index: 131
+    - name: Disappear Anim.variation
+      type: 3
+      size: 4
+      index: 135
+    - name: Play Vfx State.position
+      type: 9
+      size: 12
+      index: 139
+    - name: ReappearFreeze.duration
+      type: 5
+      size: 4
+      index: 151
+    - name: ReappearFreeze.startTick
+      type: 3
+      size: 4
+      index: 155
+    - name: SetInitialFloorSpeed.lookDir
+      type: 9
+      size: 12
+      index: 159
+    - name: SetInitialFloorSpeed.turnSpeed
+      type: 5
+      size: 4
+      index: 171
+    - name: SetSpeedZero.lookDir
+      type: 9
+      size: 12
+      index: 175
+    - name: SetSpeedZero.speed
+      type: 5
+      size: 4
+      index: 187
+    - name: SetSpeedZero.turnSpeed
+      type: 5
+      size: 4
+      index: 191
+    - name: '[SkillVar] [InvisibleState][InvisibleStatus]Internal'
+      type: 1
+      size: 1
+      index: 195
+    - name: '[SkillVar] [ApplyStatusModifier] ReappearFreeze.StopStatusEffect'
+      type: 1
+      size: 1
+      index: 196
+    - name: '[SkillVar] CooldownOver'
+      type: 1
+      size: 1
+      index: 197
+    - name: '[SkillVar] canDive'
+      type: 1
+      size: 1
+      index: 198
+    - name: '[SkillVar] canTrigger'
+      type: 1
+      size: 1
+      index: 199
+    - name: '[SkillVar] IsActive'
+      type: 1
+      size: 1
+      index: 200
+    - name: '[SkillVar] StopInvisibleStatus'
+      type: 1
+      size: 1
+      index: 201
+    - name: '[SkillVar] CanHoldBall'
+      type: 1
+      size: 1
+      index: 202
+    - name: '[SkillVar] StartSpeed'
+      type: 5
+      size: 4
+      index: 203
+    - name: '[SkillVar] CurrentCooldown'
+      type: 5
+      size: 4
+      index: 207
+    - name: '[SkillVar] TouchedEntities.length'
+      type: 2
+      size: 1
+      index: 211
+    - name: '[SkillVar] TouchedEntities[0]'
+      type: 10
+      size: 2
+      index: 212
+    - name: '[SkillVar] TouchedEntities[1]'
+      type: 10
+      size: 2
+      index: 214
+    - name: '[SkillVar] TouchedEntities[2]'
+      type: 10
+      size: 2
+      index: 216
+    - name: '[SkillVar] TouchedEntities[3]'
+      type: 10
+      size: 2
+      index: 218
+    - name: '[SkillVar] TouchedEntities[4]'
+      type: 10
+      size: 2
+      index: 220
+    - name: '[SkillVar] TouchedEntities[5]'
+      type: 10
+      size: 2
+      index: 222
+    - name: '[SkillVar] TouchedEntities[6]'
+      type: 10
+      size: 2
+      index: 224
+    - name: '[SkillVar] TouchedEntities[7]'
+      type: 10
+      size: 2
+      index: 226
+    - name: '[SkillVar] TouchedEntities[8]'
+      type: 10
+      size: 2
+      index: 228
+    - name: '[SkillVar] TouchedEntities[9]'
+      type: 10
+      size: 2
+      index: 230
+    - name: '[SkillVar] TouchedEntities[10]'
+      type: 10
+      size: 2
+      index: 232
+    - name: '[SkillVar] TouchedEntities[11]'
+      type: 10
+      size: 2
+      index: 234
+    - name: '[SkillVar] TouchedEntities[12]'
+      type: 10
+      size: 2
+      index: 236
+    - name: '[SkillVar] TouchedEntities[13]'
+      type: 10
+      size: 2
+      index: 238
+    - name: '[SkillVar] TouchedEntities[14]'
+      type: 10
+      size: 2
+      index: 240
+    - name: '[SkillVar] TouchedEntities[15]'
+      type: 10
+      size: 2
+      index: 242
+  button: 8
+  iconName: icon_mine_inverted_01_tex
+  cooldown: 64
+  aoeExit:
+    shape: 0
+    radius: 3.25
+    deadZone: 0
+    angle: 0
+    rectWidth: 0
+    rectLength: 0
+    vfxPrefab:
+      value: {fileID: 1295819071021116, guid: a4fa600afd1659e4b8bc262513af2bfb, type: 2}
+  aoeDisplayDuration: 0.6
+  disappearDuration: 0.5
+  hitAppearDuration: 0.1
+  timeUntilFloorEffect: 0.5
+  maxInvisibleDuration: 3
+  damage: 1
+  initialFloorSpeed: 9.5
+  moveSpeedModifier: 1
+  appearSpeedModifier: -0.9
+  appearSpeedModifierDuration: 0.5
+  stunDuration: 1.5
+  pushDuration: 0.2
+  pushDistance: 1.25
+  minHopDistance: 2
+  hopDuration: 0.4
+  strikeVfxPrefab:
+    value: {fileID: 1607931643453909, guid: 957a91446c78e0f4e9e7282910a4a5c5, type: 2}
+  floorVfxPrefab:
+    value: {fileID: 1821683279101661, guid: 92f1f9ce3438647459611bba6ae79a1c, type: 2}

@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a2a2c59c682a743814cd740b5db78d, type: 3}
+  m_Name: TackleDodgeConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name: TackleDodgeConfig
+    sizeInBytes: 335
+    numDirtyBytes: 9
+    numSyncActions: 4
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: Tackle BaseAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: Tackle LayerAudio.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: Dodge Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: RumbleOnHit.SyncActionTick
+      type: 3
+      size: 4
+      index: 9
+    - name: Tackle Preview.offset
+      type: 9
+      size: 12
+      index: 12
+    - name: Tackle Preview.position
+      type: 9
+      size: 12
+      index: 24
+    - name: Tackle Preview.lookDir
+      type: 9
+      size: 12
+      index: 36
+    - name: Tackle Preview.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 48
+    - name: Tackle Preview.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 49
+    - name: Tackle Preview.onUnparentPosition
+      type: 9
+      size: 12
+      index: 50
+    - name: Tackle Preview.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 62
+    - name: Tackle Move.startTick
+      type: 3
+      size: 4
+      index: 74
+    - name: Tackle Move.speedOnActivate
+      type: 5
+      size: 4
+      index: 78
+    - name: Tackle Move.cachedMoveDir
+      type: 9
+      size: 12
+      index: 82
+    - name: Tackle Move.cachedDistance
+      type: 5
+      size: 4
+      index: 94
+    - name: Dodge Move.startTick
+      type: 3
+      size: 4
+      index: 98
+    - name: Dodge Move.speedOnActivate
+      type: 5
+      size: 4
+      index: 102
+    - name: Dodge Move.cachedMoveDir
+      type: 9
+      size: 12
+      index: 106
+    - name: Dodge Move.cachedDistance
+      type: 5
+      size: 4
+      index: 118
+    - name: Dodging Status.startTick
+      type: 3
+      size: 4
+      index: 122
+    - name: While Can Tackle.wasTrue
+      type: 1
+      size: 1
+      index: 126
+    - name: Tackle Anim.normalizedProgress
+      type: 5
+      size: 4
+      index: 127
+    - name: Tackle Anim.variation
+      type: 3
+      size: 4
+      index: 131
+    - name: Dodge Anim.normalizedProgress
+      type: 5
+      size: 4
+      index: 135
+    - name: Dodge Anim.variation
+      type: 3
+      size: 4
+      index: 139
+    - name: DisableLookAtBall.normalizedProgress
+      type: 5
+      size: 4
+      index: 143
+    - name: DisableLookAtBall.variation
+      type: 3
+      size: 4
+      index: 147
+    - name: Should Update Cooldown.wasTrue
+      type: 1
+      size: 1
+      index: 151
+    - name: Update Cooldown.targetValue
+      type: 5
+      size: 4
+      index: 152
+    - name: No Collision State.targetEntityId
+      type: 10
+      size: 2
+      index: 156
+    - name: Can Dodge Check.wasTrue
+      type: 1
+      size: 1
+      index: 158
+    - name: Push/Stun HAS Ball.targetPlayerId
+      type: 4
+      size: 8
+      index: 159
+    - name: Push/Stun HAS Ball.pushDistance
+      type: 5
+      size: 4
+      index: 167
+    - name: Push/Stun NO Ball.targetPlayerId
+      type: 4
+      size: 8
+      index: 171
+    - name: Push/Stun NO Ball.pushDistance
+      type: 5
+      size: 4
+      index: 179
+    - name: Speed Mod HAS Ball.targetPlayerId
+      type: 4
+      size: 8
+      index: 183
+    - name: Speed Mod HAS Ball.moveSpeedModifier
+      type: 5
+      size: 4
+      index: 191
+    - name: Speed Mod HAS Ball.duration
+      type: 5
+      size: 4
+      index: 195
+    - name: Speed Mod HAS Ball.targetPlayerId
+      type: 4
+      size: 8
+      index: 199
+    - name: Speed Mod HAS Ball.moveSpeedModifier
+      type: 5
+      size: 4
+      index: 207
+    - name: Speed Mod HAS Ball.duration
+      type: 5
+      size: 4
+      index: 211
+    - name: Set Post-Tackle Speed.lookDir
+      type: 9
+      size: 12
+      index: 215
+    - name: Set Post-Tackle Speed.turnSpeed
+      type: 5
+      size: 4
+      index: 227
+    - name: Set Post-Dodge Speed.lookDir
+      type: 9
+      size: 12
+      index: 231
+    - name: Set Post-Dodge Speed.turnSpeed
+      type: 5
+      size: 4
+      index: 243
+    - name: RumbleOnHit.playerId
+      type: 4
+      size: 8
+      index: 247
+    - name: RumbleOnHit.strength
+      type: 5
+      size: 4
+      index: 255
+    - name: RumbleOnHit.duration
+      type: 5
+      size: 4
+      index: 259
+    - name: '[SkillVar] [ApplyStatusModifier] Dodging Status.StopStatusEffect'
+      type: 1
+      size: 1
+      index: 263
+    - name: '[SkillVar] AimDir'
+      type: 9
+      size: 12
+      index: 264
+    - name: '[SkillVar] NotTackling'
+      type: 1
+      size: 1
+      index: 276
+    - name: '[SkillVar] DidCollide'
+      type: 1
+      size: 1
+      index: 277
+    - name: '[SkillVar] CurrentCooldown'
+      type: 5
+      size: 4
+      index: 278
+    - name: '[SkillVar] PushVector'
+      type: 9
+      size: 12
+      index: 282
+    - name: '[SkillVar] CollisionResult.length'
+      type: 2
+      size: 1
+      index: 294
+    - name: '[SkillVar] CollisionResult[0]'
+      type: 10
+      size: 2
+      index: 295
+    - name: '[SkillVar] CollisionResult[1]'
+      type: 10
+      size: 2
+      index: 297
+    - name: '[SkillVar] CollisionResult[2]'
+      type: 10
+      size: 2
+      index: 299
+    - name: '[SkillVar] CollisionResult[3]'
+      type: 10
+      size: 2
+      index: 301
+    - name: '[SkillVar] CollisionResult[4]'
+      type: 10
+      size: 2
+      index: 303
+    - name: '[SkillVar] CollisionResult[5]'
+      type: 10
+      size: 2
+      index: 305
+    - name: '[SkillVar] CollisionResult[6]'
+      type: 10
+      size: 2
+      index: 307
+    - name: '[SkillVar] CollisionResult[7]'
+      type: 10
+      size: 2
+      index: 309
+    - name: '[SkillVar] CollisionResult[8]'
+      type: 10
+      size: 2
+      index: 311
+    - name: '[SkillVar] CollisionResult[9]'
+      type: 10
+      size: 2
+      index: 313
+    - name: '[SkillVar] CollisionResult[10]'
+      type: 10
+      size: 2
+      index: 315
+    - name: '[SkillVar] CollisionResult[11]'
+      type: 10
+      size: 2
+      index: 317
+    - name: '[SkillVar] CollisionResult[12]'
+      type: 10
+      size: 2
+      index: 319
+    - name: '[SkillVar] CollisionResult[13]'
+      type: 10
+      size: 2
+      index: 321
+    - name: '[SkillVar] CollisionResult[14]'
+      type: 10
+      size: 2
+      index: 323
+    - name: '[SkillVar] CollisionResult[15]'
+      type: 10
+      size: 2
+      index: 325
+  button: 2
+  iconName: icon_tackling_inverted_01_tex
+  cooldown: 0.25
+  dodgeDistance: 4
+  dodgeDuration: 0.4
+  postDodgeSpeed: 11
+  staminaCostDodge: 1.5
+  tackleDistance: 4.5
+  tackleDuration: 0.4
+  postTackleSpeed: 8
+  staminaCostTackle: 1.5
+  pushDistanceWithBall: 1.5
+  pushDurationWithBall: 0.35
+  stunDurationWithBall: 0.95
+  slowDurationWithBall: 0.9
+  slowAmountWithBall: -0.5
+  pushDistanceNoBall: 1.5
+  pushDurationNoBall: 0.35
+  stunDurationNoBall: 0
+  slowDurationNoBall: 0.9
+  slowAmountNoBall: -0.5
+  showPreviewOnRemoteEntities: 1
+  tacklePreviewPrefab:
+    value: {fileID: 1687018095617147, guid: 18a5d1d83ff44294682b008f554f2594, type: 2}
+  dodgeVfxPrefab:
+    value: {fileID: 1334036713098658, guid: f674d61f8cee18940aeaecbf3caa4aab, type: 2}

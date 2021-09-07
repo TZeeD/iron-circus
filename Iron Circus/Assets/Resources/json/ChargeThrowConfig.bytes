@@ -1,0 +1,44 @@
+{
+  "$type": "Imi.SharedWithServer.Config.ChargeThrowConfig",
+  "chargeDuration": 0.55,
+  "prechargeTimeout": 0.2,
+  "chargeCurve": {
+    "$type": "SteelCircus.GameElements.Curve",
+    "points": {
+      "$type": "System.Collections.Generic.List`1[[SteelCircus.GameElements.CurvePoint]]",
+      "$values": [
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 0.100463659,
+          "value": 5.96046448E-08,
+          "inSlope": 3.523202,
+          "outSlope": 1.50560284,
+          "leftTangentMode": 2,
+          "rightTangentMode": 2
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 0.5005894,
+          "value": 0.602430463,
+          "inSlope": 1.1118561,
+          "outSlope": 1.1118561,
+          "leftTangentMode": 0,
+          "rightTangentMode": 0
+        },
+        {
+          "$type": "SteelCircus.GameElements.CurvePoint",
+          "time": 1.0,
+          "value": 1.00015509,
+          "inSlope": 0.796388,
+          "outSlope": 0.3581527,
+          "leftTangentMode": 2,
+          "rightTangentMode": 0
+        }
+      ]
+    }
+  },
+  "blockBallHitDuration": 0.2,
+  "throwAnimDuration": 0.1,
+  "name": "ChargeThrowConfig",
+  "hideFlags": 0
+}

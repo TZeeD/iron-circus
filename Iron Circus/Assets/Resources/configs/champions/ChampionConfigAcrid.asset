@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fdc19a42adc049958eaa57f4ab453, type: 3}
+  m_Name: ChampionConfigAcrid
+  m_EditorClassIdentifier:
+  championType: 8
+  classType: 0
+  colliderRadius: 0.725
+  maxHealth: 4
+  ballPickupRange: 1.05
+  maxSpeed: 6
+  stamina: {fileID: 11400000, guid: b5b568d10adb3c64e8af3ca7194ac321, type: 2}
+  uiDisplaySpeed: 2
+  acceleration: 13
+  deceleration: 12
+  controlsThrusterContribution: 0.6
+  moveOnlyForward: 0
+  useTurnSpeed: 0
+  turnSpeed: 600
+  playerSkillGraphs:
+  - {fileID: 11400000, guid: 46755ee834fbc6846ad03c7f80290553, type: 2}
+  - {fileID: 11400000, guid: bd1ab717a6472404fbca1e9fbc853374, type: 2}
+  - {fileID: 11400000, guid: 4023dcfd96cf1004f83f89f5fc3d2aca, type: 2}
+  - {fileID: 11400000, guid: f9bb39521713b0547820056fd551aa43, type: 2}
+  - {fileID: 11400000, guid: d6bfcfe030522ea4d8d2bff1a87cd873, type: 2}
+  - {fileID: 11400000, guid: 5515f42d8b5ea79499544eb96ec22aa9, type: 2}
+  - {fileID: 11400000, guid: d6cbc2d79c948064392929de549357f0, type: 2}
+  icon: {fileID: 21300000, guid: 452a5792af655364ca655f140d9b79e6, type: 3}
+  dev_icon: {fileID: 21300000, guid: 5bb4be6fdfd8e45469fb329f8fff1cc1, type: 3}
+  faction: {fileID: 11400000, guid: 8b4e3f4b09eacee488fb4bb4bc5e7870, type: 2}
+  Champion3DIconPrefab: {fileID: 1440512998535054, guid: 570fab0c992483b41863f0c810928091, type: 2}
+  inGameModelScale: 0.85
+  skins:
+  - {fileID: 11400000, guid: a2055df64b6c4e044933610df3f3ba58, type: 2}
+  - {fileID: 11400000, guid: f075b6cf4ce35fa4ba3fdcb8af0a46fd, type: 2}
+  - {fileID: 11400000, guid: 8b6b0809a48958b4088e4ded46b34b97, type: 2}
+  - {fileID: 11400000, guid: 80cd70f386a34384a8320e8b95b1cb52, type: 2}
+  - {fileID: 11400000, guid: f3d31ceb34bb4f64da3b6932a43aa2e7, type: 2}
+  - {fileID: 11400000, guid: dac6016bb334bfa46845948d6be8459d, type: 2}
+  - {fileID: 11400000, guid: 96d222629d948344e80c2685809bdee7, type: 2}
+  - {fileID: 11400000, guid: dd26c67c0eb77e249920f4313ce2361b, type: 2}
+  - {fileID: 11400000, guid: 0f79b87abc1a7f24785289aa3f51b578, type: 2}
+  - {fileID: 11400000, guid: 087fa2f83a64e014c868345b0a34eb4c, type: 2}
+  - {fileID: 11400000, guid: 087fa2f83a64e014c868345b0a34eb4c, type: 2}
+  maxAimRotation: 70
+  aimAnimRotationSpeed: 500
+  aimRotationBones:
+  - spine1_loResSpine3
+  - head1_neck
+  emoteConfig: {fileID: 11400000, guid: 3d7f42d17cb2f304a8d36beec414bf17, type: 2}
+  victoryPoseConfig: {fileID: 11400000, guid: 80a1297dd5cae114d8a324c7601f474c, type: 2}
+  displayName: Acrid
+  ballHoldHandName: rightArm1_LoResHand
+  ballHoldOffsetFromHand: {x: 0.128, y: 0.305, z: -0.02}
+  uiAnchor: {x: 0, y: 0.3, z: 0}
+  uiAnchorBoneName: head1_head
+  uiAnchorBoneRestPos: {x: 0, y: 1.96, z: 0}
+  uiAnchorBoneMinHeight: 1.5
+  uiAnchorBoneInfluence: 0.5
+  uiAnchorBoneSpringFrequency: 9
+  turntableModelScale: 0.9
+  cameraFar:
+    position: {x: -0.7, y: 1.55, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraClose:
+    position: {x: -0.22, y: 1.89, z: -4.68}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraMainMenu:
+    position: {x: -0.212, y: -0.92, z: -0.461}
+    rotation: {x: 349.2, y: 359.34, z: 3.49}
+    fov: 35
+  shopIconTranslation: {x: -10, y: -143.57}
+  shopIconScale: 1

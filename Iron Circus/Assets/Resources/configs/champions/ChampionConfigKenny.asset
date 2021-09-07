@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fdc19a42adc049958eaa57f4ab453, type: 3}
+  m_Name: ChampionConfigKenny
+  m_EditorClassIdentifier:
+  championType: 12
+  classType: 0
+  colliderRadius: 0.725
+  maxHealth: 3
+  ballPickupRange: 1.05
+  maxSpeed: 6.6
+  stamina: {fileID: 11400000, guid: 7cea173a06e81fd40943651b4f5c9cc7, type: 2}
+  uiDisplaySpeed: 5
+  acceleration: 13
+  deceleration: 12
+  controlsThrusterContribution: 0.65
+  moveOnlyForward: 0
+  useTurnSpeed: 0
+  turnSpeed: 600
+  playerSkillGraphs:
+  - {fileID: 11400000, guid: 4f709acf9d5b5cb4dbb3f44bf0ad17aa, type: 2}
+  - {fileID: 11400000, guid: bd1ab717a6472404fbca1e9fbc853374, type: 2}
+  - {fileID: 11400000, guid: e85aa2207e39dcc46b4118e801cbafe1, type: 2}
+  - {fileID: 11400000, guid: 67921e90e6e741747ba7ddb0963bca8b, type: 2}
+  - {fileID: 11400000, guid: f9bb39521713b0547820056fd551aa43, type: 2}
+  - {fileID: 11400000, guid: 3563a1e101fabc34a864cc4363947b28, type: 2}
+  - {fileID: 11400000, guid: beef871dfb22c34469c49a4fb3709f31, type: 2}
+  icon: {fileID: 21300000, guid: a23d5d9926e32f64ebc9e4682225d1fd, type: 3}
+  dev_icon: {fileID: 21300000, guid: a23d5d9926e32f64ebc9e4682225d1fd, type: 3}
+  faction: {fileID: 11400000, guid: 0a58537c089c2a945b5fa453c2367dbb, type: 2}
+  Champion3DIconPrefab: {fileID: 1159585697184181, guid: 355ad40cefb1eb243b8f7eac4e102a1d, type: 2}
+  inGameModelScale: 1
+  skins:
+  - {fileID: 11400000, guid: 3cc71c5de0d9eda428c9f39f05d6e48d, type: 2}
+  - {fileID: 11400000, guid: 475ab13a1252a4f4f90813784e996cc9, type: 2}
+  - {fileID: 11400000, guid: ee989931693aef44ea28cfbba8249c7b, type: 2}
+  - {fileID: 11400000, guid: eb9c24efed50a5e49ae9712cabd4c5a1, type: 2}
+  - {fileID: 11400000, guid: 0dca7f823ac5c6e47a80a48749b45ba9, type: 2}
+  - {fileID: 11400000, guid: 9cce9f9588ebd6c43832924a8250e04f, type: 2}
+  maxAimRotation: 120
+  aimAnimRotationSpeed: 500
+  aimRotationBones:
+  - spine1_loResSpine2
+  - spine1_loResSpine3
+  - head1_neck
+  emoteConfig: {fileID: 11400000, guid: 7c911283a498b654fa2c350dfe1edfc7, type: 2}
+  victoryPoseConfig: {fileID: 11400000, guid: 61bbb56bd617b5a419b6eb1ba1ea10bd, type: 2}
+  displayName: KennyZhu
+  ballHoldHandName: rightArm1_LoResHand
+  ballHoldOffsetFromHand: {x: 0.11, y: 0.2, z: -0.06}
+  uiAnchor: {x: 0, y: 0.3, z: 0}
+  uiAnchorBoneName: head1_head
+  uiAnchorBoneRestPos: {x: 0, y: 1.71, z: 0}
+  uiAnchorBoneMinHeight: 1
+  uiAnchorBoneInfluence: 0.4
+  uiAnchorBoneSpringFrequency: 9
+  turntableModelScale: 1
+  cameraFar:
+    position: {x: -0.7, y: 1.55, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraClose:
+    position: {x: -0.16, y: 1.45, z: -4.66}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraMainMenu:
+    position: {x: -0.04, y: -0.11, z: 0.32}
+    rotation: {x: 0, y: 5.1, z: 0}
+    fov: 35
+  shopIconTranslation: {x: 0, y: -235}
+  shopIconScale: 1.1

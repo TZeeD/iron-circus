@@ -1,0 +1,31 @@
+{
+  "$type": "Imi.SharedWithServer.Config.WarsongConfig, Assembly-CSharp",
+  "button": 8,
+  "iconName": "icon_warsong_inverted_01_tex",
+  "cooldown": 60.0,
+  "reapplyDuration": 0.25,
+  "moveSpeedModifierEnemies": -0.5,
+  "moveSpeedModifierAllies": 0.2,
+  "moveSpeedModifierOwn": 0.2,
+  "castDuration": 0.1,
+  "effectDuration": 5.0,
+  "aoe": {
+    "$type": "Imi.SharedWithServer.Config.AreaOfEffect, Assembly-CSharp",
+    "shape": 0,
+    "radius": 6.0,
+    "deadZone": 0.0,
+    "angle": 0.0,
+    "rectWidth": 0.0,
+    "rectLength": 0.0,
+    "vfxPrefab": {
+      "$type": "VfxPrefab, Assembly-CSharp",
+      "HasValue": true
+    }
+  },
+  "vfxPrefab": {
+    "$type": "VfxPrefab, Assembly-CSharp",
+    "HasValue": true
+  },
+  "name": "WarsongConfig",
+  "hideFlags": 0
+}

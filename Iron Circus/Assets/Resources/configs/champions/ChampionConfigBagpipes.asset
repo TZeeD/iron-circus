@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fdc19a42adc049958eaa57f4ab453, type: 3}
+  m_Name: ChampionConfigBagpipes
+  m_EditorClassIdentifier:
+  championType: 2
+  classType: 1
+  colliderRadius: 0.725
+  maxHealth: 5
+  ballPickupRange: 1.05
+  maxSpeed: 6
+  stamina: {fileID: 11400000, guid: aa7d6c0239cb1b148b957d563e712165, type: 2}
+  uiDisplaySpeed: 2
+  acceleration: 13
+  deceleration: 12
+  controlsThrusterContribution: 0.6
+  moveOnlyForward: 0
+  useTurnSpeed: 0
+  turnSpeed: 600
+  playerSkillGraphs:
+  - {fileID: 11400000, guid: 46755ee834fbc6846ad03c7f80290553, type: 2}
+  - {fileID: 11400000, guid: bd1ab717a6472404fbca1e9fbc853374, type: 2}
+  - {fileID: 11400000, guid: 2d83e7d1d64ed824cb00265f318d885a, type: 2}
+  - {fileID: 11400000, guid: bf699d96a3d22a2488d053731de3d681, type: 2}
+  - {fileID: 11400000, guid: a7d054d815c80fa4aa8d3658dd809e46, type: 2}
+  - {fileID: 11400000, guid: f0d41b9f1bed80f419121e9cffc76653, type: 2}
+  - {fileID: 11400000, guid: f9bb39521713b0547820056fd551aa43, type: 2}
+  icon: {fileID: 21300000, guid: 2922c321a18b3fa48904ae8e03ec4652, type: 3}
+  dev_icon: {fileID: 21300000, guid: 88bb3b4829a806b4f8729805a0f34529, type: 3}
+  faction: {fileID: 11400000, guid: 432103ba66a84514789a6b067f1f65bd, type: 2}
+  Champion3DIconPrefab: {fileID: 1551117729619420, guid: e1951c147e8fdff4596a11330bf27d51, type: 2}
+  inGameModelScale: 0.97
+  skins:
+  - {fileID: 11400000, guid: b1523330ef5684c498e5fb0be35bcbca, type: 2}
+  - {fileID: 11400000, guid: c6eab621c2a3e5a45bf8fcf3ca95fd58, type: 2}
+  - {fileID: 11400000, guid: d9f2258f1387d0c4bbe05c80a023a5e0, type: 2}
+  - {fileID: 11400000, guid: 4cad97118e04e7f42850df671d64e45a, type: 2}
+  - {fileID: 11400000, guid: c7e5d70e58d8dab4c81777d0fd4382ec, type: 2}
+  - {fileID: 11400000, guid: 7df9f51c4691d694fac5c00dade77de8, type: 2}
+  - {fileID: 11400000, guid: 78a7ffbdac554b34dbf4d8d6208425d9, type: 2}
+  - {fileID: 11400000, guid: 09c0c6160b4726344bccaab43fda8166, type: 2}
+  - {fileID: 11400000, guid: 5ea13aec55e6ab7478ecaee7b15e86fc, type: 2}
+  - {fileID: 11400000, guid: f4034bbb35998f54b9c76991bd2051a2, type: 2}
+  - {fileID: 11400000, guid: df0fcbc902e4f3c4d9b7aba30a00e45e, type: 2}
+  - {fileID: 11400000, guid: 729b246ea9c856b49b4f910746f720fa, type: 2}
+  - {fileID: 11400000, guid: 703e5451a2c93364db6017772c90a316, type: 2}
+  maxAimRotation: 100
+  aimAnimRotationSpeed: 500
+  aimRotationBones:
+  - spine1_loResSpine2
+  - spine1_loResSpine3
+  - head1_neck
+  emoteConfig: {fileID: 11400000, guid: 81c41ff504dc8ee4ca84eee18b8905c5, type: 2}
+  victoryPoseConfig: {fileID: 11400000, guid: 46e3421a908e7a144804490b8966cdef, type: 2}
+  displayName: Lochlan
+  ballHoldHandName: leftArm1_LoResHand
+  ballHoldOffsetFromHand: {x: -0.132, y: -0.235, z: -0.016}
+  uiAnchor: {x: 0, y: 0.3, z: 0}
+  uiAnchorBoneName: head1_head
+  uiAnchorBoneRestPos: {x: 0, y: 1.87, z: 0}
+  uiAnchorBoneMinHeight: 1.5
+  uiAnchorBoneInfluence: 0.4
+  uiAnchorBoneSpringFrequency: 9
+  turntableModelScale: 0.97
+  cameraFar:
+    position: {x: -0.7, y: 1.55, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraClose:
+    position: {x: -0.22, y: 1.89, z: -4.68}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  cameraMainMenu:
+    position: {x: 0.1, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    fov: 35
+  shopIconTranslation: {x: 11.73, y: -212.9}
+  shopIconScale: 1

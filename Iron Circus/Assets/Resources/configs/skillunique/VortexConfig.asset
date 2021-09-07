@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd05a40ba3342394fb53e8b40947fa63, type: 3}
+  m_Name: VortexConfig
+  m_EditorClassIdentifier:
+  serializationInfo:
+    name: VortexConfig
+    sizeInBytes: 170
+    numDirtyBytes: 6
+    numSyncActions: 4
+    serializedSyncValueInfos:
+    - name: ActiveStates
+      type: 4
+      size: 8
+      index: 0
+    - name: SpawnThrowVfx.SyncActionTick
+      type: 3
+      size: 4
+      index: 0
+    - name: Play vortex Voice Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 3
+    - name: Play vortex Shoot Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 6
+    - name: Play vortex Start Audio.SyncActionTick
+      type: 3
+      size: 4
+      index: 9
+    - name: Should Show Preview.wasTrue
+      type: 1
+      size: 1
+      index: 12
+    - name: Should Update Cooldown.wasTrue
+      type: 1
+      size: 1
+      index: 13
+    - name: Update Cooldown.targetValue
+      type: 5
+      size: 4
+      index: 14
+    - name: ThrowDurationState.startTick
+      type: 3
+      size: 4
+      index: 18
+    - name: PullDurationState.startTick
+      type: 3
+      size: 4
+      index: 22
+    - name: CheckAffectedEntities.lookDir
+      type: 9
+      size: 12
+      index: 26
+    - name: TurnToAim.normalizedProgress
+      type: 5
+      size: 4
+      index: 38
+    - name: TurnToAim.variation
+      type: 3
+      size: 4
+      index: 42
+    - name: PlaySkillAnim.normalizedProgress
+      type: 5
+      size: 4
+      index: 46
+    - name: PlaySkillAnim.variation
+      type: 3
+      size: 4
+      index: 50
+    - name: Show AoE.trackOwnerPosition
+      type: 1
+      size: 1
+      index: 54
+    - name: Show AoE.wasParentedAtSomePoint
+      type: 1
+      size: 1
+      index: 55
+    - name: Show AoE.onUnparentPosition
+      type: 9
+      size: 12
+      index: 56
+    - name: Show AoE.onUnparentLookDir
+      type: 9
+      size: 12
+      index: 68
+    - name: WhileShowAoe.wasTrue
+      type: 1
+      size: 1
+      index: 80
+    - name: '[SkillVar] CurrentCooldown'
+      type: 5
+      size: 4
+      index: 81
+    - name: '[SkillVar] ThrowCharge'
+      type: 5
+      size: 4
+      index: 85
+    - name: '[SkillVar] IsOnCooldown'
+      type: 1
+      size: 1
+      index: 89
+    - name: '[SkillVar] IsActive'
+      type: 1
+      size: 1
+      index: 90
+    - name: '[SkillVar] ShouldTrigger'
+      type: 1
+      size: 1
+      index: 91
+    - name: '[SkillVar] ShowAoe'
+      type: 1
+      size: 1
+      index: 92
+    - name: '[SkillVar] ThrowDir'
+      type: 9
+      size: 12
+      index: 93
+    - name: '[SkillVar] ImplosionPosition'
+      type: 9
+      size: 12
+      index: 105
+    - name: '[SkillVar] ThrowStartPos'
+      type: 9
+      size: 12
+      index: 117
+    - name: '[SkillVar] AffectedPlayers.length'
+      type: 2
+      size: 1
+      index: 129
+    - name: '[SkillVar] AffectedPlayers[0]'
+      type: 10
+      size: 2
+      index: 130
+    - name: '[SkillVar] AffectedPlayers[1]'
+      type: 10
+      size: 2
+      index: 132
+    - name: '[SkillVar] AffectedPlayers[2]'
+      type: 10
+      size: 2
+      index: 134
+    - name: '[SkillVar] AffectedPlayers[3]'
+      type: 10
+      size: 2
+      index: 136
+    - name: '[SkillVar] AffectedPlayers[4]'
+      type: 10
+      size: 2
+      index: 138
+    - name: '[SkillVar] AffectedPlayers[5]'
+      type: 10
+      size: 2
+      index: 140
+    - name: '[SkillVar] AffectedPlayers[6]'
+      type: 10
+      size: 2
+      index: 142
+    - name: '[SkillVar] AffectedPlayers[7]'
+      type: 10
+      size: 2
+      index: 144
+    - name: '[SkillVar] AffectedPlayers[8]'
+      type: 10
+      size: 2
+      index: 146
+    - name: '[SkillVar] AffectedPlayers[9]'
+      type: 10
+      size: 2
+      index: 148
+    - name: '[SkillVar] AffectedPlayers[10]'
+      type: 10
+      size: 2
+      index: 150
+    - name: '[SkillVar] AffectedPlayers[11]'
+      type: 10
+      size: 2
+      index: 152
+    - name: '[SkillVar] AffectedPlayers[12]'
+      type: 10
+      size: 2
+      index: 154
+    - name: '[SkillVar] AffectedPlayers[13]'
+      type: 10
+      size: 2
+      index: 156
+    - name: '[SkillVar] AffectedPlayers[14]'
+      type: 10
+      size: 2
+      index: 158
+    - name: '[SkillVar] AffectedPlayers[15]'
+      type: 10
+      size: 2
+      index: 160
+  button: 8
+  minThrowDistance: 1
+  maxThrowDistance: 7.5
+  throwDuration: 0.3
+  activationDuration: 0.2
+  pullSpeed: 5.5
+  pullDuration: 4
+  cooldown: 62
+  showAoePreviewForOtherPlayers: 1
+  aoe:
+    shape: 0
+    radius: 7.5
+    deadZone: 0
+    angle: 0
+    rectWidth: 0
+    rectLength: 0
+    vfxPrefab:
+      value: {fileID: 1100633694199166, guid: bdc05b9babc7ed44aae59f542912c064, type: 2}
+  implosionVfx:
+    value: {fileID: 1629790988766562, guid: d4717994161ea924cb897b2cf96f5629, type: 2}
