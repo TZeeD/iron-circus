@@ -1,0 +1,297 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Imi.SharedWithServer.Config.DiveBomb
+// Assembly: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 841B04D4-2E17-4B98-AC76-29D6D8A2480C
+// Assembly location: D:\SteamLibrary\steamapps\common\Steel_Circus\sc_Data\Managed\Assembly-CSharp.dll
+
+using Imi.Game;
+using Imi.SharedWithServer.Game;
+using Imi.SharedWithServer.Game.Skills;
+using Imi.SharedWithServer.Utils;
+using Jitter.LinearMath;
+using System;
+using UnityEngine;
+
+namespace Imi.SharedWithServer.Config
+{
+  [CreateAssetMenu(fileName = "DiveBomb", menuName = "SteelCircus/SkillConfigs/DiveBomb")]
+  public class DiveBomb : SkillGraphConfig
+  {
+    public Imi.SharedWithServer.ScEntitas.Components.ButtonType button;
+    public string skillIconName;
+    public float cooldown;
+    [Header("Takeoff")]
+    [AnimationDuration]
+    public float activationDuration;
+    [AnimationDuration]
+    public float interruptWindow;
+    [AnimationDuration]
+    public float delayToInvisible;
+    [Header("Aiming")]
+    public float targetMoveSpeed;
+    public float maxAimDuration;
+    [Header("Landing")]
+    [AnimationDuration]
+    public float delayToPlayLandingAnim;
+    [AnimationDuration]
+    public float delayToImpact;
+    [AnimationDuration]
+    public float standUpDuration;
+    [Header("Effects")]
+    public float stunDuration;
+    public float pushDuration;
+    public float pushDistance;
+    public int damage;
+    public AreaOfEffect aoe;
+    public VfxPrefab impactVfxPrefab;
+    public VfxPrefab launchTrailVfxPrefab;
+
+    protected override void SetupSkillGraph(SkillGraph skillGraph)
+    {
+      ButtonState buttonState = skillGraph.AddState<ButtonState>("Input");
+      SkillUiState skillUiState = skillGraph.AddState<SkillUiState>("Ui");
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState1 = skillGraph.AddState<ApplyStatusMofifierToOwnerState>("FreezeMoveOnEnter");
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState2 = skillGraph.AddState<ApplyStatusMofifierToOwnerState>("FreezeMoveForImpact");
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState3 = skillGraph.AddState<ApplyStatusMofifierToOwnerState>("BlockHoldBall");
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState4 = skillGraph.AddState<ApplyStatusMofifierToOwnerState>("NoDamage");
+      ShowAoeState showAoeState1 = skillGraph.AddState<ShowAoeState>("AoE Preview");
+      PlayAnimationState playAnimationState1 = skillGraph.AddState<PlayAnimationState>("PlayAnimation");
+      PlayAnimationState playAnimationState2 = skillGraph.AddState<PlayAnimationState>("StopTrackingBall");
+      ModFloorUiState modFloorUiState = skillGraph.AddState<ModFloorUiState>("HideHudState");
+      WaitState waitState1 = skillGraph.AddState<WaitState>("activationDuration");
+      WaitState waitState2 = skillGraph.AddState<WaitState>("InterruptWindow");
+      WaitState waitState3 = skillGraph.AddState<WaitState>("InvisibleAt");
+      WaitState waitState4 = skillGraph.AddState<WaitState>("MaxAimDuration");
+      WaitState waitState5 = skillGraph.AddState<WaitState>("WaitForImpact");
+      WaitState waitState6 = skillGraph.AddState<WaitState>("delayToPlayLandingAnimState");
+      LockGraphsState lockGraphsState = skillGraph.AddState<LockGraphsState>("Lock Other Graphs");
+      ModifyMovementState modifyMovementState1 = skillGraph.AddState<ModifyMovementState>("ModMoveState");
+      ChangeCollisionLayerMaskState collisionLayerMaskState = skillGraph.AddState<ChangeCollisionLayerMaskState>("No Collision State");
+      InvisibleState invisibleState1 = skillGraph.AddState<InvisibleState>("InvisibleState");
+      SubgraphState subgraphState1 = skillGraph.AddState<SubgraphState>("ActiveSubgraph");
+      WhileTrueState whileTrueState1 = skillGraph.AddState<WhileTrueState>("whileUpdateCooldown");
+      BooleanSwitchState booleanSwitchState = skillGraph.AddState<BooleanSwitchState>("whileUpdateCooldown");
+      ModVarOverTimeState varOverTimeState = skillGraph.AddState<ModVarOverTimeState>("updateCooldown");
+      AudioState audioState = skillGraph.AddState<AudioState>("Play Aim Audio Loop");
+      CheckAreaOfEffectAction areaOfEffectAction1 = skillGraph.AddAction<CheckAreaOfEffectAction>("CheckHitAction");
+      ApplyPushStunAction applyPushStunAction = skillGraph.AddAction<ApplyPushStunAction>("CheckHitAction");
+      ModifyHealthAction modifyHealthAction = skillGraph.AddAction<ModifyHealthAction>("CheckHitAction");
+      ModifyMovementAction modifyMovementAction = skillGraph.AddAction<ModifyMovementAction>("StopOnEnterAction");
+      OnEventAction onEventAction1 = skillGraph.AddAction<OnEventAction>("OnPickup");
+      OnEventAction onEventAction2 = skillGraph.AddAction<OnEventAction>("OnInterrupt");
+      OnEventAction onEventAction3 = skillGraph.AddAction<OnEventAction>("OnMatchStart");
+      OnEventAction onEventAction4 = skillGraph.AddAction<OnEventAction>("OnOvertime");
+      OnEventAction onEventAction5 = skillGraph.AddAction<OnEventAction>("OnMatchStateChanged");
+      ConditionAction conditionAction1 = skillGraph.AddAction<ConditionAction>("CanInterruptCheck");
+      ConditionAction conditionAction2 = skillGraph.AddAction<ConditionAction>("ShouldAbortForMatchState");
+      ConditionAction conditionAction3 = skillGraph.AddAction<ConditionAction>("IsNotStunned");
+      ConditionAction conditionAction4 = skillGraph.AddAction<ConditionAction>("CanStartCheck");
+      ConditionAction conditionAction5 = skillGraph.AddAction<ConditionAction>("canTriggerCheck");
+      GroupAction groupAction = skillGraph.AddAction<GroupAction>("InterruptGroup");
+      SetVar<float> setVar1 = skillGraph.AddAction<SetVar<float>>("ResetAndStartCooldown");
+      SetVar<bool> setVar2 = skillGraph.AddAction<SetVar<bool>>("SetActive");
+      SetVar<bool> setVar3 = skillGraph.AddAction<SetVar<bool>>("SetInactive");
+      SetVar<bool> setVar4 = skillGraph.AddAction<SetVar<bool>>("setCanTrigger");
+      SetVar<bool> setVar5 = skillGraph.AddAction<SetVar<bool>>("setCanNotTrigger");
+      SpawnVfxAction spawnVfxAction1 = skillGraph.AddAction<SpawnVfxAction>("impact vfx");
+      SpawnVfxAction spawnVfxAction2 = skillGraph.AddAction<SpawnVfxAction>("launch trail vfx");
+      PlayAudioAction playAudioAction1 = skillGraph.AddAction<PlayAudioAction>("Start DiveBomb Audio");
+      PlayAudioAction playAudioAction2 = skillGraph.AddAction<PlayAudioAction>("Start Rocket TakeOff Audio");
+      PlayAudioAction playAudioAction3 = skillGraph.AddAction<PlayAudioAction>("Start Rocket Dive Audio");
+      PlayAudioAction playAudioAction4 = skillGraph.AddAction<PlayAudioAction>("Start Impact Audio");
+      PlayAudioAction playAudioAction5 = skillGraph.AddAction<PlayAudioAction>("Start Voice Skill Audio");
+      SkillVar<bool> isCooldownOver = skillGraph.AddVar<bool>("CooldownOver");
+      SkillVar<bool> canUseSkill = skillGraph.AddVar<bool>("CanUse");
+      SkillVar<bool> isActive = skillGraph.AddVar<bool>("IsActive");
+      SkillVar<bool> canTrigger = skillGraph.AddVar<bool>("CanTrigger");
+      SkillVar<float> currentCooldown = skillGraph.AddVar<float>("CurrentCooldown");
+      SkillVar<UniqueId> skillVar = skillGraph.AddVar<UniqueId>("HitEntities", true);
+      currentCooldown.Set(this.cooldown);
+      canUseSkill.Expression((Func<bool>) (() => (bool) isCooldownOver && !(bool) isActive && !skillGraph.IsGraphLocked() && !skillGraph.OwnerHasBall() && !skillGraph.IsSkillUseDisabled()));
+      skillGraph.AddEntryState((SkillState) buttonState);
+      skillGraph.AddEntryState((SkillState) skillUiState);
+      skillUiState.buttonType.Expression((Func<Imi.SharedWithServer.ScEntitas.Components.ButtonType>) (() => this.button));
+      skillUiState.iconName.Expression((Func<string>) (() => this.skillIconName));
+      skillUiState.fillAmount.Expression((Func<float>) (() => (float) (1.0 - (double) (float) currentCooldown / (double) this.cooldown)));
+      skillUiState.coolDownLeftAmount.Expression((Func<float>) (() => (float) currentCooldown));
+      buttonState.buttonType.Expression((Func<Imi.SharedWithServer.ScEntitas.Components.ButtonType>) (() => this.button));
+      buttonState.OnButtonDown += conditionAction4.Do;
+      conditionAction4.condition = (Func<bool>) (() => (bool) canUseSkill);
+      conditionAction4.OnTrue += subgraphState1.Enter;
+      conditionAction4.OnFalse += conditionAction5.Do;
+      playAudioAction1.audioResourceName.Constant("KennySkillDiveBombStart");
+      playAudioAction2.audioResourceName.Constant("KennySkillDiveBombTakeOff");
+      audioState.audioResourceName.Constant("KennySkillDiveBombAim");
+      playAudioAction3.audioResourceName.Constant("KennySkillDiveBombTriggerDive");
+      playAudioAction4.audioResourceName.Constant("KennySkillDiveBombImpact");
+      playAudioAction5.audioResourceName.Constant("KennyVoiceSkillDiveBomb");
+      SubgraphState subgraphState2 = subgraphState1;
+      subgraphState2.OnEnter = subgraphState2.OnEnter + mofifierToOwnerState1.Enter;
+      SubgraphState subgraphState3 = subgraphState1;
+      subgraphState3.OnEnter = subgraphState3.OnEnter + waitState2.Enter;
+      SubgraphState subgraphState4 = subgraphState1;
+      subgraphState4.OnEnter = subgraphState4.OnEnter + waitState3.Enter;
+      SubgraphState subgraphState5 = subgraphState1;
+      subgraphState5.OnEnter = subgraphState5.OnEnter + mofifierToOwnerState3.Enter;
+      subgraphState1.memberStates += (SkillState) mofifierToOwnerState3;
+      subgraphState1.memberStates += (SkillState) mofifierToOwnerState1;
+      subgraphState1.memberStates += (SkillState) waitState2;
+      subgraphState1.memberStates += (SkillState) waitState3;
+      subgraphState1.memberStates += (SkillState) showAoeState1;
+      subgraphState1.memberStates += (SkillState) invisibleState1;
+      subgraphState1.memberStates += (SkillState) playAnimationState1;
+      subgraphState1.memberStates += (SkillState) modFloorUiState;
+      subgraphState1.memberStates += (SkillState) lockGraphsState;
+      subgraphState1.memberStates += (SkillState) waitState1;
+      subgraphState1.memberStates += (SkillState) modifyMovementState1;
+      mofifierToOwnerState3.modifier = StatusModifier.BlockHoldBall;
+      mofifierToOwnerState1.modifier = StatusModifier.BlockMove | StatusModifier.BlockHoldBall;
+      mofifierToOwnerState1.duration.Expression((Func<float>) (() => this.activationDuration));
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState5 = mofifierToOwnerState1;
+      mofifierToOwnerState5.OnEnter = mofifierToOwnerState5.OnEnter + lockGraphsState.Enter;
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState6 = mofifierToOwnerState1;
+      mofifierToOwnerState6.OnEnter = mofifierToOwnerState6.OnEnter + setVar2.Do;
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState7 = mofifierToOwnerState1;
+      mofifierToOwnerState7.OnEnter = mofifierToOwnerState7.OnEnter + modifyMovementAction.Do;
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState8 = mofifierToOwnerState1;
+      mofifierToOwnerState8.OnEnter = mofifierToOwnerState8.OnEnter + playAnimationState1.Enter;
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState9 = mofifierToOwnerState1;
+      mofifierToOwnerState9.OnEnter = mofifierToOwnerState9.OnEnter + playAudioAction1.Do;
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState10 = mofifierToOwnerState1;
+      mofifierToOwnerState10.OnEnter = mofifierToOwnerState10.OnEnter + playAudioAction5.Do;
+      setVar2.var = isActive;
+      setVar2.value = (SyncableValue<bool>) true;
+      waitState2.duration.Expression((Func<float>) (() => this.interruptWindow));
+      waitState2.OnFinish += spawnVfxAction2.Do;
+      waitState2.OnFinish += conditionAction3.Do;
+      waitState2.OnFinish += playAudioAction2.Do;
+      waitState3.duration.Expression((Func<float>) (() => this.delayToInvisible));
+      waitState3.OnFinish += invisibleState1.Enter;
+      spawnVfxAction2.vfxPrefab = this.launchTrailVfxPrefab;
+      spawnVfxAction2.position.Expression((Func<JVector>) (() => skillGraph.GetPosition()));
+      modifyMovementAction.type = ModifyMovementAction.ValueType.SetSpeed;
+      modifyMovementAction.speed = (SyncableValue<float>) 0.0f;
+      conditionAction3.condition = (Func<bool>) (() => !skillGraph.IsSkillUseDisabled() && (bool) isActive);
+      conditionAction3.OnTrue += waitState4.Enter;
+      conditionAction3.OnTrue += modifyMovementState1.Enter;
+      conditionAction3.OnTrue += setVar4.Do;
+      InvisibleState invisibleState2 = invisibleState1;
+      invisibleState2.SubState = invisibleState2.SubState + (SkillState) mofifierToOwnerState4;
+      mofifierToOwnerState4.modifier = StatusModifier.Flying | StatusModifier.ImmuneToTackle;
+      spawnVfxAction1.vfxPrefab = this.impactVfxPrefab;
+      spawnVfxAction1.position.Expression((Func<JVector>) (() => skillGraph.GetPosition()));
+      playAnimationState1.animationType.Constant(AnimationStateType.SecondarySkill);
+      PlayAnimationState playAnimationState3 = playAnimationState1;
+      playAnimationState3.OnEnter = playAnimationState3.OnEnter + modFloorUiState.Enter;
+      PlayAnimationState playAnimationState4 = playAnimationState1;
+      playAnimationState4.SubState = playAnimationState4.SubState + (SkillState) playAnimationState2;
+      playAnimationState2.animationType.Constant(AnimationStateType.DontTurnHead);
+      modFloorUiState.state = FloorUiVisibilityState.Hidden;
+      modFloorUiState.showOverheadUi = false;
+      setVar4.var = canTrigger;
+      setVar4.value = (SyncableValue<bool>) true;
+      waitState4.duration.Expression((Func<float>) (() => this.maxAimDuration));
+      waitState4.OnFinish += conditionAction5.Do;
+      modifyMovementState1.mode.Constant(ModifyMovementState.Mode.OverrideMoveConfig);
+      modifyMovementState1.thrustContribution.Constant(0.0f);
+      modifyMovementState1.accFactor.Constant(100f);
+      modifyMovementState1.speed.Expression((Func<float>) (() => this.targetMoveSpeed));
+      ModifyMovementState modifyMovementState2 = modifyMovementState1;
+      modifyMovementState2.SubState = modifyMovementState2.SubState + (SkillState) collisionLayerMaskState;
+      ModifyMovementState modifyMovementState3 = modifyMovementState1;
+      modifyMovementState3.SubState = modifyMovementState3.SubState + (SkillState) showAoeState1;
+      collisionLayerMaskState.targetEntityId.Set(skillGraph.GetOwner().uniqueId.id);
+      collisionLayerMaskState.setToLayer = CollisionLayer.None;
+      collisionLayerMaskState.setToMask = CollisionLayer.LvlBorder;
+      showAoeState1.aoe.Expression((Func<AreaOfEffect>) (() => this.aoe));
+      showAoeState1.trackOwnerPosition = (SyncableValue<bool>) true;
+      ShowAoeState showAoeState2 = showAoeState1;
+      showAoeState2.SubState = showAoeState2.SubState + (SkillState) audioState;
+      conditionAction5.condition = (Func<bool>) (() => (bool) canTrigger && !skillGraph.IsSkillUseDisabled());
+      conditionAction5.OnTrue += setVar5.Do;
+      conditionAction5.OnTrue += mofifierToOwnerState2.Enter;
+      conditionAction5.OnTrue += waitState6.Enter;
+      conditionAction5.OnTrue += waitState5.Enter;
+      ConditionAction conditionAction6 = conditionAction5;
+      conditionAction6.Then = conditionAction6.Then + waitState4.Exit;
+      setVar5.var = canTrigger;
+      setVar5.value = (SyncableValue<bool>) false;
+      waitState6.duration.Expression((Func<float>) (() => this.delayToPlayLandingAnim));
+      waitState6.OnFinish += playAnimationState1.Exit;
+      waitState6.OnFinish += invisibleState1.Exit;
+      WaitState waitState7 = waitState6;
+      waitState7.OnEnter = waitState7.OnEnter + playAudioAction3.Do;
+      mofifierToOwnerState2.modifier = StatusModifier.BlockMove;
+      mofifierToOwnerState2.duration.Expression((Func<float>) (() => this.delayToImpact + this.standUpDuration));
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState11 = mofifierToOwnerState2;
+      mofifierToOwnerState11.OnExit = mofifierToOwnerState11.OnExit + mofifierToOwnerState3.Exit;
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState12 = mofifierToOwnerState2;
+      mofifierToOwnerState12.OnExit = mofifierToOwnerState12.OnExit + lockGraphsState.Exit;
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState13 = mofifierToOwnerState2;
+      mofifierToOwnerState13.OnExit = mofifierToOwnerState13.OnExit + modFloorUiState.Exit;
+      ApplyStatusMofifierToOwnerState mofifierToOwnerState14 = mofifierToOwnerState2;
+      mofifierToOwnerState14.OnExit = mofifierToOwnerState14.OnExit + setVar3.Do;
+      setVar3.var = isActive;
+      setVar3.value = (SyncableValue<bool>) false;
+      waitState5.duration.Expression((Func<float>) (() => this.delayToImpact));
+      waitState5.OnFinish += areaOfEffectAction1.Do;
+      waitState5.OnFinish += spawnVfxAction1.Do;
+      waitState5.OnFinish += modifyMovementState1.Exit;
+      waitState5.OnFinish += playAudioAction4.Do;
+      waitState5.onEnterDelegate = (Action) (() => VfxManager.UpdateVfx(skillGraph, this.aoe.vfxPrefab, (object) this.delayToImpact));
+      areaOfEffectAction1.aoe.Expression((Func<AreaOfEffect>) (() => this.aoe));
+      areaOfEffectAction1.position.Expression(new Func<JVector>(skillGraph.GetPosition));
+      areaOfEffectAction1.lookDir.Expression((Func<JVector>) (() => JVector.Forward));
+      areaOfEffectAction1.hitEntities = skillVar;
+      areaOfEffectAction1.includeEnemies = true;
+      CheckAreaOfEffectAction areaOfEffectAction2 = areaOfEffectAction1;
+      areaOfEffectAction2.Then = areaOfEffectAction2.Then + setVar1.Do;
+      CheckAreaOfEffectAction areaOfEffectAction3 = areaOfEffectAction1;
+      areaOfEffectAction3.Then = areaOfEffectAction3.Then + applyPushStunAction.Do;
+      CheckAreaOfEffectAction areaOfEffectAction4 = areaOfEffectAction1;
+      areaOfEffectAction4.Then = areaOfEffectAction4.Then + modifyHealthAction.Do;
+      applyPushStunAction.targetEntities = skillVar;
+      applyPushStunAction.pushDistance.Expression((Func<float>) (() => this.pushDistance));
+      applyPushStunAction.pushDuration.Expression((Func<float>) (() => this.pushDuration));
+      applyPushStunAction.getPushDir = (Func<GameEntity, JVector>) (entity => (entity.transform.position - skillGraph.GetPosition()).Normalized());
+      applyPushStunAction.stunDuration.Expression((Func<float>) (() => this.stunDuration));
+      modifyHealthAction.targetEntities = skillVar;
+      modifyHealthAction.value.Expression((Func<int>) (() => -this.damage));
+      setVar1.var = currentCooldown;
+      setVar1.value.Expression((Func<float>) (() => this.cooldown));
+      SetVar<float> setVar6 = setVar1;
+      setVar6.Then = setVar6.Then + whileTrueState1.Enter;
+      whileTrueState1.condition = (Func<bool>) (() => (double) (float) currentCooldown > 1.40129846432482E-45);
+      WhileTrueState whileTrueState2 = whileTrueState1;
+      whileTrueState2.OnEnter = whileTrueState2.OnEnter + subgraphState1.Exit;
+      WhileTrueState whileTrueState3 = whileTrueState1;
+      whileTrueState3.SubState = whileTrueState3.SubState + (SkillState) booleanSwitchState;
+      whileTrueState1.onEnterDelegate = (Action) (() => isCooldownOver.Set(false));
+      whileTrueState1.onExitDelegate = (Action) (() => isCooldownOver.Set(true));
+      booleanSwitchState.condition = (Func<bool>) (() => !skillGraph.IsSkillUseDisabled());
+      booleanSwitchState.WhileTrueSubState += (SkillState) varOverTimeState;
+      varOverTimeState.var = currentCooldown;
+      varOverTimeState.targetValue = (SyncableValue<float>) 0.0f;
+      varOverTimeState.amountPerSecond.Constant(-1f);
+      onEventAction1.EventType = SkillGraphEvent.SkillPickupCollected;
+      onEventAction1.onTriggerDelegate = (Action) (() => currentCooldown.Set(SkillGraph.CalculateRefreshCooldown((float) currentCooldown, this.cooldown)));
+      onEventAction3.EventType = SkillGraphEvent.MatchStart;
+      onEventAction3.OnTrigger += setVar1.Do;
+      onEventAction5.EventType = SkillGraphEvent.MatchStateChanged;
+      onEventAction5.OnTrigger += conditionAction2.Do;
+      conditionAction2.condition = (Func<bool>) (() => skillGraph.GetMatchState() != Imi.SharedWithServer.Game.MatchState.PointInProgress && (bool) isActive);
+      conditionAction2.OnTrue += groupAction.Do;
+      onEventAction2.EventType = SkillGraphEvent.Interrupt;
+      onEventAction2.OnTrigger += conditionAction1.Do;
+      onEventAction4.EventType = SkillGraphEvent.Overtime;
+      onEventAction4.OnTrigger += setVar1.Do;
+      conditionAction1.condition = (Func<bool>) (() => (bool) isActive && !(bool) canTrigger || skillGraph.GetOwner().IsDead());
+      conditionAction1.OnTrue += groupAction.Do;
+      groupAction.OnTrigger += buttonState.Reset;
+      groupAction.OnTrigger += setVar3.Do;
+      groupAction.OnTrigger += setVar5.Do;
+      groupAction.OnTrigger += subgraphState1.Exit;
+      groupAction.OnTrigger += setVar1.Do;
+    }
+  }
+}
